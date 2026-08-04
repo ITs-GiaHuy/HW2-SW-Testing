@@ -30,7 +30,8 @@ test.describe('FR-16: Import Sản phẩm từ CSV', () => {
             const bodyStr = tc.input.raw.match(/body: `(.*?)`/)?.[1];
             const body = bodyStr ? JSON.parse(bodyStr) : { products: [] };
             
-            const response = await request.post('/api/admin/import-products', {
+            const apiUrl = process.env.API_BASE_URL || 'http://127.0.0.1:3000';
+            const response = await request.post(`${apiUrl}/api/admin/import-products`, {
               data: body,
               headers: {
                 'Authorization': 'Bearer admin_token_here'
@@ -45,7 +46,19 @@ test.describe('FR-16: Import Sản phẩm từ CSV', () => {
           }
 
           // For UI tests
+          await page.goto('/');
+          const emailInput = page.getByPlaceholder('Email');
+          if (await emailInput.isVisible()) {
+            await emailInput.fill('admin@eshop.com');
+            await page.getByPlaceholder('Password').fill('Admin123!');
+            await page.getByRole('button', { name: 'Login' }).click();
+            await page.waitForTimeout(1000);
+          }
+          // Now navigate to the target page and wait for the React state to update
           await importPage.goto();
+          // In this admin app, the tab is controlled by state, but since the URL might not change the tab, 
+          // we should click the 'Sản phẩm' tab to be safe, because the app doesn't use React Router for tabs!
+          await page.getByText('Sản phẩm').click();
           
           // Generate a dummy CSV based on test case description for UI tests
           const tempFilePath = path.join(tempDir, `${tc.id}.csv`);
