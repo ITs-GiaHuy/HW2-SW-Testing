@@ -1,0 +1,699 @@
+{
+  "feature": "FR-11",
+  "title": "Xem lịch sử đơn hàng (User)",
+  "method": "Domain Testing (Equivalence Partitioning & BVA)",
+  "targetUrl": "/profile",
+  "platform": "web",
+  "totalTestCases": 26,
+  "inputVariables": [
+    {
+      "id": "I1",
+      "name": "JWT Token",
+      "type": "Implicit/State",
+      "description": "Token xác thực gửi kèm request. Xác định danh tính người dùng."
+    },
+    {
+      "id": "I2",
+      "name": "Vai trò người dùng (Role)",
+      "type": "Implicit/State",
+      "description": "Role được mã hóa trong JWT Token (user hoặc admin). FR-11 dành cho User."
+    },
+    {
+      "id": "I3",
+      "name": "Số lượng đơn hàng của User",
+      "type": "Implicit/State",
+      "description": "Số đơn hàng thuộc về user hiện tại trong DB (0, 1, hoặc nhiều)."
+    },
+    {
+      "id": "I4",
+      "name": "Trạng thái đơn hàng (status)",
+      "type": "Implicit/State",
+      "description": "Một trong 5 giá trị: pending, confirmed, shipping, delivered, canceled (FR-10)."
+    },
+    {
+      "id": "I5",
+      "name": "Tổng tiền đơn hàng (total_amount)",
+      "type": "Implicit/State",
+      "description": "Giá trị số nguyên (INTEGER) lưu trong DB, đơn vị VNĐ."
+    },
+    {
+      "id": "I6",
+      "name": "Ngày đặt hàng (created_at)",
+      "type": "Implicit/State",
+      "description": "Datetime tự động gán khi tạo đơn."
+    },
+    {
+      "id": "I7",
+      "name": "Mã đơn hàng (id)",
+      "type": "Implicit/State",
+      "description": "ID tự tăng (INTEGER) trong bảng orders."
+    }
+  ],
+  "equivalencePartitions": [
+    {
+      "id": "EC-I1.1",
+      "variable": "JWT Token",
+      "validClass": "V1: Token hợp lệ của user đã đăng nhập",
+      "invalidClass": null
+    },
+    {
+      "id": "EC-I1.2",
+      "variable": "JWT Token",
+      "validClass": null,
+      "invalidClass": "INV1: Không gửi token (header thiếu)"
+    },
+    {
+      "id": "EC-I1.3",
+      "variable": "JWT Token",
+      "validClass": null,
+      "invalidClass": "INV2: Token rỗng (\"\")"
+    },
+    {
+      "id": "EC-I1.4",
+      "variable": "JWT Token",
+      "validClass": null,
+      "invalidClass": "INV3: Token không hợp lệ / hết hạn / sai format"
+    },
+    {
+      "id": "EC-I1.5",
+      "variable": "JWT Token",
+      "validClass": null,
+      "invalidClass": "INV4: Token giả mạo (sai SECRET_KEY)"
+    },
+    {
+      "id": "EC-I2.1",
+      "variable": "Vai trò (Role)",
+      "validClass": "V2: role = 'user' — người dùng thông thường",
+      "invalidClass": null
+    },
+    {
+      "id": "EC-I2.2",
+      "variable": "Vai trò (Role)",
+      "validClass": "V3: role = 'admin' — admin cũng có thể xem đơn của mình",
+      "invalidClass": null
+    },
+    {
+      "id": "EC-I3.1",
+      "variable": "Số lượng đơn hàng",
+      "validClass": "V4: User có đúng 1 đơn hàng (LB = 1)",
+      "invalidClass": null
+    },
+    {
+      "id": "EC-I3.2",
+      "variable": "Số lượng đơn hàng",
+      "validClass": "V5: User có nhiều đơn hàng (> 1)",
+      "invalidClass": null
+    },
+    {
+      "id": "EC-I3.3",
+      "variable": "Số lượng đơn hàng",
+      "validClass": null,
+      "invalidClass": "INV5: User có 0 đơn hàng (LB - 1 = 0) → Empty State"
+    },
+    {
+      "id": "EC-I4.1",
+      "variable": "Trạng thái",
+      "validClass": "V6: pending",
+      "invalidClass": null
+    },
+    {
+      "id": "EC-I4.2",
+      "variable": "Trạng thái",
+      "validClass": "V7: confirmed",
+      "invalidClass": null
+    },
+    {
+      "id": "EC-I4.3",
+      "variable": "Trạng thái",
+      "validClass": "V8: shipping",
+      "invalidClass": null
+    },
+    {
+      "id": "EC-I4.4",
+      "variable": "Trạng thái",
+      "validClass": "V9: delivered",
+      "invalidClass": null
+    },
+    {
+      "id": "EC-I4.5",
+      "variable": "Trạng thái",
+      "validClass": "V10: canceled",
+      "invalidClass": null
+    },
+    {
+      "id": "EC-I5.1",
+      "variable": "Tổng tiền",
+      "validClass": "V11: Giá trị nhỏ (VD: 10,000₫ — giá trị nhỏ nhất thực tế)",
+      "invalidClass": null
+    },
+    {
+      "id": "EC-I5.2",
+      "variable": "Tổng tiền",
+      "validClass": "V12: Giá trị lớn (VD: 100,000,000₫ — kiểm tra format phân cách)",
+      "invalidClass": null
+    },
+    {
+      "id": "EC-I5.3",
+      "variable": "Tổng tiền",
+      "validClass": "V13: Giá trị chẵn nghìn (VD: 500,000₫)",
+      "invalidClass": null
+    },
+    {
+      "id": "EC-I5.4",
+      "variable": "Tổng tiền",
+      "validClass": "V14: Giá trị lẻ (VD: 1,234,567₫ — kiểm tra phân cách đầy đủ)",
+      "invalidClass": null
+    },
+    {
+      "id": "EC-I6.1",
+      "variable": "Ngày đặt hàng",
+      "validClass": "V15: Ngày đặt là hôm nay",
+      "invalidClass": null
+    },
+    {
+      "id": "EC-I6.2",
+      "variable": "Ngày đặt hàng",
+      "validClass": "V16: Ngày đặt trong quá khứ",
+      "invalidClass": null
+    },
+    {
+      "id": "EC-I7.1",
+      "variable": "Ownership (Quyền sở hữu)",
+      "validClass": "V17: Đơn hàng thuộc về user đang đăng nhập",
+      "invalidClass": null
+    },
+    {
+      "id": "EC-I7.2",
+      "variable": "Ownership (Quyền sở hữu)",
+      "validClass": null,
+      "invalidClass": "INV6: Đơn hàng thuộc user khác (không được hiển thị)"
+    }
+  ],
+  "testCases": [
+    {
+      "id": "TC01",
+      "title": "INV1 — Không gửi Token",
+      "category": "security",
+      "priority": "High",
+      "equivalenceClasses": ["INV1"],
+      "input": {
+        "authorization": null
+      },
+      "steps": [
+        "Truy cập GET /api/orders/my-orders mà không có header Authorization"
+      ],
+      "expected": {
+        "httpStatus": 401,
+        "errorMessage": "Unauthorized",
+        "uiAssertions": ["Hiển thị thông báo 'Vui lòng đăng nhập'", "Chuyển hướng đến trang Login"]
+      }
+    },
+    {
+      "id": "TC02",
+      "title": "INV2 — Token rỗng",
+      "category": "security",
+      "priority": "High",
+      "equivalenceClasses": ["INV2"],
+      "input": {
+        "authorization": "Bearer "
+      },
+      "steps": [
+        "Gửi header Authorization: Bearer (token rỗng)"
+      ],
+      "expected": {
+        "httpStatus": 401,
+        "errorMessage": "Unauthorized",
+        "uiAssertions": ["Không hiển thị dữ liệu đơn hàng"]
+      }
+    },
+    {
+      "id": "TC03",
+      "title": "INV3 — Token không hợp lệ (sai format)",
+      "category": "security",
+      "priority": "High",
+      "equivalenceClasses": ["INV3"],
+      "input": {
+        "authorization": "Bearer abc123invalid"
+      },
+      "steps": [
+        "Gửi header Authorization: Bearer abc123invalid"
+      ],
+      "expected": {
+        "httpStatus": 403,
+        "errorMessage": "Forbidden",
+        "uiAssertions": ["Không hiển thị dữ liệu đơn hàng"]
+      }
+    },
+    {
+      "id": "TC04",
+      "title": "INV4 — Token giả mạo (sai SECRET_KEY)",
+      "category": "security",
+      "priority": "High",
+      "equivalenceClasses": ["INV4"],
+      "input": {
+        "authorization": "Bearer fake_token"
+      },
+      "steps": [
+        "Tạo JWT với SECRET_KEY khác, payload {id: 2, role: 'user'}",
+        "Gửi kèm header"
+      ],
+      "expected": {
+        "httpStatus": 403,
+        "errorMessage": "Forbidden",
+        "uiAssertions": ["Không hiển thị dữ liệu đơn hàng"]
+      }
+    },
+    {
+      "id": "TC05",
+      "title": "V1, V2, V4 (LB = 1 đơn) — User có đúng 1 đơn hàng, trạng thái pending (V6), tổng tiền nhỏ (V11)",
+      "category": "positive",
+      "priority": "High",
+      "equivalenceClasses": ["V1", "V2", "V4", "V6", "V11"],
+      "input": {
+        "email": "test@eshop.com",
+        "password": "Test1234!",
+        "order_count": 1,
+        "total_amount": 10000,
+        "status": "pending"
+      },
+      "steps": [
+        "Đăng nhập test@eshop.com / Test1234!",
+        "Đặt 1 đơn hàng (total: 10,000₫)",
+        "Vào trang Hồ sơ / Lịch sử đơn hàng"
+      ],
+      "expected": {
+        "uiAssertions": [
+          "Bảng đơn hàng hiển thị đúng 1 dòng",
+          "Cột Mã ĐH: #<id>",
+          "Cột Tổng tiền: 10.000 ₫",
+          "Cột Trạng thái: badge 'Chờ xác nhận' với nền vàng (bg-yellow-100 text-yellow-800)"
+        ]
+      }
+    },
+    {
+      "id": "TC06",
+      "title": "V5 (LB+1 = nhiều đơn), trạng thái đa dạng (V6-V10), tổng tiền lớn (V12)",
+      "category": "positive",
+      "priority": "High",
+      "equivalenceClasses": ["V5", "V6", "V7", "V8", "V9", "V10", "V12"],
+      "input": {
+        "email": "test@eshop.com",
+        "order_count": "many",
+        "total_amount_max": 100000000
+      },
+      "steps": [
+        "Đăng nhập test@eshop.com",
+        "Tạo nhiều đơn với các trạng thái khác nhau (pending, confirmed, shipping, delivered, canceled)",
+        "Một đơn có total: 100,000,000₫"
+      ],
+      "expected": {
+        "uiAssertions": [
+          "Bảng hiển thị tất cả đơn hàng",
+          "Đơn hàng được sắp xếp theo ID giảm dần (mới nhất lên trên)",
+          "Tổng tiền 100,000,000₫ hiển thị 100.000.000 ₫",
+          "Mỗi trạng thái hiển thị đúng nhãn tiếng Việt và màu tương ứng"
+        ]
+      }
+    },
+    {
+      "id": "TC07",
+      "title": "V7 — Trạng thái confirmed + màu sắc",
+      "category": "ui_ux",
+      "priority": "Medium",
+      "equivalenceClasses": ["V7"],
+      "input": {
+        "status": "confirmed"
+      },
+      "steps": [
+        "User có đơn với status = confirmed"
+      ],
+      "expected": {
+        "uiAssertions": [
+          "Badge hiển thị 'Đã xác nhận' với nền tím/indigo (bg-indigo-100 text-indigo-800)",
+          "Màu phân biệt rõ với các trạng thái khác"
+        ]
+      }
+    },
+    {
+      "id": "TC08",
+      "title": "V8 — Trạng thái shipping + màu sắc",
+      "category": "ui_ux",
+      "priority": "Medium",
+      "equivalenceClasses": ["V8"],
+      "input": {
+        "status": "shipping"
+      },
+      "steps": [
+        "User có đơn với status = shipping"
+      ],
+      "expected": {
+        "uiAssertions": [
+          "Badge hiển thị 'Đang giao' với nền xanh dương (bg-blue-100 text-blue-800)"
+        ]
+      }
+    },
+    {
+      "id": "TC09",
+      "title": "V9 — Trạng thái delivered + màu sắc",
+      "category": "ui_ux",
+      "priority": "Medium",
+      "equivalenceClasses": ["V9"],
+      "input": {
+        "status": "delivered"
+      },
+      "steps": [
+        "User có đơn với status = delivered"
+      ],
+      "expected": {
+        "uiAssertions": [
+          "Badge hiển thị 'Đã giao' với nền xanh lá (bg-green-100 text-green-800)"
+        ]
+      }
+    },
+    {
+      "id": "TC10",
+      "title": "V10 — Trạng thái canceled + màu sắc",
+      "category": "ui_ux",
+      "priority": "Medium",
+      "equivalenceClasses": ["V10"],
+      "input": {
+        "status": "canceled"
+      },
+      "steps": [
+        "User có đơn với status = canceled"
+      ],
+      "expected": {
+        "uiAssertions": [
+          "Badge hiển thị 'Đã hủy' với nền đỏ (bg-red-100 text-red-800)"
+        ]
+      }
+    },
+    {
+      "id": "TC11",
+      "title": "INV5 (LB-1 = 0 đơn) — Empty State",
+      "category": "boundary",
+      "priority": "Medium",
+      "equivalenceClasses": ["INV5"],
+      "input": {
+        "order_count": 0
+      },
+      "steps": [
+        "Đăng nhập với tài khoản user chưa từng đặt đơn (hoặc tạo tài khoản mới)",
+        "Vào trang Lịch sử đơn hàng"
+      ],
+      "expected": {
+        "uiAssertions": [
+          "Không hiển thị bảng",
+          "Hiển thị icon/hình minh họa + message thân thiện (VD: 'Bạn chưa có đơn hàng nào' kèm hình ảnh)"
+        ]
+      }
+    },
+    {
+      "id": "TC12",
+      "title": "V17 — User chỉ thấy đơn của mình",
+      "category": "security",
+      "priority": "High",
+      "equivalenceClasses": ["V17"],
+      "input": {
+        "user_a": "test@eshop.com",
+        "user_b": "other@eshop.com"
+      },
+      "steps": [
+        "Tạo đơn hàng cho User A (test@eshop.com)",
+        "Đăng nhập bằng User B (tài khoản khác)",
+        "Xem lịch sử đơn"
+      ],
+      "expected": {
+        "uiAssertions": [
+          "User B không thấy đơn hàng của User A",
+          "Chỉ thấy đơn của mình (hoặc empty state nếu chưa có)"
+        ]
+      }
+    },
+    {
+      "id": "TC13",
+      "title": "INV6 — Đơn hàng thuộc user khác không hiển thị (kiểm tra API)",
+      "category": "security",
+      "priority": "High",
+      "equivalenceClasses": ["INV6"],
+      "input": {
+        "user_a": "user1",
+        "user_b": "user2"
+      },
+      "steps": [
+        "Đăng nhập User A, ghi nhận danh sách đơn trả về từ GET /api/orders/my-orders",
+        "Đăng nhập User B, gọi cùng API"
+      ],
+      "expected": {
+        "apiAssertions": [
+          "Response cho User B không chứa bất kỳ đơn hàng nào có user_id của User A",
+          "API backend lọc theo req.user.id từ JWT"
+        ]
+      }
+    },
+    {
+      "id": "TC14",
+      "title": "V3 — Admin xem lịch sử đơn hàng cá nhân",
+      "category": "positive",
+      "priority": "High",
+      "equivalenceClasses": ["V3"],
+      "input": {
+        "email": "admin@eshop.com",
+        "password": "Admin123!",
+        "role": "admin"
+      },
+      "steps": [
+        "Đăng nhập admin@eshop.com / Admin123!",
+        "Tạo đơn hàng cho admin",
+        "Vào trang Lịch sử đơn hàng"
+      ],
+      "expected": {
+        "apiAssertions": [
+          "Admin chỉ thấy đơn hàng của chính mình khi dùng endpoint /api/orders/my-orders",
+          "Không thấy đơn của user khác"
+        ]
+      }
+    },
+    {
+      "id": "TC15",
+      "title": "V13 — Tổng tiền chẵn nghìn, kiểm tra ký hiệu ₫ (FR-21)",
+      "category": "ui_ux",
+      "priority": "Medium",
+      "equivalenceClasses": ["V13"],
+      "input": {
+        "total_amount": 500000
+      },
+      "steps": [
+        "Đơn hàng có total_amount = 500000"
+      ],
+      "expected": {
+        "uiAssertions": [
+          "Hiển thị 500.000 ₫ — có ký hiệu ₫, có dấu chấm phân cách hàng nghìn"
+        ]
+      }
+    },
+    {
+      "id": "TC16",
+      "title": "V14 — Tổng tiền lẻ, kiểm tra phân cách đầy đủ",
+      "category": "ui_ux",
+      "priority": "Medium",
+      "equivalenceClasses": ["V14"],
+      "input": {
+        "total_amount": 1234567
+      },
+      "steps": [
+        "Đơn hàng có total_amount = 1234567"
+      ],
+      "expected": {
+        "uiAssertions": [
+          "Hiển thị 1.234.567 ₫ — phân cách đúng tại hàng nghìn và hàng triệu"
+        ]
+      }
+    },
+    {
+      "id": "TC17",
+      "title": "V15, V16 — Ngày đặt hàng hiển thị đúng format",
+      "category": "ui_ux",
+      "priority": "Medium",
+      "equivalenceClasses": ["V15", "V16"],
+      "input": {
+        "order_a_date": "today",
+        "order_b_date": "2025-01-15"
+      },
+      "steps": [
+        "Đơn hàng A đặt hôm nay, đơn hàng B đặt trong quá khứ (VD: 2025-01-15)"
+      ],
+      "expected": {
+        "uiAssertions": [
+          "Cột 'Ngày đặt' hiển thị ngày tháng rõ ràng, dễ đọc (format toLocaleDateString())",
+          "Không hiển thị giờ/phút/giây",
+          "Không hiển thị raw datetime string"
+        ]
+      }
+    },
+    {
+      "id": "TC18",
+      "title": "Kiểm tra thẻ <h1> duy nhất (FR-21)",
+      "category": "ui_ux",
+      "priority": "Medium",
+      "equivalenceClasses": [],
+      "input": {},
+      "steps": [
+        "Đăng nhập",
+        "Vào trang Hồ sơ (chứa phần Lịch sử đơn hàng)"
+      ],
+      "expected": {
+        "uiAssertions": [
+          "Trang có đúng 1 thẻ <h1> mô tả nội dung trang",
+          "Không có 0 hoặc nhiều hơn 1 thẻ <h1>"
+        ]
+      }
+    },
+    {
+      "id": "TC19",
+      "title": "Kiểm tra 5 trạng thái có 5 màu phân biệt nhau",
+      "category": "ui_ux",
+      "priority": "Medium",
+      "equivalenceClasses": ["V6", "V7", "V8", "V9", "V10"],
+      "input": {
+        "orders_statuses": ["pending", "confirmed", "shipping", "delivered", "canceled"]
+      },
+      "steps": [
+        "User có 5 đơn hàng, mỗi đơn 1 trạng thái khác nhau (pending, confirmed, shipping, delivered, canceled)"
+      ],
+      "expected": {
+        "uiAssertions": [
+          "Tất cả 5 badge trạng thái có 5 bộ màu khác nhau (nền + chữ)",
+          "Không có 2 trạng thái nào dùng chung 1 bộ màu",
+          "pending=vàng, confirmed=tím/indigo, shipping=xanh dương, delivered=xanh lá, canceled=đỏ"
+        ]
+      }
+    },
+    {
+      "id": "TC20",
+      "title": "Nhãn trạng thái pending → tiếng Việt",
+      "category": "ui_ux",
+      "priority": "Medium",
+      "equivalenceClasses": ["V6"],
+      "input": {
+        "status": "pending"
+      },
+      "steps": [
+        "Đơn hàng có status = 'pending'"
+      ],
+      "expected": {
+        "uiAssertions": [
+          "Hiển thị nhãn 'Chờ xác nhận'"
+        ]
+      }
+    },
+    {
+      "id": "TC21",
+      "title": "Nhãn trạng thái confirmed → tiếng Việt",
+      "category": "ui_ux",
+      "priority": "Medium",
+      "equivalenceClasses": ["V7"],
+      "input": {
+        "status": "confirmed"
+      },
+      "steps": [
+        "Đơn hàng có status = 'confirmed'"
+      ],
+      "expected": {
+        "uiAssertions": [
+          "Hiển thị nhãn 'Đã xác nhận'"
+        ]
+      }
+    },
+    {
+      "id": "TC22",
+      "title": "Nhãn trạng thái shipping → tiếng Việt",
+      "category": "ui_ux",
+      "priority": "Medium",
+      "equivalenceClasses": ["V8"],
+      "input": {
+        "status": "shipping"
+      },
+      "steps": [
+        "Đơn hàng có status = 'shipping'"
+      ],
+      "expected": {
+        "uiAssertions": [
+          "Hiển thị nhãn 'Đang giao'"
+        ]
+      }
+    },
+    {
+      "id": "TC23",
+      "title": "Nhãn trạng thái delivered → tiếng Việt",
+      "category": "ui_ux",
+      "priority": "Medium",
+      "equivalenceClasses": ["V9"],
+      "input": {
+        "status": "delivered"
+      },
+      "steps": [
+        "Đơn hàng có status = 'delivered'"
+      ],
+      "expected": {
+        "uiAssertions": [
+          "Hiển thị nhãn 'Đã giao'"
+        ]
+      }
+    },
+    {
+      "id": "TC24",
+      "title": "Nhãn trạng thái canceled → tiếng Việt",
+      "category": "ui_ux",
+      "priority": "Medium",
+      "equivalenceClasses": ["V10"],
+      "input": {
+        "status": "canceled"
+      },
+      "steps": [
+        "Đơn hàng có status = 'canceled'"
+      ],
+      "expected": {
+        "uiAssertions": [
+          "Hiển thị nhãn 'Đã hủy'"
+        ]
+      }
+    },
+    {
+      "id": "TC25",
+      "title": "Kiểm tra đầy đủ các cột theo FR-11",
+      "category": "ui_ux",
+      "priority": "Medium",
+      "equivalenceClasses": [],
+      "input": {},
+      "steps": [
+        "Đăng nhập user có ít nhất 1 đơn hàng",
+        "Vào trang Lịch sử đơn hàng"
+      ],
+      "expected": {
+        "uiAssertions": [
+          "Bảng phải có đủ 4 cột thông tin: Mã ĐH, Ngày đặt, Tổng tiền, Trạng thái hiện tại",
+          "Header bảng hiển thị đúng tên các cột"
+        ]
+      }
+    },
+    {
+      "id": "TC26",
+      "title": "Kiểm tra thứ tự sắp xếp đơn hàng",
+      "category": "functional",
+      "priority": "Medium",
+      "equivalenceClasses": [],
+      "input": {
+        "order_count": "many"
+      },
+      "steps": [
+        "User có nhiều đơn hàng đặt ở các thời điểm khác nhau"
+      ],
+      "expected": {
+        "uiAssertions": [
+          "Đơn hàng mới nhất (ID lớn nhất) hiển thị ở đầu bảng (ORDER BY id DESC)"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,829 @@
+{
+  "feature": "FR-02",
+  "title": "Đăng nhập & Khóa tài khoản",
+  "method": "Domain Testing (Equivalence Partitioning & BVA)",
+  "targetUrl": "/login",
+  "platform": "web",
+  "totalTestCases": 33,
+  "inputVariables": [
+    {
+      "id": "I1",
+      "name": "Email",
+      "type": "Explicit",
+      "description": "Trường nhập email, yêu cầu type=\"email\" (HTML5 validation)"
+    },
+    {
+      "id": "I2",
+      "name": "Mật khẩu (Password)",
+      "type": "Explicit",
+      "description": "Trường nhập mật khẩu, yêu cầu type=\"password\""
+    },
+    {
+      "id": "I3",
+      "name": "Trạng thái tài khoản (Account Lock State)",
+      "type": "Implicit/State",
+      "description": "Tài khoản đang bị khóa hay không (locked_until trong DB)"
+    },
+    {
+      "id": "I4",
+      "name": "Bộ đếm đăng nhập sai (login_attempts)",
+      "type": "Implicit/State",
+      "description": "Số lần đăng nhập sai liên tiếp hiện tại (DB: login_attempts, mặc định = 0)"
+    },
+    {
+      "id": "I5",
+      "name": "Sự tồn tại của tài khoản",
+      "type": "Implicit/State",
+      "description": "Email có tồn tại trong hệ thống hay không"
+    }
+  ],
+  "equivalencePartitions": [
+    {
+      "id": "EC1.1",
+      "variable": "Email",
+      "validClass": "Email đúng format và tồn tại trong hệ thống",
+      "invalidClass": null
+    },
+    {
+      "id": "EC1.2",
+      "variable": "Email",
+      "validClass": null,
+      "invalidClass": "Email đúng format nhưng không tồn tại trong hệ thống"
+    },
+    {
+      "id": "EC1.3",
+      "variable": "Email",
+      "validClass": null,
+      "invalidClass": "Email sai format: thiếu @"
+    },
+    {
+      "id": "EC1.4",
+      "variable": "Email",
+      "validClass": null,
+      "invalidClass": "Email sai format: thiếu domain"
+    },
+    {
+      "id": "EC1.5",
+      "variable": "Email",
+      "validClass": null,
+      "invalidClass": "Email sai format: thiếu local part"
+    },
+    {
+      "id": "EC1.6",
+      "variable": "Email",
+      "validClass": null,
+      "invalidClass": "Email rỗng"
+    },
+    {
+      "id": "EC1.7",
+      "variable": "Email",
+      "validClass": null,
+      "invalidClass": "Email là khoảng trắng"
+    },
+    {
+      "id": "EC2.1",
+      "variable": "Mật khẩu",
+      "validClass": "Mật khẩu đúng, khớp với tài khoản",
+      "invalidClass": null
+    },
+    {
+      "id": "EC2.2",
+      "variable": "Mật khẩu",
+      "validClass": null,
+      "invalidClass": "Mật khẩu sai"
+    },
+    {
+      "id": "EC2.3",
+      "variable": "Mật khẩu",
+      "validClass": null,
+      "invalidClass": "Mật khẩu rỗng"
+    },
+    {
+      "id": "EC2.4",
+      "variable": "Mật khẩu",
+      "validClass": null,
+      "invalidClass": "Mật khẩu chỉ là khoảng trắng"
+    },
+    {
+      "id": "EC3.1",
+      "variable": "Trạng thái khóa tài khoản",
+      "validClass": "Tài khoản không bị khóa",
+      "invalidClass": null
+    },
+    {
+      "id": "EC3.2",
+      "variable": "Trạng thái khóa tài khoản",
+      "validClass": null,
+      "invalidClass": "Tài khoản đang bị khóa"
+    },
+    {
+      "id": "EC4.1",
+      "variable": "Bộ đếm login_attempts",
+      "validClass": "login_attempts = 0",
+      "invalidClass": null
+    },
+    {
+      "id": "EC4.2",
+      "variable": "Bộ đếm login_attempts",
+      "validClass": "login_attempts = 1",
+      "invalidClass": null
+    },
+    {
+      "id": "EC4.3",
+      "variable": "Bộ đếm login_attempts",
+      "validClass": "login_attempts = 2",
+      "invalidClass": null
+    },
+    {
+      "id": "EC4.4",
+      "variable": "Bộ đếm login_attempts",
+      "validClass": null,
+      "invalidClass": "login_attempts >= 3"
+    },
+    {
+      "id": "EC5.1",
+      "variable": "Sự tồn tại tài khoản",
+      "validClass": "Tài khoản tồn tại trong DB",
+      "invalidClass": null
+    },
+    {
+      "id": "EC5.2",
+      "variable": "Sự tồn tại tài khoản",
+      "validClass": null,
+      "invalidClass": "Tài khoản không tồn tại trong DB"
+    },
+    {
+      "id": "EC6.1",
+      "variable": "UI/UX",
+      "validClass": "Trường Email dùng type=email",
+      "invalidClass": "Không"
+    },
+    {
+      "id": "EC6.2",
+      "variable": "UI/UX",
+      "validClass": "Trường Mật khẩu dùng type=password",
+      "invalidClass": "Không"
+    },
+    {
+      "id": "EC6.3",
+      "variable": "UI/UX",
+      "validClass": "Thông báo lỗi hiển thị trên nút submit",
+      "invalidClass": "Sai vị trí"
+    },
+    {
+      "id": "EC6.4",
+      "variable": "UI/UX",
+      "validClass": "Tất cả trường bắt buộc có ký hiệu *",
+      "invalidClass": "Không"
+    },
+    {
+      "id": "EC6.5",
+      "variable": "UI/UX",
+      "validClass": "Nhãn trường Email hiển thị đúng tên Email",
+      "invalidClass": "Không"
+    }
+  ],
+  "testCases": [
+    {
+      "id": "TC01",
+      "title": "Happy path: Đăng nhập thành công với tài khoản Admin",
+      "category": "positive",
+      "priority": "High",
+      "equivalenceClasses": [
+        "EC1.1",
+        "EC2.1",
+        "EC3.1",
+        "EC4.1",
+        "EC5.1"
+      ],
+      "input": {
+        "email": "admin@eshop.com",
+        "password": "Admin123!",
+        "login_attempts": 0,
+        "locked_until": null
+      },
+      "expected": {
+        "httpStatus": 200,
+        "redirect": "/",
+        "tokenStored": true,
+        "headerSet": true
+      }
+    },
+    {
+      "id": "TC02",
+      "title": "Đăng nhập thành công với tài khoản User thường",
+      "category": "positive",
+      "priority": "High",
+      "equivalenceClasses": [
+        "EC1.1",
+        "EC2.1",
+        "EC3.1",
+        "EC4.1",
+        "EC5.1"
+      ],
+      "input": {
+        "email": "test@eshop.com",
+        "password": "Test1234!",
+        "login_attempts": 0,
+        "locked_until": null
+      },
+      "expected": {
+        "httpStatus": 200,
+        "redirect": "/",
+        "tokenStored": true
+      }
+    },
+    {
+      "id": "TC03",
+      "title": "Đăng nhập thành công sau khi đã sai 1 lần",
+      "category": "positive",
+      "priority": "High",
+      "equivalenceClasses": [
+        "EC4.2"
+      ],
+      "input": {
+        "email": "test@eshop.com",
+        "password": "Test1234!",
+        "login_attempts": 1,
+        "locked_until": null
+      },
+      "expected": {
+        "httpStatus": 200,
+        "stateChanges": {
+          "login_attempts": 0,
+          "locked_until": null
+        },
+        "tokenStored": true
+      }
+    },
+    {
+      "id": "TC04",
+      "title": "Đăng nhập thành công sau khi đã sai 2 lần",
+      "category": "positive",
+      "priority": "High",
+      "equivalenceClasses": [
+        "EC4.3"
+      ],
+      "input": {
+        "email": "test@eshop.com",
+        "password": "Test1234!",
+        "login_attempts": 2,
+        "locked_until": null
+      },
+      "expected": {
+        "httpStatus": 200,
+        "stateChanges": {
+          "login_attempts": 0,
+          "locked_until": null
+        },
+        "tokenStored": true
+      }
+    },
+    {
+      "id": "TC05",
+      "title": "Đăng nhập thành công sau khi hết thời gian khóa",
+      "category": "positive",
+      "priority": "High",
+      "equivalenceClasses": [
+        "EC3.1"
+      ],
+      "input": {
+        "email": "test@eshop.com",
+        "password": "Test1234!",
+        "login_attempts": 3,
+        "locked_until": "thời điểm trong quá khứ"
+      },
+      "expected": {
+        "httpStatus": 200,
+        "stateChanges": {
+          "login_attempts": 0,
+          "locked_until": null
+        },
+        "tokenStored": true
+      }
+    },
+    {
+      "id": "TC06",
+      "title": "Email không tồn tại",
+      "category": "negative",
+      "priority": "High",
+      "equivalenceClasses": [
+        "EC1.2",
+        "EC5.2"
+      ],
+      "input": {
+        "email": "notexist@eshop.com",
+        "password": "Admin123!"
+      },
+      "expected": {
+        "httpStatus": 401,
+        "errorMessage": "Invalid email or password",
+        "stateChanges": {
+          "login_attempts": "KHÔNG thay đổi"
+        }
+      }
+    },
+    {
+      "id": "TC07",
+      "title": "Email sai format — thiếu @",
+      "category": "negative",
+      "priority": "High",
+      "equivalenceClasses": [
+        "EC1.3"
+      ],
+      "input": {
+        "email": "admineshop.com",
+        "password": "Admin123!"
+      },
+      "expected": {
+        "uiAssertions": [
+          "HTML5 validation chặn submit"
+        ],
+        "requestSent": false
+      }
+    },
+    {
+      "id": "TC08",
+      "title": "Email sai format — thiếu domain",
+      "category": "negative",
+      "priority": "High",
+      "equivalenceClasses": [
+        "EC1.4"
+      ],
+      "input": {
+        "email": "admin@",
+        "password": "Admin123!"
+      },
+      "expected": {
+        "uiAssertions": [
+          "HTML5 validation chặn submit"
+        ],
+        "requestSent": false
+      }
+    },
+    {
+      "id": "TC09",
+      "title": "Email sai format — thiếu local part",
+      "category": "negative",
+      "priority": "High",
+      "equivalenceClasses": [
+        "EC1.5"
+      ],
+      "input": {
+        "email": "@eshop.com",
+        "password": "Admin123!"
+      },
+      "expected": {
+        "uiAssertions": [
+          "HTML5 validation chặn submit"
+        ],
+        "requestSent": false
+      }
+    },
+    {
+      "id": "TC10",
+      "title": "Email rỗng",
+      "category": "negative",
+      "priority": "High",
+      "equivalenceClasses": [
+        "EC1.6"
+      ],
+      "input": {
+        "email": "",
+        "password": "Admin123!"
+      },
+      "expected": {
+        "uiAssertions": [
+          "HTML required attribute chặn submit",
+          "Thông báo trường bắt buộc"
+        ]
+      }
+    },
+    {
+      "id": "TC11",
+      "title": "Email chỉ có khoảng trắng",
+      "category": "negative",
+      "priority": "High",
+      "equivalenceClasses": [
+        "EC1.7"
+      ],
+      "input": {
+        "email": "   ",
+        "password": "Admin123!"
+      },
+      "expected": {
+        "uiAssertions": [
+          "HTML5 validation chặn submit"
+        ],
+        "requestSent": false
+      }
+    },
+    {
+      "id": "TC12",
+      "title": "Mật khẩu sai",
+      "category": "negative",
+      "priority": "High",
+      "equivalenceClasses": [
+        "EC2.2"
+      ],
+      "input": {
+        "email": "test@eshop.com",
+        "password": "WrongPassword1!",
+        "login_attempts": 0
+      },
+      "expected": {
+        "httpStatus": 401,
+        "errorMessage": "Invalid email or password",
+        "stateChanges": {
+          "login_attempts": 1,
+          "locked_until": null
+        }
+      }
+    },
+    {
+      "id": "TC13",
+      "title": "Mật khẩu rỗng",
+      "category": "negative",
+      "priority": "High",
+      "equivalenceClasses": [
+        "EC2.3"
+      ],
+      "input": {
+        "email": "test@eshop.com",
+        "password": ""
+      },
+      "expected": {
+        "uiAssertions": [
+          "HTML required attribute chặn submit",
+          "Thông báo trường bắt buộc"
+        ]
+      }
+    },
+    {
+      "id": "TC14",
+      "title": "Mật khẩu chỉ là khoảng trắng",
+      "category": "negative",
+      "priority": "High",
+      "equivalenceClasses": [
+        "EC2.4"
+      ],
+      "input": {
+        "email": "test@eshop.com",
+        "password": "        "
+      },
+      "expected": {
+        "httpStatus": 401,
+        "errorMessage": "Invalid email or password",
+        "stateChanges": {
+          "login_attempts": 1
+        }
+      }
+    },
+    {
+      "id": "TC15",
+      "title": "Tài khoản đang bị khóa",
+      "category": "negative",
+      "priority": "High",
+      "equivalenceClasses": [
+        "EC3.2"
+      ],
+      "input": {
+        "email": "test@eshop.com",
+        "password": "Test1234!",
+        "locked_until": "thời điểm trong tương lai"
+      },
+      "expected": {
+        "httpStatus": 403,
+        "errorMessage": "Tài khoản đã bị khóa. Vui lòng thử lại sau.",
+        "tokenStored": false
+      }
+    },
+    {
+      "id": "TC16",
+      "title": "Tài khoản đang bị khóa (sai pass)",
+      "category": "negative",
+      "priority": "High",
+      "equivalenceClasses": [
+        "EC3.2"
+      ],
+      "input": {
+        "email": "test@eshop.com",
+        "password": "WrongPass1!",
+        "locked_until": "thời điểm trong tương lai"
+      },
+      "expected": {
+        "httpStatus": 403,
+        "errorMessage": "Tài khoản đã bị khóa. Vui lòng thử lại sau.",
+        "stateChanges": {
+          "login_attempts": "KHÔNG tăng thêm"
+        }
+      }
+    },
+    {
+      "id": "TC17",
+      "title": "Biên LB: Sai lần 1 (login_attempts: 0→1)",
+      "category": "boundary",
+      "priority": "Medium",
+      "equivalenceClasses": [
+        "login_attempts: 0→1"
+      ],
+      "input": {
+        "email": "test@eshop.com",
+        "password": "WrongPass1!",
+        "login_attempts": 0
+      },
+      "expected": {
+        "httpStatus": 401,
+        "stateChanges": {
+          "login_attempts": 1,
+          "locked_until": null
+        }
+      }
+    },
+    {
+      "id": "TC18",
+      "title": "Biên LB+1: Sai lần 2 (login_attempts: 1→2)",
+      "category": "boundary",
+      "priority": "Medium",
+      "equivalenceClasses": [
+        "login_attempts: 1→2"
+      ],
+      "input": {
+        "email": "test@eshop.com",
+        "password": "WrongPass1!",
+        "login_attempts": 1
+      },
+      "expected": {
+        "httpStatus": 401,
+        "stateChanges": {
+          "login_attempts": 2,
+          "locked_until": null
+        }
+      }
+    },
+    {
+      "id": "TC19",
+      "title": "Biên UB (ngưỡng khóa): Sai lần 3 (login_attempts: 2→3) — tài khoản bị KHÓA",
+      "category": "boundary",
+      "priority": "Medium",
+      "equivalenceClasses": [
+        "login_attempts: 2→3"
+      ],
+      "input": {
+        "email": "test@eshop.com",
+        "password": "WrongPass1!",
+        "login_attempts": 2
+      },
+      "expected": {
+        "httpStatus": 401,
+        "stateChanges": {
+          "login_attempts": 3,
+          "locked_until": "now + 30 giây"
+        }
+      }
+    },
+    {
+      "id": "TC20",
+      "title": "Biên UB+1: Sai lần 4 (login_attempts: 3→?) — tài khoản đã bị khóa từ lần 3",
+      "category": "boundary",
+      "priority": "Medium",
+      "equivalenceClasses": [
+        "login_attempts: 3→?"
+      ],
+      "input": {
+        "email": "test@eshop.com",
+        "password": "WrongPass1!",
+        "login_attempts": 3,
+        "locked_until": "tương lai"
+      },
+      "expected": {
+        "httpStatus": 403,
+        "errorMessage": "Tài khoản đã bị khóa. Vui lòng thử lại sau.",
+        "stateChanges": {
+          "login_attempts": "không tăng"
+        }
+      }
+    },
+    {
+      "id": "TC21",
+      "title": "Biên thời gian: Đăng nhập ngay trước khi hết khóa (locked_until - 1 giây)",
+      "category": "boundary",
+      "priority": "Medium",
+      "equivalenceClasses": [
+        "locked_until - 1 giây"
+      ],
+      "input": {
+        "email": "test@eshop.com",
+        "password": "Test1234!",
+        "locked_until": "now + 1 giây"
+      },
+      "expected": {
+        "httpStatus": 403,
+        "errorMessage": "Tài khoản đã bị khóa. Vui lòng thử lại sau."
+      }
+    },
+    {
+      "id": "TC22",
+      "title": "Biên thời gian: Đăng nhập ngay khi vừa hết khóa (locked_until = now)",
+      "category": "boundary",
+      "priority": "Medium",
+      "equivalenceClasses": [
+        "locked_until = now"
+      ],
+      "input": {
+        "email": "test@eshop.com",
+        "password": "Test1234!",
+        "locked_until": "now"
+      },
+      "expected": {
+        "httpStatus": 200,
+        "stateChanges": {
+          "login_attempts": 0
+        },
+        "tokenStored": true
+      }
+    },
+    {
+      "id": "TC23",
+      "title": "Biên thời gian: Đăng nhập sau khi hết khóa 1 giây (locked_until + 1 giây)",
+      "category": "boundary",
+      "priority": "Medium",
+      "equivalenceClasses": [
+        "locked_until + 1 giây"
+      ],
+      "input": {
+        "email": "test@eshop.com",
+        "password": "Test1234!",
+        "locked_until": "now - 1 giây"
+      },
+      "expected": {
+        "httpStatus": 200,
+        "stateChanges": {
+          "login_attempts": 0
+        },
+        "tokenStored": true
+      }
+    },
+    {
+      "id": "TC24",
+      "title": "Kiểm tra type attribute của trường Email",
+      "category": "ui_ux",
+      "priority": "Medium",
+      "equivalenceClasses": [
+        "EC6.1"
+      ],
+      "input": {
+        "inspect": "DOM element trường Email"
+      },
+      "expected": {
+        "uiAssertions": [
+          "Trường Email phải có type=\"email\""
+        ]
+      }
+    },
+    {
+      "id": "TC25",
+      "title": "Kiểm tra type attribute của trường Mật khẩu",
+      "category": "ui_ux",
+      "priority": "Medium",
+      "equivalenceClasses": [
+        "EC6.2"
+      ],
+      "input": {
+        "inspect": "DOM element trường Mật khẩu"
+      },
+      "expected": {
+        "uiAssertions": [
+          "Trường Mật khẩu phải có type=\"password\""
+        ]
+      }
+    },
+    {
+      "id": "TC26",
+      "title": "Vị trí thông báo lỗi",
+      "category": "ui_ux",
+      "priority": "Medium",
+      "equivalenceClasses": [
+        "EC6.3"
+      ],
+      "input": {
+        "action": "Đăng nhập sai, quan sát vị trí thông báo"
+      },
+      "expected": {
+        "uiAssertions": [
+          "Thông báo lỗi phải hiển thị trên nút submit"
+        ]
+      }
+    },
+    {
+      "id": "TC27",
+      "title": "Ký hiệu bắt buộc",
+      "category": "ui_ux",
+      "priority": "Medium",
+      "equivalenceClasses": [
+        "EC6.4"
+      ],
+      "input": {
+        "action": "Quan sát label các trường trên form"
+      },
+      "expected": {
+        "uiAssertions": [
+          "Tất cả trường bắt buộc phải có ký hiệu *"
+        ]
+      }
+    },
+    {
+      "id": "TC28",
+      "title": "Tiêu đề trang Login",
+      "category": "ui_ux",
+      "priority": "Medium",
+      "equivalenceClasses": [
+        "EC6.5"
+      ],
+      "input": {
+        "action": "Inspect heading trên trang Login"
+      },
+      "expected": {
+        "uiAssertions": [
+          "Tiêu đề hiển thị đúng là Đăng Nhập"
+        ]
+      }
+    },
+    {
+      "id": "TC29",
+      "title": "Thông báo lỗi từ server được hiển thị đúng",
+      "category": "ui_ux",
+      "priority": "Medium",
+      "equivalenceClasses": [],
+      "input": {
+        "action": "Thực hiện đăng nhập sai hoặc tài khoản bị khóa"
+      },
+      "expected": {
+        "uiAssertions": [
+          "UI phải hiển thị thông báo lỗi từ server"
+        ]
+      }
+    },
+    {
+      "id": "TC30",
+      "title": "Nhãn trường Email",
+      "category": "ui_ux",
+      "priority": "Medium",
+      "equivalenceClasses": [
+        "EC6.5"
+      ],
+      "input": {
+        "action": "Inspect label trường Email"
+      },
+      "expected": {
+        "uiAssertions": [
+          "Nhãn trường Email phải hiển thị đúng là Email"
+        ]
+      }
+    },
+    {
+      "id": "TC31",
+      "title": "Token lưu localStorage sau khi đăng nhập thành công",
+      "category": "security",
+      "priority": "High",
+      "equivalenceClasses": [],
+      "input": {
+        "email": "test@eshop.com",
+        "password": "Test1234!"
+      },
+      "expected": {
+        "uiAssertions": [
+          "localStorage.getItem(\"token\") trả về JWT Token hợp lệ"
+        ]
+      }
+    },
+    {
+      "id": "TC32",
+      "title": "Authorization header được gửi kèm request xác thực",
+      "category": "security",
+      "priority": "High",
+      "equivalenceClasses": [],
+      "input": {
+        "action": "Sau khi đăng nhập thành công, gọi API /api/users/me"
+      },
+      "expected": {
+        "httpStatus": 200,
+        "headerSet": true
+      }
+    },
+    {
+      "id": "TC33",
+      "title": "Request xác thực khi không có token",
+      "category": "security",
+      "priority": "High",
+      "equivalenceClasses": [],
+      "input": {
+        "action": "Gọi API /api/users/me mà không có token"
+      },
+      "expected": {
+        "httpStatus": 401,
+        "errorMessage": "Unauthorized"
+      }
+    }
+  ]
+}

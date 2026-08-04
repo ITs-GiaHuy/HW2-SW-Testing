@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-08-04T07:20:00Z",
+  "generatedBy": "tc-parse skill",
+  "features": [
+    {
+      "id": "FR-02",
+      "title": "Đăng nhập & Khóa tài khoản",
+      "file": "FR_02.data.json",
+      "platform": "web",
+      "totalTestCases": 33,
+      "categories": {
+        "positive": 5,
+        "negative": 11,
+        "boundary": 7,
+        "ui_ux": 7,
+        "security": 3
+      }
+    },
+    {
+      "id": "FR-11",
+      "title": "Xem lịch sử đơn hàng (User)",
+      "file": "FR_11.data.json",
+      "platform": "web",
+      "totalTestCases": 26,
+      "categories": {
+        "positive": 3,
+        "negative": 0,
+        "boundary": 1,
+        "ui_ux": 15,
+        "security": 6,
+        "functional": 1
+      }
+    },
+    {
+      "id": "FR-16",
+      "title": "Import Sản phẩm từ CSV",
+      "file": "FR_16.data.json",
+      "platform": "admin",
+      "totalTestCases": 43,
+      "categories": {
+        "positive": 8,
+        "negative": 12,
+        "boundary": 8,
+        "security": 3,
+        "functional": 8,
+        "transaction": 4
+      }
+    }
+  ],
+  "summary": {
+    "totalFeatures": 3,
+    "totalTestCases": 102,
+    "skippedFiles": [
+      "FR_02_mobile.md"
+    ]
+  }
+}
