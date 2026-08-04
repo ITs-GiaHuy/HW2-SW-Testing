@@ -34,7 +34,7 @@ export default defineConfig({
 
   use: {
     // Base URLs — no hardcoded URLs in tests
-    baseURL: process.env.WEB_BASE_URL || 'http://localhost:5173',
+    baseURL: process.env.WEB_BASE_URL || 'http://127.0.0.1:5173',
     
     // Screenshot on failure for bug evidence
     screenshot: 'only-on-failure',
@@ -58,7 +58,7 @@ export default defineConfig({
       name: 'web-chromium',
       use: {
         ...devices['Desktop Chrome'],
-        baseURL: process.env.WEB_BASE_URL || 'http://localhost:5173',
+        baseURL: process.env.WEB_BASE_URL || 'http://127.0.0.1:5173',
       },
       testMatch: /tests\/(web)\/.*\.spec\.ts/,
     },
@@ -66,7 +66,7 @@ export default defineConfig({
       name: 'web-firefox',
       use: {
         ...devices['Desktop Firefox'],
-        baseURL: process.env.WEB_BASE_URL || 'http://localhost:5173',
+        baseURL: process.env.WEB_BASE_URL || 'http://127.0.0.1:5173',
       },
       testMatch: /tests\/(web)\/.*\.spec\.ts/,
     },
@@ -74,7 +74,7 @@ export default defineConfig({
       name: 'web-webkit',
       use: {
         ...devices['Desktop Safari'],
-        baseURL: process.env.WEB_BASE_URL || 'http://localhost:5173',
+        baseURL: process.env.WEB_BASE_URL || 'http://127.0.0.1:5173',
       },
       testMatch: /tests\/(web)\/.*\.spec\.ts/,
     },
@@ -84,7 +84,7 @@ export default defineConfig({
       name: 'admin-chromium',
       use: {
         ...devices['Desktop Chrome'],
-        baseURL: process.env.ADMIN_BASE_URL || 'http://localhost:5174',
+        baseURL: process.env.ADMIN_BASE_URL || 'http://127.0.0.1:5174',
       },
       testMatch: /tests\/(admin)\/.*\.spec\.ts/,
     },
@@ -92,7 +92,7 @@ export default defineConfig({
       name: 'admin-firefox',
       use: {
         ...devices['Desktop Firefox'],
-        baseURL: process.env.ADMIN_BASE_URL || 'http://localhost:5174',
+        baseURL: process.env.ADMIN_BASE_URL || 'http://127.0.0.1:5174',
       },
       testMatch: /tests\/(admin)\/.*\.spec\.ts/,
     },
@@ -100,7 +100,7 @@ export default defineConfig({
       name: 'admin-webkit',
       use: {
         ...devices['Desktop Safari'],
-        baseURL: process.env.ADMIN_BASE_URL || 'http://localhost:5174',
+        baseURL: process.env.ADMIN_BASE_URL || 'http://127.0.0.1:5174',
       },
       testMatch: /tests\/(admin)\/.*\.spec\.ts/,
     },

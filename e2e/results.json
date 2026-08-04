@@ -1,0 +1,1846 @@
+{
+  "config": {
+    "argv": [
+      "/home/giahuy/.nvm/versions/node/v24.16.0/bin/node",
+      "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/node_modules/.bin/playwright",
+      "test",
+      "tests/web/FR-02.spec.ts",
+      "--project=web-chromium"
+    ],
+    "configFile": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/playwright.config.ts",
+    "rootDir": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "Run by": "23127378",
+      "Project": "EShop Web Automation Testing — HW04",
+      "Timestamp": "2026-08-04T08:12:03.858Z",
+      "Environment": "Local",
+      "actualWorkers": 8
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "Run by": "23127378",
+          "Project": "EShop Web Automation Testing — HW04",
+          "Timestamp": "2026-08-04T08:12:03.858Z",
+          "Environment": "Local",
+          "actualWorkers": 8
+        },
+        "id": "web-chromium",
+        "name": "web-chromium",
+        "testDir": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "/tests\\/(web)\\/.*\\.spec\\.ts/"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "Run by": "23127378",
+          "Project": "EShop Web Automation Testing — HW04",
+          "Timestamp": "2026-08-04T08:12:03.858Z",
+          "Environment": "Local",
+          "actualWorkers": 8
+        },
+        "id": "web-firefox",
+        "name": "web-firefox",
+        "testDir": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "/tests\\/(web)\\/.*\\.spec\\.ts/"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "Run by": "23127378",
+          "Project": "EShop Web Automation Testing — HW04",
+          "Timestamp": "2026-08-04T08:12:03.858Z",
+          "Environment": "Local",
+          "actualWorkers": 8
+        },
+        "id": "web-webkit",
+        "name": "web-webkit",
+        "testDir": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "/tests\\/(web)\\/.*\\.spec\\.ts/"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "Run by": "23127378",
+          "Project": "EShop Web Automation Testing — HW04",
+          "Timestamp": "2026-08-04T08:12:03.858Z",
+          "Environment": "Local",
+          "actualWorkers": 8
+        },
+        "id": "admin-chromium",
+        "name": "admin-chromium",
+        "testDir": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "/tests\\/(admin)\\/.*\\.spec\\.ts/"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "Run by": "23127378",
+          "Project": "EShop Web Automation Testing — HW04",
+          "Timestamp": "2026-08-04T08:12:03.858Z",
+          "Environment": "Local",
+          "actualWorkers": 8
+        },
+        "id": "admin-firefox",
+        "name": "admin-firefox",
+        "testDir": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "/tests\\/(admin)\\/.*\\.spec\\.ts/"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "Run by": "23127378",
+          "Project": "EShop Web Automation Testing — HW04",
+          "Timestamp": "2026-08-04T08:12:03.858Z",
+          "Environment": "Local",
+          "actualWorkers": 8
+        },
+        "id": "admin-webkit",
+        "name": "admin-webkit",
+        "testDir": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "/tests\\/(admin)\\/.*\\.spec\\.ts/"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        {
+          "open": "never",
+          "outputFolder": "playwright-report"
+        }
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.62.1",
+    "workers": 8,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "web/FR-02.spec.ts",
+      "file": "web/FR-02.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "FR-02: Đăng nhập & Khóa tài khoản",
+          "file": "web/FR-02.spec.ts",
+          "line": 5,
+          "column": 6,
+          "specs": [],
+          "suites": [
+            {
+              "title": "Positive Cases",
+              "file": "web/FR-02.spec.ts",
+              "line": 7,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "TC01 - Happy path: Đăng nhập thành công với tài khoản Admin",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "web-chromium",
+                      "projectName": "web-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "timedOut",
+                          "duration": 30115,
+                          "error": {
+                            "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                            "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                          },
+                          "errors": [
+                            {
+                              "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                            },
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts",
+                                "column": 52,
+                                "line": 27
+                              },
+                              "message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel(/Email/i)\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../pages/web/FR-02.page.ts:27\n\n\u001b[0m \u001b[90m 25 |\u001b[39m\n \u001b[90m 26 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 27 |\u001b[39m     \u001b[36mif\u001b[39m (email \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 28 |\u001b[39m     \u001b[36mif\u001b[39m (password \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\n \u001b[90m 29 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mloginButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 30 |\u001b[39m   }\u001b[0m\n\u001b[2m    at LoginPage.login (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts:27:52)\u001b[22m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:15:25\u001b[22m"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-04T08:12:04.454Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--bd90b-nh-công-với-tài-khoản-Admin-web-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--bd90b-nh-công-với-tài-khoản-Admin-web-chromium/error-context.md"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "0474f947f51bd449ddc2-f987617f574316666081",
+                  "file": "web/FR-02.spec.ts",
+                  "line": 11,
+                  "column": 11
+                },
+                {
+                  "title": "TC02 - Đăng nhập thành công với tài khoản User thường",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "web-chromium",
+                      "projectName": "web-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 1,
+                          "parallelIndex": 1,
+                          "status": "timedOut",
+                          "duration": 30120,
+                          "error": {
+                            "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                            "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                          },
+                          "errors": [
+                            {
+                              "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                            },
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts",
+                                "column": 52,
+                                "line": 27
+                              },
+                              "message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel(/Email/i)\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../pages/web/FR-02.page.ts:27\n\n\u001b[0m \u001b[90m 25 |\u001b[39m\n \u001b[90m 26 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 27 |\u001b[39m     \u001b[36mif\u001b[39m (email \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 28 |\u001b[39m     \u001b[36mif\u001b[39m (password \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\n \u001b[90m 29 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mloginButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 30 |\u001b[39m   }\u001b[0m\n\u001b[2m    at LoginPage.login (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts:27:52)\u001b[22m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:15:25\u001b[22m"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-04T08:12:04.453Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--6debf-g-với-tài-khoản-User-thường-web-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--6debf-g-với-tài-khoản-User-thường-web-chromium/error-context.md"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "0474f947f51bd449ddc2-ce97eeb81bf20d765b0b",
+                  "file": "web/FR-02.spec.ts",
+                  "line": 11,
+                  "column": 11
+                },
+                {
+                  "title": "TC03 - Đăng nhập thành công sau khi đã sai 1 lần",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "web-chromium",
+                      "projectName": "web-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "parallelIndex": 2,
+                          "status": "timedOut",
+                          "duration": 30073,
+                          "error": {
+                            "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                            "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                          },
+                          "errors": [
+                            {
+                              "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                            },
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts",
+                                "column": 52,
+                                "line": 27
+                              },
+                              "message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel(/Email/i)\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../pages/web/FR-02.page.ts:27\n\n\u001b[0m \u001b[90m 25 |\u001b[39m\n \u001b[90m 26 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 27 |\u001b[39m     \u001b[36mif\u001b[39m (email \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 28 |\u001b[39m     \u001b[36mif\u001b[39m (password \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\n \u001b[90m 29 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mloginButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 30 |\u001b[39m   }\u001b[0m\n\u001b[2m    at LoginPage.login (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts:27:52)\u001b[22m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:15:25\u001b[22m"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-04T08:12:04.410Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--ee92d-h-công-sau-khi-đã-sai-1-lần-web-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--ee92d-h-công-sau-khi-đã-sai-1-lần-web-chromium/error-context.md"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "0474f947f51bd449ddc2-2257e93c6de9f1697f03",
+                  "file": "web/FR-02.spec.ts",
+                  "line": 11,
+                  "column": 11
+                },
+                {
+                  "title": "TC04 - Đăng nhập thành công sau khi đã sai 2 lần",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "web-chromium",
+                      "projectName": "web-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 3,
+                          "parallelIndex": 3,
+                          "status": "timedOut",
+                          "duration": 30082,
+                          "error": {
+                            "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                            "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                          },
+                          "errors": [
+                            {
+                              "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                            },
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts",
+                                "column": 52,
+                                "line": 27
+                              },
+                              "message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel(/Email/i)\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../pages/web/FR-02.page.ts:27\n\n\u001b[0m \u001b[90m 25 |\u001b[39m\n \u001b[90m 26 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 27 |\u001b[39m     \u001b[36mif\u001b[39m (email \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 28 |\u001b[39m     \u001b[36mif\u001b[39m (password \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\n \u001b[90m 29 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mloginButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 30 |\u001b[39m   }\u001b[0m\n\u001b[2m    at LoginPage.login (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts:27:52)\u001b[22m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:15:25\u001b[22m"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-04T08:12:04.362Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--11009-h-công-sau-khi-đã-sai-2-lần-web-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--11009-h-công-sau-khi-đã-sai-2-lần-web-chromium/error-context.md"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "0474f947f51bd449ddc2-47ee39352c4606dc052d",
+                  "file": "web/FR-02.spec.ts",
+                  "line": 11,
+                  "column": 11
+                },
+                {
+                  "title": "TC05 - Đăng nhập thành công sau khi hết thời gian khóa",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "web-chromium",
+                      "projectName": "web-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 4,
+                          "parallelIndex": 4,
+                          "status": "timedOut",
+                          "duration": 30064,
+                          "error": {
+                            "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                            "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                          },
+                          "errors": [
+                            {
+                              "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                            },
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts",
+                                "column": 52,
+                                "line": 27
+                              },
+                              "message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel(/Email/i)\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../pages/web/FR-02.page.ts:27\n\n\u001b[0m \u001b[90m 25 |\u001b[39m\n \u001b[90m 26 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 27 |\u001b[39m     \u001b[36mif\u001b[39m (email \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 28 |\u001b[39m     \u001b[36mif\u001b[39m (password \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\n \u001b[90m 29 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mloginButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 30 |\u001b[39m   }\u001b[0m\n\u001b[2m    at LoginPage.login (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts:27:52)\u001b[22m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:15:25\u001b[22m"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-04T08:12:04.348Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--1fbbc--sau-khi-hết-thời-gian-khóa-web-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--1fbbc--sau-khi-hết-thời-gian-khóa-web-chromium/error-context.md"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "0474f947f51bd449ddc2-16e1f5a21a58fed2ade0",
+                  "file": "web/FR-02.spec.ts",
+                  "line": 11,
+                  "column": 11
+                }
+              ]
+            },
+            {
+              "title": "Negative & Boundary Cases",
+              "file": "web/FR-02.spec.ts",
+              "line": 31,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "TC06 - Email không tồn tại",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "web-chromium",
+                      "projectName": "web-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 5,
+                          "parallelIndex": 5,
+                          "status": "timedOut",
+                          "duration": 30067,
+                          "error": {
+                            "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                            "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                          },
+                          "errors": [
+                            {
+                              "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                            },
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts",
+                                "column": 52,
+                                "line": 27
+                              },
+                              "message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel(/Email/i)\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../pages/web/FR-02.page.ts:27\n\n\u001b[0m \u001b[90m 25 |\u001b[39m\n \u001b[90m 26 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 27 |\u001b[39m     \u001b[36mif\u001b[39m (email \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 28 |\u001b[39m     \u001b[36mif\u001b[39m (password \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\n \u001b[90m 29 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mloginButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 30 |\u001b[39m   }\u001b[0m\n\u001b[2m    at LoginPage.login (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts:27:52)\u001b[22m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:40:29\u001b[22m"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-04T08:12:04.323Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--4161d--TC06---Email-không-tồn-tại-web-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--4161d--TC06---Email-không-tồn-tại-web-chromium/error-context.md"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "0474f947f51bd449ddc2-56f811428e5551eb13f3",
+                  "file": "web/FR-02.spec.ts",
+                  "line": 35,
+                  "column": 11
+                },
+                {
+                  "title": "TC07 - Email sai format — thiếu @",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "web-chromium",
+                      "projectName": "web-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 6,
+                          "parallelIndex": 6,
+                          "status": "timedOut",
+                          "duration": 30112,
+                          "error": {
+                            "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                            "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                          },
+                          "errors": [
+                            {
+                              "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                            },
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts",
+                                "column": 52,
+                                "line": 27
+                              },
+                              "message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel(/Email/i)\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../pages/web/FR-02.page.ts:27\n\n\u001b[0m \u001b[90m 25 |\u001b[39m\n \u001b[90m 26 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 27 |\u001b[39m     \u001b[36mif\u001b[39m (email \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 28 |\u001b[39m     \u001b[36mif\u001b[39m (password \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\n \u001b[90m 29 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mloginButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 30 |\u001b[39m   }\u001b[0m\n\u001b[2m    at LoginPage.login (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts:27:52)\u001b[22m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:40:29\u001b[22m"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-04T08:12:04.483Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--77901---Email-sai-format-—-thiếu--web-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--77901---Email-sai-format-—-thiếu--web-chromium/error-context.md"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "0474f947f51bd449ddc2-25b3ae444ea54124c973",
+                  "file": "web/FR-02.spec.ts",
+                  "line": 35,
+                  "column": 11
+                },
+                {
+                  "title": "TC08 - Email sai format — thiếu domain",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "web-chromium",
+                      "projectName": "web-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 7,
+                          "parallelIndex": 7,
+                          "status": "timedOut",
+                          "duration": 30069,
+                          "error": {
+                            "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                            "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                          },
+                          "errors": [
+                            {
+                              "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                            },
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts",
+                                "column": 52,
+                                "line": 27
+                              },
+                              "message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel(/Email/i)\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../pages/web/FR-02.page.ts:27\n\n\u001b[0m \u001b[90m 25 |\u001b[39m\n \u001b[90m 26 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 27 |\u001b[39m     \u001b[36mif\u001b[39m (email \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 28 |\u001b[39m     \u001b[36mif\u001b[39m (password \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\n \u001b[90m 29 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mloginButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 30 |\u001b[39m   }\u001b[0m\n\u001b[2m    at LoginPage.login (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts:27:52)\u001b[22m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:40:29\u001b[22m"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-04T08:12:04.417Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--28339-l-sai-format-—-thiếu-domain-web-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--28339-l-sai-format-—-thiếu-domain-web-chromium/error-context.md"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "0474f947f51bd449ddc2-69c0a9818e1538df0f87",
+                  "file": "web/FR-02.spec.ts",
+                  "line": 35,
+                  "column": 11
+                },
+                {
+                  "title": "TC09 - Email sai format — thiếu local part",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "web-chromium",
+                      "projectName": "web-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 8,
+                          "parallelIndex": 5,
+                          "status": "timedOut",
+                          "duration": 30063,
+                          "error": {
+                            "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                            "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                          },
+                          "errors": [
+                            {
+                              "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                            },
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts",
+                                "column": 52,
+                                "line": 27
+                              },
+                              "message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel(/Email/i)\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../pages/web/FR-02.page.ts:27\n\n\u001b[0m \u001b[90m 25 |\u001b[39m\n \u001b[90m 26 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 27 |\u001b[39m     \u001b[36mif\u001b[39m (email \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 28 |\u001b[39m     \u001b[36mif\u001b[39m (password \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\n \u001b[90m 29 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mloginButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 30 |\u001b[39m   }\u001b[0m\n\u001b[2m    at LoginPage.login (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts:27:52)\u001b[22m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:40:29\u001b[22m"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-04T08:12:35.107Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--6f387-i-format-—-thiếu-local-part-web-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--6f387-i-format-—-thiếu-local-part-web-chromium/error-context.md"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "0474f947f51bd449ddc2-a1d4e2214a51a74aa51c",
+                  "file": "web/FR-02.spec.ts",
+                  "line": 35,
+                  "column": 11
+                },
+                {
+                  "title": "TC10 - Email rỗng",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "web-chromium",
+                      "projectName": "web-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 9,
+                          "parallelIndex": 4,
+                          "status": "timedOut",
+                          "duration": 30055,
+                          "error": {
+                            "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                            "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                          },
+                          "errors": [
+                            {
+                              "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                            },
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts",
+                                "column": 52,
+                                "line": 27
+                              },
+                              "message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel(/Email/i)\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../pages/web/FR-02.page.ts:27\n\n\u001b[0m \u001b[90m 25 |\u001b[39m\n \u001b[90m 26 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 27 |\u001b[39m     \u001b[36mif\u001b[39m (email \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 28 |\u001b[39m     \u001b[36mif\u001b[39m (password \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\n \u001b[90m 29 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mloginButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 30 |\u001b[39m   }\u001b[0m\n\u001b[2m    at LoginPage.login (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts:27:52)\u001b[22m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:40:29\u001b[22m"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-04T08:12:35.089Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--b4b3c-ary-Cases-TC10---Email-rỗng-web-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--b4b3c-ary-Cases-TC10---Email-rỗng-web-chromium/error-context.md"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "0474f947f51bd449ddc2-d48dffa9b67eec7a1941",
+                  "file": "web/FR-02.spec.ts",
+                  "line": 35,
+                  "column": 11
+                },
+                {
+                  "title": "TC11 - Email chỉ có khoảng trắng",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "web-chromium",
+                      "projectName": "web-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 10,
+                          "parallelIndex": 3,
+                          "status": "timedOut",
+                          "duration": 30061,
+                          "error": {
+                            "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                            "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                          },
+                          "errors": [
+                            {
+                              "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                            },
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts",
+                                "column": 52,
+                                "line": 27
+                              },
+                              "message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel(/Email/i)\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../pages/web/FR-02.page.ts:27\n\n\u001b[0m \u001b[90m 25 |\u001b[39m\n \u001b[90m 26 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 27 |\u001b[39m     \u001b[36mif\u001b[39m (email \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 28 |\u001b[39m     \u001b[36mif\u001b[39m (password \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\n \u001b[90m 29 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mloginButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 30 |\u001b[39m   }\u001b[0m\n\u001b[2m    at LoginPage.login (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts:27:52)\u001b[22m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:40:29\u001b[22m"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-04T08:12:35.187Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--73f7d---Email-chỉ-có-khoảng-trắng-web-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--73f7d---Email-chỉ-có-khoảng-trắng-web-chromium/error-context.md"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "0474f947f51bd449ddc2-2291536bcd278c433ba3",
+                  "file": "web/FR-02.spec.ts",
+                  "line": 35,
+                  "column": 11
+                },
+                {
+                  "title": "TC12 - Mật khẩu sai",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "web-chromium",
+                      "projectName": "web-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 11,
+                          "parallelIndex": 2,
+                          "status": "timedOut",
+                          "duration": 30061,
+                          "error": {
+                            "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                            "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                          },
+                          "errors": [
+                            {
+                              "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                            },
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts",
+                                "column": 52,
+                                "line": 27
+                              },
+                              "message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel(/Email/i)\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../pages/web/FR-02.page.ts:27\n\n\u001b[0m \u001b[90m 25 |\u001b[39m\n \u001b[90m 26 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 27 |\u001b[39m     \u001b[36mif\u001b[39m (email \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 28 |\u001b[39m     \u001b[36mif\u001b[39m (password \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\n \u001b[90m 29 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mloginButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 30 |\u001b[39m   }\u001b[0m\n\u001b[2m    at LoginPage.login (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts:27:52)\u001b[22m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:40:29\u001b[22m"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-04T08:12:35.313Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--759c4-y-Cases-TC12---Mật-khẩu-sai-web-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--759c4-y-Cases-TC12---Mật-khẩu-sai-web-chromium/error-context.md"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "0474f947f51bd449ddc2-712276d66b834fbb7bd6",
+                  "file": "web/FR-02.spec.ts",
+                  "line": 35,
+                  "column": 11
+                },
+                {
+                  "title": "TC13 - Mật khẩu rỗng",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "web-chromium",
+                      "projectName": "web-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 12,
+                          "parallelIndex": 7,
+                          "status": "timedOut",
+                          "duration": 30088,
+                          "error": {
+                            "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                            "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                          },
+                          "errors": [
+                            {
+                              "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                            },
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts",
+                                "column": 52,
+                                "line": 27
+                              },
+                              "message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel(/Email/i)\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../pages/web/FR-02.page.ts:27\n\n\u001b[0m \u001b[90m 25 |\u001b[39m\n \u001b[90m 26 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 27 |\u001b[39m     \u001b[36mif\u001b[39m (email \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 28 |\u001b[39m     \u001b[36mif\u001b[39m (password \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\n \u001b[90m 29 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mloginButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 30 |\u001b[39m   }\u001b[0m\n\u001b[2m    at LoginPage.login (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts:27:52)\u001b[22m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:40:29\u001b[22m"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-04T08:12:35.468Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--30280--Cases-TC13---Mật-khẩu-rỗng-web-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--30280--Cases-TC13---Mật-khẩu-rỗng-web-chromium/error-context.md"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "0474f947f51bd449ddc2-0ab045e97e48ab1c45ee",
+                  "file": "web/FR-02.spec.ts",
+                  "line": 35,
+                  "column": 11
+                },
+                {
+                  "title": "TC14 - Mật khẩu chỉ là khoảng trắng",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "web-chromium",
+                      "projectName": "web-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 13,
+                          "parallelIndex": 0,
+                          "status": "timedOut",
+                          "duration": 30071,
+                          "error": {
+                            "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                            "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                          },
+                          "errors": [
+                            {
+                              "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                            },
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts",
+                                "column": 52,
+                                "line": 27
+                              },
+                              "message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel(/Email/i)\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../pages/web/FR-02.page.ts:27\n\n\u001b[0m \u001b[90m 25 |\u001b[39m\n \u001b[90m 26 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 27 |\u001b[39m     \u001b[36mif\u001b[39m (email \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 28 |\u001b[39m     \u001b[36mif\u001b[39m (password \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\n \u001b[90m 29 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mloginButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 30 |\u001b[39m   }\u001b[0m\n\u001b[2m    at LoginPage.login (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts:27:52)\u001b[22m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:40:29\u001b[22m"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-04T08:12:35.302Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--44144-ật-khẩu-chỉ-là-khoảng-trắng-web-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--44144-ật-khẩu-chỉ-là-khoảng-trắng-web-chromium/error-context.md"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "0474f947f51bd449ddc2-b636c49f261a3b3c587c",
+                  "file": "web/FR-02.spec.ts",
+                  "line": 35,
+                  "column": 11
+                },
+                {
+                  "title": "TC15 - Tài khoản đang bị khóa",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "web-chromium",
+                      "projectName": "web-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 14,
+                          "parallelIndex": 1,
+                          "status": "timedOut",
+                          "duration": 30127,
+                          "error": {
+                            "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                            "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                          },
+                          "errors": [
+                            {
+                              "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                            },
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts",
+                                "column": 52,
+                                "line": 27
+                              },
+                              "message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel(/Email/i)\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../pages/web/FR-02.page.ts:27\n\n\u001b[0m \u001b[90m 25 |\u001b[39m\n \u001b[90m 26 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 27 |\u001b[39m     \u001b[36mif\u001b[39m (email \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 28 |\u001b[39m     \u001b[36mif\u001b[39m (password \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\n \u001b[90m 29 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mloginButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 30 |\u001b[39m   }\u001b[0m\n\u001b[2m    at LoginPage.login (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts:27:52)\u001b[22m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:40:29\u001b[22m"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-04T08:12:35.557Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--b4f93-15---Tài-khoản-đang-bị-khóa-web-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--b4f93-15---Tài-khoản-đang-bị-khóa-web-chromium/error-context.md"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "0474f947f51bd449ddc2-9a7e46ed09febd9939f8",
+                  "file": "web/FR-02.spec.ts",
+                  "line": 35,
+                  "column": 11
+                },
+                {
+                  "title": "TC16 - Tài khoản đang bị khóa (sai pass)",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "web-chromium",
+                      "projectName": "web-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 15,
+                          "parallelIndex": 6,
+                          "status": "timedOut",
+                          "duration": 30124,
+                          "error": {
+                            "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                            "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                          },
+                          "errors": [
+                            {
+                              "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                            },
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts",
+                                "column": 52,
+                                "line": 27
+                              },
+                              "message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel(/Email/i)\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../pages/web/FR-02.page.ts:27\n\n\u001b[0m \u001b[90m 25 |\u001b[39m\n \u001b[90m 26 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 27 |\u001b[39m     \u001b[36mif\u001b[39m (email \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 28 |\u001b[39m     \u001b[36mif\u001b[39m (password \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\n \u001b[90m 29 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mloginButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 30 |\u001b[39m   }\u001b[0m\n\u001b[2m    at LoginPage.login (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts:27:52)\u001b[22m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:40:29\u001b[22m"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-04T08:12:35.526Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--9a488-hoản-đang-bị-khóa-sai-pass--web-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--9a488-hoản-đang-bị-khóa-sai-pass--web-chromium/error-context.md"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "0474f947f51bd449ddc2-7aabb74735e29ba17d87",
+                  "file": "web/FR-02.spec.ts",
+                  "line": 35,
+                  "column": 11
+                },
+                {
+                  "title": "TC17 - Biên LB: Sai lần 1 (login_attempts: 0→1)",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "web-chromium",
+                      "projectName": "web-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 16,
+                          "parallelIndex": 4,
+                          "status": "timedOut",
+                          "duration": 30062,
+                          "error": {
+                            "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                            "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                          },
+                          "errors": [
+                            {
+                              "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                            },
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts",
+                                "column": 52,
+                                "line": 27
+                              },
+                              "message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel(/Email/i)\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../pages/web/FR-02.page.ts:27\n\n\u001b[0m \u001b[90m 25 |\u001b[39m\n \u001b[90m 26 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 27 |\u001b[39m     \u001b[36mif\u001b[39m (email \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 28 |\u001b[39m     \u001b[36mif\u001b[39m (password \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\n \u001b[90m 29 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mloginButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 30 |\u001b[39m   }\u001b[0m\n\u001b[2m    at LoginPage.login (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts:27:52)\u001b[22m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:40:29\u001b[22m"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-04T08:13:05.681Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--9d611-i-lần-1-login-attempts-0→1--web-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--9d611-i-lần-1-login-attempts-0→1--web-chromium/error-context.md"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "0474f947f51bd449ddc2-1d6dff6d5b584a19718f",
+                  "file": "web/FR-02.spec.ts",
+                  "line": 35,
+                  "column": 11
+                },
+                {
+                  "title": "TC18 - Biên LB+1: Sai lần 2 (login_attempts: 1→2)",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "web-chromium",
+                      "projectName": "web-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 17,
+                          "parallelIndex": 5,
+                          "status": "timedOut",
+                          "duration": 30061,
+                          "error": {
+                            "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                            "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                          },
+                          "errors": [
+                            {
+                              "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                            },
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts",
+                                "column": 52,
+                                "line": 27
+                              },
+                              "message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel(/Email/i)\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../pages/web/FR-02.page.ts:27\n\n\u001b[0m \u001b[90m 25 |\u001b[39m\n \u001b[90m 26 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 27 |\u001b[39m     \u001b[36mif\u001b[39m (email \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 28 |\u001b[39m     \u001b[36mif\u001b[39m (password \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\n \u001b[90m 29 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mloginButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 30 |\u001b[39m   }\u001b[0m\n\u001b[2m    at LoginPage.login (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts:27:52)\u001b[22m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:40:29\u001b[22m"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-04T08:13:05.808Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--bd28b-i-lần-2-login-attempts-1→2--web-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--bd28b-i-lần-2-login-attempts-1→2--web-chromium/error-context.md"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "0474f947f51bd449ddc2-a29556d0eb4e9a3240e2",
+                  "file": "web/FR-02.spec.ts",
+                  "line": 35,
+                  "column": 11
+                },
+                {
+                  "title": "TC19 - Biên UB (ngưỡng khóa): Sai lần 3 (login_attempts: 2→3) — tài khoản bị KHÓA",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "web-chromium",
+                      "projectName": "web-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 18,
+                          "parallelIndex": 3,
+                          "status": "timedOut",
+                          "duration": 30061,
+                          "error": {
+                            "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                            "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                          },
+                          "errors": [
+                            {
+                              "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                            },
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts",
+                                "column": 52,
+                                "line": 27
+                              },
+                              "message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel(/Email/i)\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../pages/web/FR-02.page.ts:27\n\n\u001b[0m \u001b[90m 25 |\u001b[39m\n \u001b[90m 26 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 27 |\u001b[39m     \u001b[36mif\u001b[39m (email \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 28 |\u001b[39m     \u001b[36mif\u001b[39m (password \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\n \u001b[90m 29 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mloginButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 30 |\u001b[39m   }\u001b[0m\n\u001b[2m    at LoginPage.login (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts:27:52)\u001b[22m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:40:29\u001b[22m"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-04T08:13:06.031Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--a5f30-pts-2→3-—-tài-khoản-bị-KHÓA-web-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--a5f30-pts-2→3-—-tài-khoản-bị-KHÓA-web-chromium/error-context.md"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "0474f947f51bd449ddc2-a50a165f9abf86df212f",
+                  "file": "web/FR-02.spec.ts",
+                  "line": 35,
+                  "column": 11
+                },
+                {
+                  "title": "TC20 - Biên UB+1: Sai lần 4 (login_attempts: 3→?) — tài khoản đã bị khóa từ lần 3",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "web-chromium",
+                      "projectName": "web-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 19,
+                          "parallelIndex": 0,
+                          "status": "timedOut",
+                          "duration": 30082,
+                          "error": {
+                            "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                            "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                          },
+                          "errors": [
+                            {
+                              "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                            },
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts",
+                                "column": 52,
+                                "line": 27
+                              },
+                              "message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel(/Email/i)\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../pages/web/FR-02.page.ts:27\n\n\u001b[0m \u001b[90m 25 |\u001b[39m\n \u001b[90m 26 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 27 |\u001b[39m     \u001b[36mif\u001b[39m (email \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 28 |\u001b[39m     \u001b[36mif\u001b[39m (password \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\n \u001b[90m 29 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mloginButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 30 |\u001b[39m   }\u001b[0m\n\u001b[2m    at LoginPage.login (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts:27:52)\u001b[22m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:40:29\u001b[22m"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-04T08:13:06.201Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--97a5c-i-khoản-đã-bị-khóa-từ-lần-3-web-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--97a5c-i-khoản-đã-bị-khóa-từ-lần-3-web-chromium/error-context.md"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "0474f947f51bd449ddc2-741e011aff73abe04943",
+                  "file": "web/FR-02.spec.ts",
+                  "line": 35,
+                  "column": 11
+                },
+                {
+                  "title": "TC21 - Biên thời gian: Đăng nhập ngay trước khi hết khóa (locked_until - 1 giây)",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "web-chromium",
+                      "projectName": "web-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 20,
+                          "parallelIndex": 2,
+                          "status": "timedOut",
+                          "duration": 30076,
+                          "error": {
+                            "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                            "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                          },
+                          "errors": [
+                            {
+                              "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                            },
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts",
+                                "column": 52,
+                                "line": 27
+                              },
+                              "message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel(/Email/i)\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../pages/web/FR-02.page.ts:27\n\n\u001b[0m \u001b[90m 25 |\u001b[39m\n \u001b[90m 26 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 27 |\u001b[39m     \u001b[36mif\u001b[39m (email \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 28 |\u001b[39m     \u001b[36mif\u001b[39m (password \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\n \u001b[90m 29 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mloginButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 30 |\u001b[39m   }\u001b[0m\n\u001b[2m    at LoginPage.login (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts:27:52)\u001b[22m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:40:29\u001b[22m"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-04T08:13:06.186Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--5bf85-khóa-locked-until---1-giây--web-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--5bf85-khóa-locked-until---1-giây--web-chromium/error-context.md"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "0474f947f51bd449ddc2-32e36ee53b6b0b037f73",
+                  "file": "web/FR-02.spec.ts",
+                  "line": 35,
+                  "column": 11
+                },
+                {
+                  "title": "TC22 - Biên thời gian: Đăng nhập ngay khi vừa hết khóa (locked_until = now)",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "web-chromium",
+                      "projectName": "web-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 21,
+                          "parallelIndex": 7,
+                          "status": "timedOut",
+                          "duration": 30074,
+                          "error": {
+                            "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                            "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                          },
+                          "errors": [
+                            {
+                              "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                            },
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts",
+                                "column": 52,
+                                "line": 27
+                              },
+                              "message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel(/Email/i)\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../pages/web/FR-02.page.ts:27\n\n\u001b[0m \u001b[90m 25 |\u001b[39m\n \u001b[90m 26 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 27 |\u001b[39m     \u001b[36mif\u001b[39m (email \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 28 |\u001b[39m     \u001b[36mif\u001b[39m (password \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\n \u001b[90m 29 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mloginButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 30 |\u001b[39m   }\u001b[0m\n\u001b[2m    at LoginPage.login (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts:27:52)\u001b[22m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:40:29\u001b[22m"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-04T08:13:06.426Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--473a7--hết-khóa-locked-until-now--web-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--473a7--hết-khóa-locked-until-now--web-chromium/error-context.md"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "0474f947f51bd449ddc2-2396290fc88585175aeb",
+                  "file": "web/FR-02.spec.ts",
+                  "line": 35,
+                  "column": 11
+                },
+                {
+                  "title": "TC23 - Biên thời gian: Đăng nhập sau khi hết khóa 1 giây (locked_until + 1 giây)",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "web-chromium",
+                      "projectName": "web-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 22,
+                          "parallelIndex": 6,
+                          "status": "timedOut",
+                          "duration": 30052,
+                          "error": {
+                            "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                            "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                          },
+                          "errors": [
+                            {
+                              "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                            },
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts",
+                                "column": 52,
+                                "line": 27
+                              },
+                              "message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel(/Email/i)\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../pages/web/FR-02.page.ts:27\n\n\u001b[0m \u001b[90m 25 |\u001b[39m\n \u001b[90m 26 |\u001b[39m   \u001b[36masync\u001b[39m login(email\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string\u001b[33m,\u001b[39m password\u001b[33m?\u001b[39m\u001b[33m:\u001b[39m string) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 27 |\u001b[39m     \u001b[36mif\u001b[39m (email \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memailInput\u001b[33m.\u001b[39mfill(email)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 28 |\u001b[39m     \u001b[36mif\u001b[39m (password \u001b[33m!==\u001b[39m undefined) \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpasswordInput\u001b[33m.\u001b[39mfill(password)\u001b[33m;\u001b[39m\n \u001b[90m 29 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mloginButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 30 |\u001b[39m   }\u001b[0m\n\u001b[2m    at LoginPage.login (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/web/FR-02.page.ts:27:52)\u001b[22m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:40:29\u001b[22m"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-04T08:13:06.546Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--ba599-1-giây-locked-until-1-giây--web-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--ba599-1-giây-locked-until-1-giây--web-chromium/error-context.md"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "0474f947f51bd449ddc2-e8d9a1ef5835c4b2685c",
+                  "file": "web/FR-02.spec.ts",
+                  "line": 35,
+                  "column": 11
+                }
+              ]
+            },
+            {
+              "title": "UI/UX Cases",
+              "file": "web/FR-02.spec.ts",
+              "line": 52,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "TC24 - Email input type attribute",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "web-chromium",
+                      "projectName": "web-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 23,
+                          "parallelIndex": 1,
+                          "status": "failed",
+                          "duration": 5212,
+                          "error": {
+                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByLabel(/Email/i)\nExpected: \u001b[32m\"email\"\u001b[39m\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByLabel(/Email/i)\u001b[22m\n",
+                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByLabel(/Email/i)\nExpected: \u001b[32m\"email\"\u001b[39m\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByLabel(/Email/i)\u001b[22m\n\n    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:58:42",
+                            "location": {
+                              "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
+                              "column": 42,
+                              "line": 58
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 56 |\u001b[39m       \n \u001b[90m 57 |\u001b[39m       \u001b[90m// Assertion Pattern 4: toHaveAttribute\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 58 |\u001b[39m       \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39memailInput)\u001b[33m.\u001b[39mtoHaveAttribute(\u001b[32m'type'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'email'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 59 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 60 |\u001b[39m\n \u001b[90m 61 |\u001b[39m     test(\u001b[32m'TC25 - Password input type attribute'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
+                                "column": 42,
+                                "line": 58
+                              },
+                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByLabel(/Email/i)\nExpected: \u001b[32m\"email\"\u001b[39m\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByLabel(/Email/i)\u001b[22m\n\n\n\u001b[0m \u001b[90m 56 |\u001b[39m       \n \u001b[90m 57 |\u001b[39m       \u001b[90m// Assertion Pattern 4: toHaveAttribute\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 58 |\u001b[39m       \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39memailInput)\u001b[33m.\u001b[39mtoHaveAttribute(\u001b[32m'type'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'email'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 59 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 60 |\u001b[39m\n \u001b[90m 61 |\u001b[39m     test(\u001b[32m'TC25 - Password input type attribute'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:58:42\u001b[22m"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-04T08:13:06.551Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--ba10d--Email-input-type-attribute-web-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--ba10d--Email-input-type-attribute-web-chromium/error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
+                            "column": 42,
+                            "line": 58
+                          }
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "0474f947f51bd449ddc2-66a7730d07682e0e8244",
+                  "file": "web/FR-02.spec.ts",
+                  "line": 53,
+                  "column": 9
+                },
+                {
+                  "title": "TC25 - Password input type attribute",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "web-chromium",
+                      "projectName": "web-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 24,
+                          "parallelIndex": 1,
+                          "status": "failed",
+                          "duration": 5207,
+                          "error": {
+                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByLabel(/password|mật khẩu/i)\nExpected: \u001b[32m\"password\"\u001b[39m\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByLabel(/password|mật khẩu/i)\u001b[22m\n",
+                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByLabel(/password|mật khẩu/i)\nExpected: \u001b[32m\"password\"\u001b[39m\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByLabel(/password|mật khẩu/i)\u001b[22m\n\n    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:65:45",
+                            "location": {
+                              "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
+                              "column": 45,
+                              "line": 65
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 63 |\u001b[39m       \u001b[36mawait\u001b[39m loginPage\u001b[33m.\u001b[39mgoto()\u001b[33m;\u001b[39m\n \u001b[90m 64 |\u001b[39m       \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 65 |\u001b[39m       \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39mpasswordInput)\u001b[33m.\u001b[39mtoHaveAttribute(\u001b[32m'type'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'password'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 66 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 67 |\u001b[39m\n \u001b[90m 68 |\u001b[39m     test(\u001b[32m'TC28 - Login page title'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
+                                "column": 45,
+                                "line": 65
+                              },
+                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByLabel(/password|mật khẩu/i)\nExpected: \u001b[32m\"password\"\u001b[39m\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByLabel(/password|mật khẩu/i)\u001b[22m\n\n\n\u001b[0m \u001b[90m 63 |\u001b[39m       \u001b[36mawait\u001b[39m loginPage\u001b[33m.\u001b[39mgoto()\u001b[33m;\u001b[39m\n \u001b[90m 64 |\u001b[39m       \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 65 |\u001b[39m       \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39mpasswordInput)\u001b[33m.\u001b[39mtoHaveAttribute(\u001b[32m'type'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'password'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 66 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 67 |\u001b[39m\n \u001b[90m 68 |\u001b[39m     test(\u001b[32m'TC28 - Login page title'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:65:45\u001b[22m"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-04T08:13:12.212Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--6bbab-ssword-input-type-attribute-web-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--6bbab-ssword-input-type-attribute-web-chromium/error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
+                            "column": 45,
+                            "line": 65
+                          }
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "0474f947f51bd449ddc2-702e9c1c17a4a5d9a7f3",
+                  "file": "web/FR-02.spec.ts",
+                  "line": 61,
+                  "column": 9
+                },
+                {
+                  "title": "TC28 - Login page title",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "web-chromium",
+                      "projectName": "web-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 25,
+                          "parallelIndex": 1,
+                          "status": "failed",
+                          "duration": 5180,
+                          "error": {
+                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('heading', { level: 1 })\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('heading', { level: 1 })\u001b[22m\n",
+                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('heading', { level: 1 })\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('heading', { level: 1 })\u001b[22m\n\n    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:72:41",
+                            "location": {
+                              "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
+                              "column": 41,
+                              "line": 72
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 70 |\u001b[39m       \u001b[36mawait\u001b[39m loginPage\u001b[33m.\u001b[39mgoto()\u001b[33m;\u001b[39m\n \u001b[90m 71 |\u001b[39m       \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 72 |\u001b[39m       \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39mpageTitle)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 73 |\u001b[39m       \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39mpageTitle)\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/Đăng Nhập/i\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 74 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 75 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
+                                "column": 41,
+                                "line": 72
+                              },
+                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('heading', { level: 1 })\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('heading', { level: 1 })\u001b[22m\n\n\n\u001b[0m \u001b[90m 70 |\u001b[39m       \u001b[36mawait\u001b[39m loginPage\u001b[33m.\u001b[39mgoto()\u001b[33m;\u001b[39m\n \u001b[90m 71 |\u001b[39m       \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 72 |\u001b[39m       \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39mpageTitle)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 73 |\u001b[39m       \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39mpageTitle)\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/Đăng Nhập/i\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 74 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 75 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:72:41\u001b[22m"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-04T08:13:17.821Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--d0384-ses-TC28---Login-page-title-web-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--d0384-ses-TC28---Login-page-title-web-chromium/error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
+                            "column": 41,
+                            "line": 72
+                          }
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "0474f947f51bd449ddc2-77c7ca709f1098bcf730",
+                  "file": "web/FR-02.spec.ts",
+                  "line": 68,
+                  "column": 9
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-08-04T08:12:03.861Z",
+    "duration": 92891.124,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 26,
+    "flaky": 0
+  }
+}
