@@ -1,41 +1,267 @@
-Error: Cannot find module '@playwright/test'
+Error: Cannot find module '../../../test-data/FR_02.data.json'
 Require stack:
-- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/playwright.config.ts
-- /home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/common/index.js
-- /home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/program.js
-- /home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/cli.js
-    at Module._resolveFilename (node:internal/modules/cjs/loader:1500:15)
-    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)
-    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)
-    at defaultResolve (node:internal/modules/cjs/loader:1146:20)
-    at nextStep (node:internal/modules/customization_hooks:189:26)
-    at resolve (/home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/common/index.js:864:19)
-    at nextStep (node:internal/modules/customization_hooks:189:26)
-    at resolveWithHooks (node:internal/modules/customization_hooks:417:10)
-    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1159:25)
-    at Module._load (node:internal/modules/cjs/loader:1285:25)
-    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
-    at Module.require (node:internal/modules/cjs/loader:1600:12)
-    at require (node:internal/modules/helpers:153:16)
-    at Object.<anonymous> (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/playwright.config.ts:1:1)
-    at Module._compile (node:internal/modules/cjs/loader:1854:14)
-    at Object.<anonymous> (node:internal/modules/cjs/loader:1985:10)
-    at Module.load (node:internal/modules/cjs/loader:1577:32)
-    at Module._load (node:internal/modules/cjs/loader:1379:12)
-    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
-    at Module.require (node:internal/modules/cjs/loader:1600:12)
-    at require (node:internal/modules/helpers:153:16)
-    at requireOrImport (/home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/common/index.js:1138:18)
-    at loadUserConfig (/home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/common/index.js:1323:52)
-    at loadConfig (/home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/common/index.js:1330:28)
-    at Object.loadConfigFromFile (/home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/common/index.js:1546:10)
-    at runTests (/home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/cli/testActions.js:46:18)
-    at _Command.<anonymous> (/home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/program.js:55:7) {
-  code: 'MODULE_NOT_FOUND',
-  requireStack: [
-    '/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/playwright.config.ts',
-    '/home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/common/index.js',
-    '/home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/program.js',
-    '/home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/cli.js'
-  ]
+- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts
+- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/node_modules/playwright/lib/common/index.js
+- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/node_modules/playwright/lib/program.js
+- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/node_modules/@playwright/test/cli.js
+
+   at web/FR-02.spec.ts:2
+
+  1 | import { test, expect } from '@playwright/test';
+> 2 | import testData from '../../../test-data/FR_02.data.json';
+    | ^
+  3 | import { LoginPage } from '../../pages/web/FR-02.page';
+  4 |
+  5 | test.describe('FR-02: Đăng nhập & Khóa tài khoản', () => {
+    at Object.<anonymous> (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:2:1)
+Error: Cannot find module '../../../test-data/FR_11.data.json'
+Require stack:
+- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-11.spec.ts
+- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/node_modules/playwright/lib/common/index.js
+- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/node_modules/playwright/lib/program.js
+- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/node_modules/@playwright/test/cli.js
+
+   at web/FR-11.spec.ts:2
+
+  1 | import { test, expect } from '@playwright/test';
+> 2 | import testData from '../../../test-data/FR_11.data.json';
+    | ^
+  3 | import { OrderHistoryPage } from '../../pages/web/FR-11.page';
+  4 |
+  5 | test.describe('FR-11: Xem lịch sử đơn hàng', () => {
+    at Object.<anonymous> (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-11.spec.ts:2:1)
+Error: Cannot find module '../../../test-data/FR_16.data.json'
+Require stack:
+- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts
+- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/node_modules/playwright/lib/common/index.js
+- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/node_modules/playwright/lib/program.js
+- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/node_modules/@playwright/test/cli.js
+
+   at admin/FR-16.spec.ts:2
+
+  1 | import { test, expect } from '@playwright/test';
+> 2 | import testData from '../../../test-data/FR_16.data.json';
+    | ^
+  3 | import { ImportProductPage } from '../../pages/admin/FR-16.page';
+  4 | import path from 'path';
+  5 | import fs from 'fs';
+    at Object.<anonymous> (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:2:1)
+Error: No tests found
+{
+  "config": {
+    "argv": [
+      "/home/giahuy/.nvm/versions/node/v24.16.0/bin/node",
+      "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/node_modules/.bin/playwright",
+      "test",
+      "--reporter=html,json,list"
+    ],
+    "configFile": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/playwright.config.ts",
+    "rootDir": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "Run by": "23127378",
+      "Project": "EShop Web Automation Testing — HW04",
+      "Timestamp": "2026-08-04T07:43:33.129Z",
+      "Environment": "Local"
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "Run by": "23127378",
+          "Project": "EShop Web Automation Testing — HW04",
+          "Timestamp": "2026-08-04T07:43:33.129Z",
+          "Environment": "Local"
+        },
+        "id": "web-chromium",
+        "name": "web-chromium",
+        "testDir": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "/tests\\/(web)\\/.*\\.spec\\.ts/"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "Run by": "23127378",
+          "Project": "EShop Web Automation Testing — HW04",
+          "Timestamp": "2026-08-04T07:43:33.129Z",
+          "Environment": "Local"
+        },
+        "id": "web-firefox",
+        "name": "web-firefox",
+        "testDir": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "/tests\\/(web)\\/.*\\.spec\\.ts/"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "Run by": "23127378",
+          "Project": "EShop Web Automation Testing — HW04",
+          "Timestamp": "2026-08-04T07:43:33.129Z",
+          "Environment": "Local"
+        },
+        "id": "web-webkit",
+        "name": "web-webkit",
+        "testDir": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "/tests\\/(web)\\/.*\\.spec\\.ts/"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "Run by": "23127378",
+          "Project": "EShop Web Automation Testing — HW04",
+          "Timestamp": "2026-08-04T07:43:33.129Z",
+          "Environment": "Local"
+        },
+        "id": "admin-chromium",
+        "name": "admin-chromium",
+        "testDir": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "/tests\\/(admin)\\/.*\\.spec\\.ts/"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "Run by": "23127378",
+          "Project": "EShop Web Automation Testing — HW04",
+          "Timestamp": "2026-08-04T07:43:33.129Z",
+          "Environment": "Local"
+        },
+        "id": "admin-firefox",
+        "name": "admin-firefox",
+        "testDir": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "/tests\\/(admin)\\/.*\\.spec\\.ts/"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "Run by": "23127378",
+          "Project": "EShop Web Automation Testing — HW04",
+          "Timestamp": "2026-08-04T07:43:33.129Z",
+          "Environment": "Local"
+        },
+        "id": "admin-webkit",
+        "name": "admin-webkit",
+        "testDir": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "/tests\\/(admin)\\/.*\\.spec\\.ts/"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html"
+      ],
+      [
+        "json"
+      ],
+      [
+        "list"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.62.1",
+    "workers": 8,
+    "webServer": null
+  },
+  "suites": [],
+  "errors": [
+    {
+      "message": "Error: Cannot find module '../../../test-data/FR_02.data.json'\nRequire stack:\n- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts\n- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/node_modules/playwright/lib/common/index.js\n- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/node_modules/playwright/lib/program.js\n- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/node_modules/@playwright/test/cli.js",
+      "stack": "Error: Cannot find module '../../../test-data/FR_02.data.json'\nRequire stack:\n- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts\n- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/node_modules/playwright/lib/common/index.js\n- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/node_modules/playwright/lib/program.js\n- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/node_modules/@playwright/test/cli.js\n    at Object.<anonymous> (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:2:1)",
+      "location": {
+        "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
+        "column": 1,
+        "line": 2
+      },
+      "snippet": "\u001b[90m   at \u001b[39mweb/FR-02.spec.ts:2\n\n  1 | import { test, expect } from '@playwright/test';\n> 2 | import testData from '../../../test-data/FR_02.data.json';\n    | ^\n  3 | import { LoginPage } from '../../pages/web/FR-02.page';\n  4 |\n  5 | test.describe('FR-02: Đăng nhập & Khóa tài khoản', () => {"
+    },
+    {
+      "message": "Error: Cannot find module '../../../test-data/FR_11.data.json'\nRequire stack:\n- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-11.spec.ts\n- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/node_modules/playwright/lib/common/index.js\n- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/node_modules/playwright/lib/program.js\n- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/node_modules/@playwright/test/cli.js",
+      "stack": "Error: Cannot find module '../../../test-data/FR_11.data.json'\nRequire stack:\n- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-11.spec.ts\n- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/node_modules/playwright/lib/common/index.js\n- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/node_modules/playwright/lib/program.js\n- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/node_modules/@playwright/test/cli.js\n    at Object.<anonymous> (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-11.spec.ts:2:1)",
+      "location": {
+        "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-11.spec.ts",
+        "column": 1,
+        "line": 2
+      },
+      "snippet": "\u001b[90m   at \u001b[39mweb/FR-11.spec.ts:2\n\n  1 | import { test, expect } from '@playwright/test';\n> 2 | import testData from '../../../test-data/FR_11.data.json';\n    | ^\n  3 | import { OrderHistoryPage } from '../../pages/web/FR-11.page';\n  4 |\n  5 | test.describe('FR-11: Xem lịch sử đơn hàng', () => {"
+    },
+    {
+      "message": "Error: Cannot find module '../../../test-data/FR_16.data.json'\nRequire stack:\n- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts\n- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/node_modules/playwright/lib/common/index.js\n- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/node_modules/playwright/lib/program.js\n- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/node_modules/@playwright/test/cli.js",
+      "stack": "Error: Cannot find module '../../../test-data/FR_16.data.json'\nRequire stack:\n- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts\n- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/node_modules/playwright/lib/common/index.js\n- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/node_modules/playwright/lib/program.js\n- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/node_modules/@playwright/test/cli.js\n    at Object.<anonymous> (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:2:1)",
+      "location": {
+        "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+        "column": 1,
+        "line": 2
+      },
+      "snippet": "\u001b[90m   at \u001b[39madmin/FR-16.spec.ts:2\n\n  1 | import { test, expect } from '@playwright/test';\n> 2 | import testData from '../../../test-data/FR_16.data.json';\n    | ^\n  3 | import { ImportProductPage } from '../../pages/admin/FR-16.page';\n  4 | import path from 'path';\n  5 | import fs from 'fs';"
+    },
+    {
+      "message": "Error: No tests found",
+      "stack": "Error: No tests found"
+    }
+  ],
+  "stats": {
+    "startTime": "2026-08-04T07:43:33.131Z",
+    "duration": 15.484999999999957,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
 }
+
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report[39m
+[36m[39m

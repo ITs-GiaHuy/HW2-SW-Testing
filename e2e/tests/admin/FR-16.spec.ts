@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import testData from '../../../test-data/FR_16.data.json';
+import testData from '../../test-data/FR_16.data.json';
 import { ImportProductPage } from '../../pages/admin/FR-16.page';
 import path from 'path';
 import fs from 'fs';

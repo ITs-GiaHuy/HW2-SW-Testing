@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import testData from '../../../test-data/FR_11.data.json';
+import testData from '../../test-data/FR_11.data.json';
 import { OrderHistoryPage } from '../../pages/web/FR-11.page';
 
 test.describe('FR-11: Xem lịch sử đơn hàng', () => {

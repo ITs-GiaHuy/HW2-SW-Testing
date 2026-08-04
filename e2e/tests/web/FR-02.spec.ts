@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import testData from '../../../test-data/FR_02.data.json';
+import testData from '../../test-data/FR_02.data.json';
 import { LoginPage } from '../../pages/web/FR-02.page';
 
 test.describe('FR-02: Đăng nhập & Khóa tài khoản', () => {
