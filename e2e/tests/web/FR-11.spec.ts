@@ -6,6 +6,16 @@ test.describe('FR-11: Xem lịch sử đơn hàng', () => {
 
   // Security Cases
   test.describe('Security Cases', () => {
+    test.beforeEach(async ({ page, request }) => {
+      const apiUrl = process.env.API_BASE_URL || 'http://127.0.0.1:3000';
+      const res = await request.post(`${apiUrl}/api/login`, { data: { email: 'test@eshop.com', password: 'Test1234!' } });
+      if (res.ok()) {
+        const body = await res.json();
+        await page.goto('/');
+        await page.evaluate((token) => localStorage.setItem('token', token), body.token);
+      }
+    });
+
     const securityCases = testData.testCases.filter(tc => tc.category === 'security');
 
     for (const tc of securityCases) {
@@ -15,7 +25,8 @@ test.describe('FR-11: Xem lịch sử đơn hàng', () => {
           if (tc.input?.authorization) {
             headers['Authorization'] = tc.input.authorization;
           }
-          const response = await request.get('/api/orders/my-orders', { headers });
+          const apiUrl = process.env.API_BASE_URL || 'http://127.0.0.1:3000';
+          const response = await request.get(`${apiUrl}/api/orders/my-orders`, { headers });
           // Assertion Pattern 1: HTTP Status code check
           expect(response.status()).toBe(tc.expected.httpStatus);
         } else {
@@ -30,6 +41,16 @@ test.describe('FR-11: Xem lịch sử đơn hàng', () => {
 
   // Positive Cases
   test.describe('Positive Cases', () => {
+    test.beforeEach(async ({ page, request }) => {
+      const apiUrl = process.env.API_BASE_URL || 'http://127.0.0.1:3000';
+      const res = await request.post(`${apiUrl}/api/login`, { data: { email: 'test@eshop.com', password: 'Test1234!' } });
+      if (res.ok()) {
+        const body = await res.json();
+        await page.goto('/');
+        await page.evaluate((token) => localStorage.setItem('token', token), body.token);
+      }
+    });
+
     const positiveCases = testData.testCases.filter(tc => tc.category === 'positive');
 
     for (const tc of positiveCases) {
@@ -52,6 +73,16 @@ test.describe('FR-11: Xem lịch sử đơn hàng', () => {
 
   // UI/UX Cases
   test.describe('UI/UX Cases', () => {
+    test.beforeEach(async ({ page, request }) => {
+      const apiUrl = process.env.API_BASE_URL || 'http://127.0.0.1:3000';
+      const res = await request.post(`${apiUrl}/api/login`, { data: { email: 'test@eshop.com', password: 'Test1234!' } });
+      if (res.ok()) {
+        const body = await res.json();
+        await page.goto('/');
+        await page.evaluate((token) => localStorage.setItem('token', token), body.token);
+      }
+    });
+
     const uiUxCases = testData.testCases.filter(tc => tc.category === 'ui_ux');
 
     for (const tc of uiUxCases) {
@@ -74,6 +105,16 @@ test.describe('FR-11: Xem lịch sử đơn hàng', () => {
 
   // Boundary Cases
   test.describe('Boundary Cases', () => {
+    test.beforeEach(async ({ page, request }) => {
+      const apiUrl = process.env.API_BASE_URL || 'http://127.0.0.1:3000';
+      const res = await request.post(`${apiUrl}/api/login`, { data: { email: 'test@eshop.com', password: 'Test1234!' } });
+      if (res.ok()) {
+        const body = await res.json();
+        await page.goto('/');
+        await page.evaluate((token) => localStorage.setItem('token', token), body.token);
+      }
+    });
+
     const boundaryCases = testData.testCases.filter(tc => tc.category === 'boundary');
 
     for (const tc of boundaryCases) {
@@ -90,6 +131,16 @@ test.describe('FR-11: Xem lịch sử đơn hàng', () => {
 
   // Functional Cases
   test.describe('Functional Cases', () => {
+    test.beforeEach(async ({ page, request }) => {
+      const apiUrl = process.env.API_BASE_URL || 'http://127.0.0.1:3000';
+      const res = await request.post(`${apiUrl}/api/login`, { data: { email: 'test@eshop.com', password: 'Test1234!' } });
+      if (res.ok()) {
+        const body = await res.json();
+        await page.goto('/');
+        await page.evaluate((token) => localStorage.setItem('token', token), body.token);
+      }
+    });
+
     const functionalCases = testData.testCases.filter(tc => tc.category === 'functional');
 
     for (const tc of functionalCases) {

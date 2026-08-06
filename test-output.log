@@ -1,0 +1,158 @@
+Error: Cannot find module '@playwright/test'
+Require stack:
+- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts
+- /home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/common/index.js
+- /home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/program.js
+- /home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/cli.js
+
+   at e2e/tests/admin/FR-16.spec.ts:1
+
+> 1 | import { test, expect } from '@playwright/test';
+    | ^
+  2 | import testData from '../../../test-data/FR_16.data.json';
+  3 | import { ImportProductPage } from '../../pages/admin/FR-16.page';
+  4 | import path from 'path';
+    at Object.<anonymous> (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:1:1)
+Error: Cannot find module '@playwright/test'
+Require stack:
+- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts
+- /home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/common/index.js
+- /home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/program.js
+- /home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/cli.js
+
+   at e2e/tests/web/FR-02.spec.ts:1
+
+> 1 | import { test, expect } from '@playwright/test';
+    | ^
+  2 | import testData from '../../../test-data/FR_02.data.json';
+  3 | import { LoginPage } from '../../pages/web/FR-02.page';
+  4 |
+    at Object.<anonymous> (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:1:1)
+Error: Cannot find module '@playwright/test'
+Require stack:
+- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-11.spec.ts
+- /home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/common/index.js
+- /home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/program.js
+- /home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/cli.js
+
+   at e2e/tests/web/FR-11.spec.ts:1
+
+> 1 | import { test, expect } from '@playwright/test';
+    | ^
+  2 | import testData from '../../../test-data/FR_11.data.json';
+  3 | import { OrderHistoryPage } from '../../pages/web/FR-11.page';
+  4 |
+    at Object.<anonymous> (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-11.spec.ts:1:1)
+Error: No tests found
+{
+  "config": {
+    "argv": [
+      "/home/giahuy/.nvm/versions/node/v24.16.0/bin/node",
+      "/home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/.bin/playwright",
+      "test",
+      "--reporter=html,json,list"
+    ],
+    "rootDir": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "",
+        "name": "",
+        "testDir": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html"
+      ],
+      [
+        "json"
+      ],
+      [
+        "list"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.62.1",
+    "workers": 8,
+    "webServer": null
+  },
+  "suites": [],
+  "errors": [
+    {
+      "message": "Error: Cannot find module '@playwright/test'\nRequire stack:\n- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts\n- /home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/common/index.js\n- /home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/program.js\n- /home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/cli.js",
+      "stack": "Error: Cannot find module '@playwright/test'\nRequire stack:\n- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts\n- /home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/common/index.js\n- /home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/program.js\n- /home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/cli.js\n    at Object.<anonymous> (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:1:1)",
+      "location": {
+        "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+        "column": 1,
+        "line": 1
+      },
+      "snippet": "\u001b[90m   at \u001b[39me2e/tests/admin/FR-16.spec.ts:1\n\n> 1 | import { test, expect } from '@playwright/test';\n    | ^\n  2 | import testData from '../../../test-data/FR_16.data.json';\n  3 | import { ImportProductPage } from '../../pages/admin/FR-16.page';\n  4 | import path from 'path';"
+    },
+    {
+      "message": "Error: Cannot find module '@playwright/test'\nRequire stack:\n- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts\n- /home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/common/index.js\n- /home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/program.js\n- /home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/cli.js",
+      "stack": "Error: Cannot find module '@playwright/test'\nRequire stack:\n- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts\n- /home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/common/index.js\n- /home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/program.js\n- /home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/cli.js\n    at Object.<anonymous> (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:1:1)",
+      "location": {
+        "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
+        "column": 1,
+        "line": 1
+      },
+      "snippet": "\u001b[90m   at \u001b[39me2e/tests/web/FR-02.spec.ts:1\n\n> 1 | import { test, expect } from '@playwright/test';\n    | ^\n  2 | import testData from '../../../test-data/FR_02.data.json';\n  3 | import { LoginPage } from '../../pages/web/FR-02.page';\n  4 |"
+    },
+    {
+      "message": "Error: Cannot find module '@playwright/test'\nRequire stack:\n- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-11.spec.ts\n- /home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/common/index.js\n- /home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/program.js\n- /home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/cli.js",
+      "stack": "Error: Cannot find module '@playwright/test'\nRequire stack:\n- /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-11.spec.ts\n- /home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/common/index.js\n- /home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/lib/program.js\n- /home/giahuy/.npm/_npx/e41f203b7505f1fb/node_modules/playwright/cli.js\n    at Object.<anonymous> (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-11.spec.ts:1:1)",
+      "location": {
+        "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-11.spec.ts",
+        "column": 1,
+        "line": 1
+      },
+      "snippet": "\u001b[90m   at \u001b[39me2e/tests/web/FR-11.spec.ts:1\n\n> 1 | import { test, expect } from '@playwright/test';\n    | ^\n  2 | import testData from '../../../test-data/FR_11.data.json';\n  3 | import { OrderHistoryPage } from '../../pages/web/FR-11.page';\n  4 |"
+    },
+    {
+      "message": "Error: No tests found",
+      "stack": "Error: No tests found"
+    }
+  ],
+  "stats": {
+    "startTime": "2026-08-04T07:42:12.986Z",
+    "duration": 151.46999999999997,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
+
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report[39m
+[36m[39m
