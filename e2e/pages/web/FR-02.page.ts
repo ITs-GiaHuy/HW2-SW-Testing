@@ -11,11 +11,11 @@ export class LoginPage {
 
   constructor(page: Page) {
     this.page = page;
-    this.emailInput = page.getByLabel(/Email/i);
-    this.passwordInput = page.getByLabel(/password|mật khẩu/i);
-    this.loginButton = page.getByRole('button', { name: /login|đăng nhập/i });
-    this.errorMessage = page.locator('.error-message, [role="alert"]');
-    this.pageTitle = page.getByRole('heading', { level: 1 });
+    this.emailInput = page.locator('input').nth(0);
+    this.passwordInput = page.locator('input').nth(1);
+    this.loginButton = page.getByRole('button', { name: /sign in/i });
+    this.errorMessage = page.locator('.text-red-700');
+    this.pageTitle = page.getByRole('heading', { level: 2 });
     this.requiredFields = page.locator('.required, [required]');
   }
 
