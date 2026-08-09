@@ -1,0 +1,534 @@
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Positive Cases > TC01 - Happy path: Đăng nhập thành công với tài khoản Admin
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Positive Cases > TC02 - Đăng nhập thành công với tài khoản User thường
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Positive Cases > TC03 - Đăng nhập thành công sau khi đã sai 1 lần
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Positive Cases > TC04 - Đăng nhập thành công sau khi đã sai 2 lần
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Positive Cases > TC05 - Đăng nhập thành công sau khi hết thời gian khóa
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Positive Cases > TC01 - Happy path: Đăng nhập thành công với tài khoản Admin
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Positive Cases > TC02 - Đăng nhập thành công với tài khoản User thường
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Positive Cases > TC03 - Đăng nhập thành công sau khi đã sai 1 lần
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Positive Cases > TC04 - Đăng nhập thành công sau khi đã sai 2 lần
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Positive Cases > TC05 - Đăng nhập thành công sau khi hết thời gian khóa
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC06 - Email không tồn tại
+Error: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC12 - Mật khẩu sai
+Error: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC14 - Mật khẩu chỉ là khoảng trắng
+Error: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC15 - Tài khoản đang bị khóa
+Error: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC16 - Tài khoản đang bị khóa (sai pass)
+Error: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC20 - Biên UB+1: Sai lần 4 (login_attempts: 3→?) — tài khoản đã bị khóa từ lần 3
+Error: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC21 - Biên thời gian: Đăng nhập ngay trước khi hết khóa (locked_until - 1 giây)
+Error: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC06 - Email không tồn tại
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC07 - Email sai format — thiếu @
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC08 - Email sai format — thiếu domain
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC09 - Email sai format — thiếu local part
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC10 - Email rỗng
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC11 - Email chỉ có khoảng trắng
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC12 - Mật khẩu sai
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC13 - Mật khẩu rỗng
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC14 - Mật khẩu chỉ là khoảng trắng
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC15 - Tài khoản đang bị khóa
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC16 - Tài khoản đang bị khóa (sai pass)
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC17 - Biên LB: Sai lần 1 (login_attempts: 0→1)
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC18 - Biên LB+1: Sai lần 2 (login_attempts: 1→2)
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC19 - Biên UB (ngưỡng khóa): Sai lần 3 (login_attempts: 2→3) — tài khoản bị KHÓA
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC20 - Biên UB+1: Sai lần 4 (login_attempts: 3→?) — tài khoản đã bị khóa từ lần 3
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC21 - Biên thời gian: Đăng nhập ngay trước khi hết khóa (locked_until - 1 giây)
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC22 - Biên thời gian: Đăng nhập ngay khi vừa hết khóa (locked_until = now)
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC23 - Biên thời gian: Đăng nhập sau khi hết khóa 1 giây (locked_until + 1 giây)
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC06 - Email không tồn tại
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC07 - Email sai format — thiếu @
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC08 - Email sai format — thiếu domain
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC09 - Email sai format — thiếu local part
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC10 - Email rỗng
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC11 - Email chỉ có khoảng trắng
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC12 - Mật khẩu sai
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC13 - Mật khẩu rỗng
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC14 - Mật khẩu chỉ là khoảng trắng
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC15 - Tài khoản đang bị khóa
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC16 - Tài khoản đang bị khóa (sai pass)
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC17 - Biên LB: Sai lần 1 (login_attempts: 0→1)
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC18 - Biên LB+1: Sai lần 2 (login_attempts: 1→2)
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC19 - Biên UB (ngưỡng khóa): Sai lần 3 (login_attempts: 2→3) — tài khoản bị KHÓA
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC20 - Biên UB+1: Sai lần 4 (login_attempts: 3→?) — tài khoản đã bị khóa từ lần 3
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC21 - Biên thời gian: Đăng nhập ngay trước khi hết khóa (locked_until - 1 giây)
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC22 - Biên thời gian: Đăng nhập ngay khi vừa hết khóa (locked_until = now)
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC23 - Biên thời gian: Đăng nhập sau khi hết khóa 1 giây (locked_until + 1 giây)
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > UI/UX Cases > TC24 - Email input type attribute
+Error: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveAttribute[2m([22m[32mexpected[39m[2m)[22m failed
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > UI/UX Cases > TC25 - Password input type attribute
+Error: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveAttribute[2m([22m[32mexpected[39m[2m)[22m failed
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > UI/UX Cases > TC28 - Login page title
+Error: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > UI/UX Cases > TC24 - Email input type attribute
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > UI/UX Cases > TC25 - Password input type attribute
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > UI/UX Cases > TC28 - Login page title
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > UI/UX Cases > TC24 - Email input type attribute
+Error: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveAttribute[2m([22m[32mexpected[39m[2m)[22m failed
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > UI/UX Cases > TC25 - Password input type attribute
+Error: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveAttribute[2m([22m[32mexpected[39m[2m)[22m failed
+
+web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > UI/UX Cases > TC28 - Login page title
+Error: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > Security Cases > TC12 - V17 — User chỉ thấy đơn của mình
+Error: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > Security Cases > TC13 - INV6 — Đơn hàng thuộc user khác không hiển thị (kiểm tra API)
+Error: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > Security Cases > TC12 - V17 — User chỉ thấy đơn của mình
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > Security Cases > TC13 - INV6 — Đơn hàng thuộc user khác không hiển thị (kiểm tra API)
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > Security Cases > TC12 - V17 — User chỉ thấy đơn của mình
+Error: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > Security Cases > TC13 - INV6 — Đơn hàng thuộc user khác không hiển thị (kiểm tra API)
+Error: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > Positive Cases > TC05 - V1, V2, V4 (LB = 1 đơn) — User có đúng 1 đơn hàng, trạng thái pending (V6), tổng tiền nhỏ (V11)
+Error: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveCount[2m([22m[32mexpected[39m[2m)[22m failed
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > Positive Cases > TC06 - V5 (LB+1 = nhiều đơn), trạng thái đa dạng (V6-V10), tổng tiền lớn (V12)
+Error: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > Positive Cases > TC05 - V1, V2, V4 (LB = 1 đơn) — User có đúng 1 đơn hàng, trạng thái pending (V6), tổng tiền nhỏ (V11)
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > Positive Cases > TC06 - V5 (LB+1 = nhiều đơn), trạng thái đa dạng (V6-V10), tổng tiền lớn (V12)
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > Positive Cases > TC14 - V3 — Admin xem lịch sử đơn hàng cá nhân
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > Positive Cases > TC05 - V1, V2, V4 (LB = 1 đơn) — User có đúng 1 đơn hàng, trạng thái pending (V6), tổng tiền nhỏ (V11)
+Error: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveCount[2m([22m[32mexpected[39m[2m)[22m failed
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > Positive Cases > TC06 - V5 (LB+1 = nhiều đơn), trạng thái đa dạng (V6-V10), tổng tiền lớn (V12)
+Error: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > UI/UX Cases > TC07 - V7 — Trạng thái confirmed + màu sắc
+Error: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveCSS[2m([22m[32mexpected[39m[2m)[22m failed
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > UI/UX Cases > TC18 - Kiểm tra thẻ <h1> duy nhất (FR-21)
+Error: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveCount[2m([22m[32mexpected[39m[2m)[22m failed
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > UI/UX Cases > TC07 - V7 — Trạng thái confirmed + màu sắc
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > UI/UX Cases > TC08 - V8 — Trạng thái shipping + màu sắc
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > UI/UX Cases > TC09 - V9 — Trạng thái delivered + màu sắc
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > UI/UX Cases > TC10 - V10 — Trạng thái canceled + màu sắc
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > UI/UX Cases > TC15 - V13 — Tổng tiền chẵn nghìn, kiểm tra ký hiệu ₫ (FR-21)
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > UI/UX Cases > TC16 - V14 — Tổng tiền lẻ, kiểm tra phân cách đầy đủ
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > UI/UX Cases > TC17 - V15, V16 — Ngày đặt hàng hiển thị đúng format
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > UI/UX Cases > TC18 - Kiểm tra thẻ <h1> duy nhất (FR-21)
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > UI/UX Cases > TC19 - Kiểm tra 5 trạng thái có 5 màu phân biệt nhau
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > UI/UX Cases > TC20 - Nhãn trạng thái pending → tiếng Việt
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > UI/UX Cases > TC21 - Nhãn trạng thái confirmed → tiếng Việt
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > UI/UX Cases > TC22 - Nhãn trạng thái shipping → tiếng Việt
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > UI/UX Cases > TC23 - Nhãn trạng thái delivered → tiếng Việt
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > UI/UX Cases > TC24 - Nhãn trạng thái canceled → tiếng Việt
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > UI/UX Cases > TC25 - Kiểm tra đầy đủ các cột theo FR-11
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > UI/UX Cases > TC07 - V7 — Trạng thái confirmed + màu sắc
+Error: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveCSS[2m([22m[32mexpected[39m[2m)[22m failed
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > UI/UX Cases > TC18 - Kiểm tra thẻ <h1> duy nhất (FR-21)
+Error: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveCount[2m([22m[32mexpected[39m[2m)[22m failed
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > Boundary Cases > TC11 - INV5 (LB-1 = 0 đơn) — Empty State
+Error: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > Boundary Cases > TC11 - INV5 (LB-1 = 0 đơn) — Empty State
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > Boundary Cases > TC11 - INV5 (LB-1 = 0 đơn) — Empty State
+Error: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > Functional Cases > TC26 - Kiểm tra thứ tự sắp xếp đơn hàng
+Error: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > Functional Cases > TC26 - Kiểm tra thứ tự sắp xếp đơn hàng
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > Functional Cases > TC26 - Kiểm tra thứ tự sắp xếp đơn hàng
+Error: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: security > TC03 - IV3: Token hợp lệ nhưng role = 'user'
+Error: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: functional > TC06 - IV9: File rỗng (0 bytes)
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: functional > TC07 - IV10: File chỉ có header, không có dòng dữ liệu
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: functional > TC09 - IV8: Không có dòng header
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: functional > TC04 - IV4: Đuôi file không phải `.csv`
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: functional > TC05 - IV4: Đuôi file `.xlsx`
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: functional > TC06 - IV9: File rỗng (0 bytes)
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: functional > TC07 - IV10: File chỉ có header, không có dòng dữ liệu
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: functional > TC08 - IV5: Header sai tên cột
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: functional > TC09 - IV8: Không có dòng header
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: functional > TC33 - Báo cáo đầy đủ khi thành công
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: functional > TC34 - Báo cáo đầy đủ khi có lỗi hỗn hợp (kiểm tra nội dung lý do)
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: functional > TC04 - IV4: Đuôi file không phải `.csv`
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: functional > TC05 - IV4: Đuôi file `.xlsx`
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: functional > TC06 - IV9: File rỗng (0 bytes)
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: functional > TC07 - IV10: File chỉ có header, không có dòng dữ liệu
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: functional > TC08 - IV5: Header sai tên cột
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: functional > TC09 - IV8: Không có dòng header
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: functional > TC33 - Báo cáo đầy đủ khi thành công
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: functional > TC34 - Báo cáo đầy đủ khi có lỗi hỗn hợp (kiểm tra nội dung lý do)
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: boundary > TC10 - V6 + Biên LB: `name` = 1 ký tự
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: boundary > TC11 - V6 + Biên UB: `name` = 255 ký tự
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: boundary > TC14 - IV13 + Biên UB+1: `name` = 256 ký tự
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: boundary > TC15 - V7 + Biên LB: `price` = giá trị dương nhỏ nhất (0.01)
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: boundary > TC17 - V7 + Biên LB: `price` = 1
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: boundary > TC18 - IV14 + Biên LB-1: `price` = 0
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: boundary > TC35 - V5 + Biên LB: File chỉ có 1 dòng dữ liệu hợp lệ
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: boundary > TC43 - `price` là số dương rất lớn
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: boundary > TC10 - V6 + Biên LB: `name` = 1 ký tự
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: boundary > TC11 - V6 + Biên UB: `name` = 255 ký tự
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: boundary > TC14 - IV13 + Biên UB+1: `name` = 256 ký tự
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: boundary > TC15 - V7 + Biên LB: `price` = giá trị dương nhỏ nhất (0.01)
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: boundary > TC17 - V7 + Biên LB: `price` = 1
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: boundary > TC18 - IV14 + Biên LB-1: `price` = 0
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: boundary > TC35 - V5 + Biên LB: File chỉ có 1 dòng dữ liệu hợp lệ
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: boundary > TC43 - `price` là số dương rất lớn
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: negative > TC12 - IV11: `name` rỗng (chuỗi trống)
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: negative > TC13 - IV12: `name` chỉ chứa khoảng trắng
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: negative > TC19 - IV15: `price` = số âm
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: negative > TC20 - IV16: `price` rỗng
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: negative > TC21 - IV17: `price` là chuỗi ký tự
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: negative > TC23 - IV18: `category_id` không tồn tại
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: negative > TC24 - IV19: `category_id` rỗng
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: negative > TC25 - IV20: `category_id` không phải số
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: negative > TC28 - IV21: Trường description chứa dấu phẩy, KHÔNG bọc nháy kép
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: negative > TC12 - IV11: `name` rỗng (chuỗi trống)
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: negative > TC13 - IV12: `name` chỉ chứa khoảng trắng
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: negative > TC19 - IV15: `price` = số âm
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: negative > TC20 - IV16: `price` rỗng
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: negative > TC21 - IV17: `price` là chuỗi ký tự
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: negative > TC23 - IV18: `category_id` không tồn tại
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: negative > TC24 - IV19: `category_id` rỗng
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: negative > TC25 - IV20: `category_id` không phải số
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: negative > TC28 - IV21: Trường description chứa dấu phẩy, KHÔNG bọc nháy kép
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: positive > TC16 - V7: `price` = số dương bình thường
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: positive > TC22 - V8: `category_id` tồn tại trong hệ thống
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: positive > TC26 - V9: Trường description chứa dấu phẩy, bọc nháy kép
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: positive > TC27 - V9: Trường name chứa dấu phẩy, bọc nháy kép
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: positive > TC36 - Trường `description` và `imageUrl` rỗng (tùy chọn)
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: positive > TC37 - Nhiều dòng hợp lệ (10 dòng)
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: positive > TC38 - Tên sản phẩm chứa ký tự Unicode/Tiếng Việt
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: positive > TC39 - `price` là số thập phân hợp lệ
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: positive > TC16 - V7: `price` = số dương bình thường
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: positive > TC22 - V8: `category_id` tồn tại trong hệ thống
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: positive > TC26 - V9: Trường description chứa dấu phẩy, bọc nháy kép
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: positive > TC27 - V9: Trường name chứa dấu phẩy, bọc nháy kép
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: positive > TC36 - Trường `description` và `imageUrl` rỗng (tùy chọn)
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: positive > TC37 - Nhiều dòng hợp lệ (10 dòng)
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: positive > TC38 - Tên sản phẩm chứa ký tự Unicode/Tiếng Việt
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: positive > TC39 - `price` là số thập phân hợp lệ
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: transaction > TC29 - V10: Tất cả dòng hợp lệ — import thành công
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: transaction > TC30 - IV22: Dòng đầu hợp lệ, dòng giữa lỗi (name rỗng) — rollback
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: transaction > TC31 - IV22: Dòng đầu hợp lệ, dòng cuối lỗi (price âm) — rollback
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: transaction > TC32 - IV22: Tất cả dòng đều lỗi
+Error: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: transaction > TC29 - V10: Tất cả dòng hợp lệ — import thành công
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: transaction > TC30 - IV22: Dòng đầu hợp lệ, dòng giữa lỗi (name rỗng) — rollback
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: transaction > TC31 - IV22: Dòng đầu hợp lệ, dòng cuối lỗi (price âm) — rollback
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
+admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: transaction > TC32 - IV22: Tất cả dòng đều lỗi
+Error: [31mTest timeout of 30000ms exceeded.[39m
+
