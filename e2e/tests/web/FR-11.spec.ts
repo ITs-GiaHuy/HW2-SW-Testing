@@ -4,19 +4,19 @@ import { OrderHistoryPage } from '../../pages/web/FR-11.page';
 
 test.describe('FR-11: Xem lịch sử đơn hàng', () => {
 
+  const setupLogin = async (page: any, request: any, email = 'test@eshop.com', password = 'Test1234!') => {
+    const apiUrl = process.env.API_BASE_URL || 'http://127.0.0.1:3000';
+    const res = await request.post(`${apiUrl}/api/login`, { data: { email, password } });
+    if (res.ok()) {
+      const body = await res.json();
+      await page.goto('/');
+      await page.evaluate((token: string) => localStorage.setItem('token', token), body.token);
+    }
+  };
+
   // Security Cases
   test.describe('Security Cases', () => {
-    test.beforeEach(async ({ page, request }) => {
-      const apiUrl = process.env.API_BASE_URL || 'http://127.0.0.1:3000';
-      const res = await request.post(`${apiUrl}/api/login`, { data: { email: 'test@eshop.com', password: 'Test1234!' } });
-      if (res.ok()) {
-        const body = await res.json();
-        await page.goto('/');
-        await page.evaluate((token) => localStorage.setItem('token', token), body.token);
-      }
-    });
-
-    const securityCases = testData.testCases.filter(tc => tc.category === 'security');
+    const securityCases = testData.testCases.filter((tc: any) => tc.category === 'security');
 
     for (const tc of securityCases) {
       test(`${tc.id} - ${tc.title}`, async ({ page, request }) => {
@@ -29,7 +29,16 @@ test.describe('FR-11: Xem lịch sử đơn hàng', () => {
           const response = await request.get(`${apiUrl}/api/orders/my-orders`, { headers });
           // Assertion Pattern 1: HTTP Status code check
           expect(response.status()).toBe(tc.expected.httpStatus);
+        } else if (tc.id === 'TC12' || tc.id === 'TC13') {
+          // Security checks for cross-user order visibility
+          await setupLogin(page, request, 'admin@eshop.com', 'Admin123!');
+          const orderPage = new OrderHistoryPage(page);
+          await orderPage.goto();
+          await expect(orderPage.pageTitle).toBeVisible();
+          // Admin shouldn't see test@eshop.com's orders
+          await expect(orderPage.emptyStateMessage).toBeVisible();
         } else {
+          await setupLogin(page, request);
           const orderPage = new OrderHistoryPage(page);
           await orderPage.goto();
           // Assertion Pattern 2: Visibility check
@@ -41,26 +50,23 @@ test.describe('FR-11: Xem lịch sử đơn hàng', () => {
 
   // Positive Cases
   test.describe('Positive Cases', () => {
-    test.beforeEach(async ({ page, request }) => {
-      const apiUrl = process.env.API_BASE_URL || 'http://127.0.0.1:3000';
-      const res = await request.post(`${apiUrl}/api/login`, { data: { email: 'test@eshop.com', password: 'Test1234!' } });
-      if (res.ok()) {
-        const body = await res.json();
-        await page.goto('/');
-        await page.evaluate((token) => localStorage.setItem('token', token), body.token);
-      }
-    });
-
-    const positiveCases = testData.testCases.filter(tc => tc.category === 'positive');
+    const positiveCases = testData.testCases.filter((tc: any) => tc.category === 'positive');
 
     for (const tc of positiveCases) {
-      test(`${tc.id} - ${tc.title}`, async ({ page }) => {
+      test(`${tc.id} - ${tc.title}`, async ({ page, request }) => {
+        if (tc.id === 'TC14') {
+          await setupLogin(page, request, 'admin@eshop.com', 'Admin123!');
+        } else {
+          await setupLogin(page, request);
+        }
+
         const orderPage = new OrderHistoryPage(page);
         await orderPage.goto();
         
         // Assertion Pattern 3: Count check
         if (tc.id === 'TC05') {
-          await expect(orderPage.orderRows).toHaveCount(2); // Header + 1 row
+          // Seeded DB has 5 orders for test@eshop.com
+          await expect(orderPage.orderRows).toHaveCount(6); // Header + 5 rows
         }
         
         // Assertion Pattern 4: Text Content check
@@ -73,20 +79,11 @@ test.describe('FR-11: Xem lịch sử đơn hàng', () => {
 
   // UI/UX Cases
   test.describe('UI/UX Cases', () => {
-    test.beforeEach(async ({ page, request }) => {
-      const apiUrl = process.env.API_BASE_URL || 'http://127.0.0.1:3000';
-      const res = await request.post(`${apiUrl}/api/login`, { data: { email: 'test@eshop.com', password: 'Test1234!' } });
-      if (res.ok()) {
-        const body = await res.json();
-        await page.goto('/');
-        await page.evaluate((token) => localStorage.setItem('token', token), body.token);
-      }
-    });
-
-    const uiUxCases = testData.testCases.filter(tc => tc.category === 'ui_ux');
+    const uiUxCases = testData.testCases.filter((tc: any) => tc.category === 'ui_ux');
 
     for (const tc of uiUxCases) {
-      test(`${tc.id} - ${tc.title}`, async ({ page }) => {
+      test(`${tc.id} - ${tc.title}`, async ({ page, request }) => {
+        await setupLogin(page, request);
         const orderPage = new OrderHistoryPage(page);
         await orderPage.goto();
 
@@ -105,20 +102,17 @@ test.describe('FR-11: Xem lịch sử đơn hàng', () => {
 
   // Boundary Cases
   test.describe('Boundary Cases', () => {
-    test.beforeEach(async ({ page, request }) => {
-      const apiUrl = process.env.API_BASE_URL || 'http://127.0.0.1:3000';
-      const res = await request.post(`${apiUrl}/api/login`, { data: { email: 'test@eshop.com', password: 'Test1234!' } });
-      if (res.ok()) {
-        const body = await res.json();
-        await page.goto('/');
-        await page.evaluate((token) => localStorage.setItem('token', token), body.token);
-      }
-    });
-
-    const boundaryCases = testData.testCases.filter(tc => tc.category === 'boundary');
+    const boundaryCases = testData.testCases.filter((tc: any) => tc.category === 'boundary');
 
     for (const tc of boundaryCases) {
-      test(`${tc.id} - ${tc.title}`, async ({ page }) => {
+      test(`${tc.id} - ${tc.title}`, async ({ page, request }) => {
+        if (tc.id === 'TC11') {
+          // Log in as a user with 0 orders (admin) to check empty state
+          await setupLogin(page, request, 'admin@eshop.com', 'Admin123!');
+        } else {
+          await setupLogin(page, request);
+        }
+
         const orderPage = new OrderHistoryPage(page);
         await orderPage.goto();
 
@@ -131,20 +125,11 @@ test.describe('FR-11: Xem lịch sử đơn hàng', () => {
 
   // Functional Cases
   test.describe('Functional Cases', () => {
-    test.beforeEach(async ({ page, request }) => {
-      const apiUrl = process.env.API_BASE_URL || 'http://127.0.0.1:3000';
-      const res = await request.post(`${apiUrl}/api/login`, { data: { email: 'test@eshop.com', password: 'Test1234!' } });
-      if (res.ok()) {
-        const body = await res.json();
-        await page.goto('/');
-        await page.evaluate((token) => localStorage.setItem('token', token), body.token);
-      }
-    });
-
-    const functionalCases = testData.testCases.filter(tc => tc.category === 'functional');
+    const functionalCases = testData.testCases.filter((tc: any) => tc.category === 'functional');
 
     for (const tc of functionalCases) {
-      test(`${tc.id} - ${tc.title}`, async ({ page }) => {
+      test(`${tc.id} - ${tc.title}`, async ({ page, request }) => {
+        await setupLogin(page, request);
         const orderPage = new OrderHistoryPage(page);
         await orderPage.goto();
         await expect(orderPage.orderTable).toBeVisible();
