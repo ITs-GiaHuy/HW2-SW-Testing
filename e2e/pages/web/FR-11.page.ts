@@ -12,7 +12,7 @@ export class OrderHistoryPage {
     this.pageTitle = page.getByRole('heading', { level: 1 });
     this.orderTable = page.getByRole('table');
     this.orderRows = page.getByRole('row');
-    this.emptyStateMessage = page.locator('.empty-state, [role="alert"]');
+    this.emptyStateMessage = page.getByText(/chưa có đơn hàng/i);
   }
 
   async goto() {

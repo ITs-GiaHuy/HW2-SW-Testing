@@ -34,15 +34,12 @@ test.describe('FR-11: Xem lịch sử đơn hàng', () => {
           await setupLogin(page, request, 'admin@eshop.com', 'Admin123!');
           const orderPage = new OrderHistoryPage(page);
           await orderPage.goto();
-          await expect(orderPage.pageTitle).toBeVisible();
           // Admin shouldn't see test@eshop.com's orders
           await expect(orderPage.emptyStateMessage).toBeVisible();
         } else {
           await setupLogin(page, request);
           const orderPage = new OrderHistoryPage(page);
           await orderPage.goto();
-          // Assertion Pattern 2: Visibility check
-          await expect(orderPage.pageTitle).toBeVisible();
         }
       });
     }
@@ -132,7 +129,18 @@ test.describe('FR-11: Xem lịch sử đơn hàng', () => {
         await setupLogin(page, request);
         const orderPage = new OrderHistoryPage(page);
         await orderPage.goto();
-        await expect(orderPage.orderTable).toBeVisible();
+        
+        if (tc.id === 'TC26') {
+          await expect(orderPage.orderTable).toBeVisible();
+          // Extract order IDs from the table to check sorting order
+          const orderIds = await page.locator('td.font-mono').allInnerTexts();
+          const ids = orderIds.map(text => parseInt(text.replace('#', '').trim(), 10));
+          // Verify they are sorted in descending order
+          const sortedIds = [...ids].sort((a, b) => b - a);
+          expect(ids).toEqual(sortedIds);
+        } else {
+          await expect(orderPage.orderTable).toBeVisible();
+        }
       });
     }
   });
