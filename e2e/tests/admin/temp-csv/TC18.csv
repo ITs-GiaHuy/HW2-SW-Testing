@@ -1,2 +1,2 @@
-name,price,description,imageUrl,category_id
-Test Product,100,Test,,1
+name,price,category_id
+SP Test,0,1
