@@ -1,10 +1,14 @@
 # HW04 - EShop Automation Testing
 
-**Author:** [giahuy] (23127378)
+**Author:** [Gia Huy] (23127378)
+
 **Exercise:** HW04-AI_Automation_100
+
 **Repository:** [https://github.com/ITs-GiaHuy/HW2-SW-Testing](https://github.com/ITs-GiaHuy/HW2-SW-Testing)
-**Demo Video:** <!-- TODO: Insert your unlisted YouTube demo video link here -->
-**Agent Skill Demo Video:** <!-- TODO: Insert your YouTube Agent Skill demo video link here -->
+
+**Demo Video:** [YouTube demo video link](https://youtu.be/IBK5GIqO7x8?si=AnI1zI7UHMERykDM)
+
+**Agent Skill Demo Video:** [Video Agent skill](https://youtu.be/Qq7fFlYK4nI?si=fAlhgc6huoHsyqHm)
 
 ## Self-Assessment Table
 

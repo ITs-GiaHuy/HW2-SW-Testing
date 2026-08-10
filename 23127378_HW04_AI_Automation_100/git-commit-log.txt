@@ -1,77 +1,19 @@
-commit 15ff540c5cf67e6d1e303236cbb37f3c5b9e41ac
-Author: Its-GiaHuy <giahuytechie@gmail.com>
-Date:   Sun Aug 9 20:59:08 2026 +0700
-
-    fix: by pass ui test
-
-commit e9b3f2899611c87147ce2b27213605141801c72a
-Author: Its-GiaHuy <giahuytechie@gmail.com>
-Date:   Sun Aug 9 20:35:26 2026 +0700
-
-    fix: tsconfig
-
-commit 0e88c085e70b76b1d84e880a8c0a8bd843577bb6
-Author: Its-GiaHuy <giahuytechie@gmail.com>
-Date:   Sun Aug 9 19:51:52 2026 +0700
-
-    fix: env and data setup
-
-commit 50ae4428c35e49a659cc1147446c84fc05ea3fe0
-Author: Its-GiaHuy <giahuytechie@gmail.com>
-Date:   Sun Aug 9 19:45:37 2026 +0700
-
-    fix FR-16 spect
-
-commit 0f0172db264eef219efbde5227bed66f0c207bf1
-Author: Its-GiaHuy <giahuytechie@gmail.com>
-Date:   Sat Aug 8 16:14:22 2026 +0700
-
-    fix: FR-16.spect ivalid import
-
-commit 1ac09ac5ff3685459232b8bb91ccb96bb8abada6
-Author: Its-GiaHuy <giahuytechie@gmail.com>
-Date:   Sat Aug 8 15:55:09 2026 +0700
-
-    test(e2e): update FR-02 login locators to match frontend DOM
-
-commit 089cffb1338ffcde860ba345ab9f5c065c989d2e
-Author: Its-GiaHuy <giahuytechie@gmail.com>
-Date:   Thu Aug 6 23:00:34 2026 +0700
-
-    test: add login step to FR11 test script
-
-commit 85dec2bf41c7389c5e88e6e192ad1f950b811f97
-Author: Its-GiaHuy <giahuytechie@gmail.com>
-Date:   Tue Aug 4 15:38:21 2026 +0700
-
-    test(e2e): fix FR-16 script execution and playwright local connection
-
-commit 5b1143be1d97a996f70a1e1676bd7e87179ae7af
-Author: Its-GiaHuy <giahuytechie@gmail.com>
-Date:   Tue Aug 4 15:17:40 2026 +0700
-
-    fix invalid path in test script
-
-commit b68391124faf38012dd1a19955962b0f1241a604
-Author: Its-GiaHuy <giahuytechie@gmail.com>
-Date:   Tue Aug 4 14:45:23 2026 +0700
-
-    fix: wrong relative path
-
-commit e660f5e9e046e4af726a6863ac9081e4eef26364
-Author: Its-GiaHuy <giahuytechie@gmail.com>
-Date:   Tue Aug 4 14:42:03 2026 +0700
-
-    feat: test script
-
-commit 3263baee3e407588cd81f06b7a4172a2774f6c2a
-Author: Its-GiaHuy <giahuytechie@gmail.com>
-Date:   Tue Aug 4 14:40:34 2026 +0700
-
-    agent: skill for homework
-
-commit c8addb06dfd891d3863630b1d656cf271a7d1f3e
-Author: Its-GiaHuy <giahuytechie@gmail.com>
-Date:   Tue Aug 4 12:13:08 2026 +0700
-
-    init: start homeword 04
+[2019d3a] 2026-08-10 19:25:12 +0700 | Its-GiaHuy | modify report
+[b3f70ea] 2026-08-10 19:24:54 +0700 | Its-GiaHuy | final
+[9c94f6c] 2026-08-10 13:52:09 +0700 | Its-GiaHuy | multi browser report
+[4c3a229] 2026-08-10 12:10:38 +0700 | Its-GiaHuy | fix paralell
+[1dd49c8] 2026-08-10 11:47:26 +0700 | Its-GiaHuy | add report
+[d9d7fc9] 2026-08-10 11:47:09 +0700 | Its-GiaHuy | add report
+[15ff540] 2026-08-09 20:59:08 +0700 | Its-GiaHuy | fix: by pass ui test
+[e9b3f28] 2026-08-09 20:35:26 +0700 | Its-GiaHuy | fix: tsconfig
+[0e88c08] 2026-08-09 19:51:52 +0700 | Its-GiaHuy | fix: env and data setup
+[50ae442] 2026-08-09 19:45:37 +0700 | Its-GiaHuy | fix FR-16 spect
+[0f0172d] 2026-08-08 16:14:22 +0700 | Its-GiaHuy | fix: FR-16.spect ivalid import
+[1ac09ac] 2026-08-08 15:55:09 +0700 | Its-GiaHuy | test(e2e): update FR-02 login locators to match frontend DOM
+[089cffb] 2026-08-06 23:00:34 +0700 | Its-GiaHuy | test: add login step to FR11 test script
+[85dec2b] 2026-08-04 15:38:21 +0700 | Its-GiaHuy | test(e2e): fix FR-16 script execution and playwright local connection
+[5b1143b] 2026-08-04 15:17:40 +0700 | Its-GiaHuy | fix invalid path in test script
+[b683911] 2026-08-04 14:45:23 +0700 | Its-GiaHuy | fix: wrong relative path
+[e660f5e] 2026-08-04 14:42:03 +0700 | Its-GiaHuy | feat: test script
+[3263bae] 2026-08-04 14:40:34 +0700 | Its-GiaHuy | agent: skill for homework
+[c8addb0] 2026-08-04 12:13:08 +0700 | Its-GiaHuy | init: start homeword 04
