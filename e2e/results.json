@@ -4,16 +4,15 @@
       "/home/giahuy/.nvm/versions/node/v24.16.0/bin/node",
       "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/node_modules/.bin/playwright",
       "test",
-      "FR-02.spec.ts",
-      "--project=web-webkit",
-      "--workers=1"
+      "FR-16.spec.ts",
+      "--project=admin-chromium"
     ],
     "configFile": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/playwright.config.ts",
     "rootDir": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests",
     "failOnFlakyTests": false,
     "forbidOnly": false,
     "fullyParallel": true,
-    "globalSetup": null,
+    "globalSetup": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/global-setup.ts",
     "globalTeardown": null,
     "globalTimeout": 0,
     "grep": {},
@@ -22,9 +21,9 @@
     "metadata": {
       "Run by": "23127378 - Nguyễn Gia Huy",
       "Project": "EShop Web Automation Testing — HW04",
-      "Timestamp": "2026-08-10T04:37:31.474Z",
+      "Timestamp": "2026-08-10T05:02:32.226Z",
       "Environment": "Local",
-      "actualWorkers": 1
+      "actualWorkers": 8
     },
     "preserveOutput": "always",
     "projects": [
@@ -35,9 +34,9 @@
         "metadata": {
           "Run by": "23127378 - Nguyễn Gia Huy",
           "Project": "EShop Web Automation Testing — HW04",
-          "Timestamp": "2026-08-10T04:37:31.474Z",
+          "Timestamp": "2026-08-10T05:02:32.226Z",
           "Environment": "Local",
-          "actualWorkers": 1
+          "actualWorkers": 8
         },
         "id": "web-chromium",
         "name": "web-chromium",
@@ -55,9 +54,9 @@
         "metadata": {
           "Run by": "23127378 - Nguyễn Gia Huy",
           "Project": "EShop Web Automation Testing — HW04",
-          "Timestamp": "2026-08-10T04:37:31.474Z",
+          "Timestamp": "2026-08-10T05:02:32.226Z",
           "Environment": "Local",
-          "actualWorkers": 1
+          "actualWorkers": 8
         },
         "id": "web-firefox",
         "name": "web-firefox",
@@ -75,9 +74,9 @@
         "metadata": {
           "Run by": "23127378 - Nguyễn Gia Huy",
           "Project": "EShop Web Automation Testing — HW04",
-          "Timestamp": "2026-08-10T04:37:31.474Z",
+          "Timestamp": "2026-08-10T05:02:32.226Z",
           "Environment": "Local",
-          "actualWorkers": 1
+          "actualWorkers": 8
         },
         "id": "web-webkit",
         "name": "web-webkit",
@@ -95,9 +94,9 @@
         "metadata": {
           "Run by": "23127378 - Nguyễn Gia Huy",
           "Project": "EShop Web Automation Testing — HW04",
-          "Timestamp": "2026-08-10T04:37:31.474Z",
+          "Timestamp": "2026-08-10T05:02:32.226Z",
           "Environment": "Local",
-          "actualWorkers": 1
+          "actualWorkers": 8
         },
         "id": "admin-chromium",
         "name": "admin-chromium",
@@ -115,9 +114,9 @@
         "metadata": {
           "Run by": "23127378 - Nguyễn Gia Huy",
           "Project": "EShop Web Automation Testing — HW04",
-          "Timestamp": "2026-08-10T04:37:31.474Z",
+          "Timestamp": "2026-08-10T05:02:32.226Z",
           "Environment": "Local",
-          "actualWorkers": 1
+          "actualWorkers": 8
         },
         "id": "admin-firefox",
         "name": "admin-firefox",
@@ -135,9 +134,9 @@
         "metadata": {
           "Run by": "23127378 - Nguyễn Gia Huy",
           "Project": "EShop Web Automation Testing — HW04",
-          "Timestamp": "2026-08-10T04:37:31.474Z",
+          "Timestamp": "2026-08-10T05:02:32.226Z",
           "Environment": "Local",
-          "actualWorkers": 1
+          "actualWorkers": 8
         },
         "id": "admin-webkit",
         "name": "admin-webkit",
@@ -179,32 +178,32 @@
     "updateSnapshots": "missing",
     "updateSourceMethod": "patch",
     "version": "1.62.1",
-    "workers": 1,
+    "workers": 8,
     "webServer": null
   },
   "suites": [
     {
-      "title": "web/FR-02.spec.ts",
-      "file": "web/FR-02.spec.ts",
+      "title": "admin/FR-16.spec.ts",
+      "file": "admin/FR-16.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
-          "title": "FR-02: Đăng nhập & Khóa tài khoản",
-          "file": "web/FR-02.spec.ts",
-          "line": 5,
+          "title": "FR-16: Import Sản phẩm từ CSV",
+          "file": "admin/FR-16.spec.ts",
+          "line": 7,
           "column": 6,
           "specs": [],
           "suites": [
             {
-              "title": "Positive Cases",
-              "file": "web/FR-02.spec.ts",
-              "line": 7,
-              "column": 8,
+              "title": "Category: security",
+              "file": "admin/FR-16.spec.ts",
+              "line": 19,
+              "column": 10,
               "specs": [
                 {
-                  "title": "TC01 - Happy path: Đăng nhập thành công với tài khoản Admin",
+                  "title": "TC01 - IV1: Không gửi JWT Token",
                   "ok": true,
                   "tags": [],
                   "tests": [
@@ -212,19 +211,19 @@
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "web-webkit",
-                      "projectName": "web-webkit",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
                       "results": [
                         {
                           "workerIndex": 0,
                           "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 2604,
+                          "duration": 156,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T04:37:31.756Z",
+                          "startTime": "2026-08-10T05:02:32.917Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -232,13 +231,47 @@
                       "status": "expected"
                     }
                   ],
-                  "id": "0474f947f51bd449ddc2-48e42f822e5551859b31",
-                  "file": "web/FR-02.spec.ts",
-                  "line": 11,
-                  "column": 11
+                  "id": "86e0c931955a281b23d4-7cb0b6cce40b0e9446da",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
                 },
                 {
-                  "title": "TC02 - Đăng nhập thành công với tài khoản User thường",
+                  "title": "TC02 - IV2: Token JWT không hợp lệ",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 116,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:02:33.309Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-1dc2fdadce8e39bec154",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                },
+                {
+                  "title": "TC03 - IV3: Token hợp lệ nhưng role = 'user'",
                   "ok": false,
                   "tags": [],
                   "tests": [
@@ -246,178 +279,144 @@
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "web-webkit",
-                      "projectName": "web-webkit",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
                       "results": [
                         {
                           "workerIndex": 0,
                           "parallelIndex": 0,
                           "status": "failed",
-                          "duration": 5526,
+                          "duration": 153,
                           "error": {
-                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"http://127.0.0.1:5173/\"\u001b[39m\nReceived: \u001b[31m\"http://127.0.0.1:5173/\u001b[7mlogin\u001b[27m\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveURL\" with timeout 5000ms\u001b[22m\n\u001b[2m    14 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m       - unexpected value \"http://127.0.0.1:5173/login\"\u001b[22m\n",
-                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"http://127.0.0.1:5173/\"\u001b[39m\nReceived: \u001b[31m\"http://127.0.0.1:5173/\u001b[7mlogin\u001b[27m\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveURL\" with timeout 5000ms\u001b[22m\n\u001b[2m    14 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m       - unexpected value \"http://127.0.0.1:5173/login\"\u001b[22m\n\n    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:19:30",
+                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m403\u001b[39m\nReceived: \u001b[31m200\u001b[39m",
+                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m403\u001b[39m\nReceived: \u001b[31m200\u001b[39m\n    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:59:41",
                             "location": {
-                              "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
-                              "column": 30,
-                              "line": 19
+                              "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                              "column": 41,
+                              "line": 59
                             },
-                            "snippet": "\u001b[0m \u001b[90m 17 |\u001b[39m         \u001b[90m// Assertion Pattern 1: toHaveURL\u001b[39m\n \u001b[90m 18 |\u001b[39m         \u001b[36mif\u001b[39m (tc\u001b[33m.\u001b[39mexpected\u001b[33m?\u001b[39m\u001b[33m.\u001b[39mredirect) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 19 |\u001b[39m           \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mredirect)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 20 |\u001b[39m         }\n \u001b[90m 21 |\u001b[39m         \n \u001b[90m 22 |\u001b[39m         \u001b[90m// Assertion Pattern 2: toBeVisible\u001b[39m\u001b[0m"
+                            "snippet": "\u001b[0m \u001b[90m 57 |\u001b[39m             \n \u001b[90m 58 |\u001b[39m             \u001b[36mif\u001b[39m (tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 59 |\u001b[39m               expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 60 |\u001b[39m             }\n \u001b[90m 61 |\u001b[39m             \u001b[36mreturn\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 62 |\u001b[39m           }\u001b[0m"
                           },
                           "errors": [
                             {
                               "location": {
-                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
-                                "column": 30,
-                                "line": 19
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                                "column": 41,
+                                "line": 59
                               },
-                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"http://127.0.0.1:5173/\"\u001b[39m\nReceived: \u001b[31m\"http://127.0.0.1:5173/\u001b[7mlogin\u001b[27m\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveURL\" with timeout 5000ms\u001b[22m\n\u001b[2m    14 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m       - unexpected value \"http://127.0.0.1:5173/login\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 17 |\u001b[39m         \u001b[90m// Assertion Pattern 1: toHaveURL\u001b[39m\n \u001b[90m 18 |\u001b[39m         \u001b[36mif\u001b[39m (tc\u001b[33m.\u001b[39mexpected\u001b[33m?\u001b[39m\u001b[33m.\u001b[39mredirect) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 19 |\u001b[39m           \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mredirect)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 20 |\u001b[39m         }\n \u001b[90m 21 |\u001b[39m         \n \u001b[90m 22 |\u001b[39m         \u001b[90m// Assertion Pattern 2: toBeVisible\u001b[39m\u001b[0m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:19:30\u001b[22m"
+                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m403\u001b[39m\nReceived: \u001b[31m200\u001b[39m\n\n\u001b[0m \u001b[90m 57 |\u001b[39m             \n \u001b[90m 58 |\u001b[39m             \u001b[36mif\u001b[39m (tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 59 |\u001b[39m               expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 60 |\u001b[39m             }\n \u001b[90m 61 |\u001b[39m             \u001b[36mreturn\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 62 |\u001b[39m           }\u001b[0m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:59:41\u001b[22m"
                             }
                           ],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T04:37:34.458Z",
+                          "startTime": "2026-08-10T05:02:33.439Z",
                           "annotations": [],
                           "attachments": [
                             {
                               "name": "screenshot",
                               "contentType": "image/png",
-                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--6debf-g-với-tài-khoản-User-thường-web-webkit/test-failed-1.png"
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-d5d7d-ken-hợp-lệ-nhưng-role-user--admin-chromium/test-failed-1.png"
                             },
                             {
                               "name": "error-context",
                               "contentType": "text/markdown",
-                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--6debf-g-với-tài-khoản-User-thường-web-webkit/error-context.md"
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-d5d7d-ken-hợp-lệ-nhưng-role-user--admin-chromium/error-context.md"
                             }
                           ],
                           "errorLocation": {
-                            "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
-                            "column": 30,
-                            "line": 19
+                            "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                            "column": 41,
+                            "line": 59
                           }
                         }
                       ],
                       "status": "unexpected"
                     }
                   ],
-                  "id": "0474f947f51bd449ddc2-40b7ff38c5d97848e9e4",
-                  "file": "web/FR-02.spec.ts",
-                  "line": 11,
-                  "column": 11
-                },
-                {
-                  "title": "TC03 - Đăng nhập thành công sau khi đã sai 1 lần",
-                  "ok": true,
-                  "tags": [],
-                  "tests": [
-                    {
-                      "timeout": 30000,
-                      "annotations": [],
-                      "expectedStatus": "passed",
-                      "projectId": "web-webkit",
-                      "projectName": "web-webkit",
-                      "results": [
-                        {
-                          "workerIndex": 1,
-                          "parallelIndex": 0,
-                          "status": "passed",
-                          "duration": 2550,
-                          "errors": [],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 0,
-                          "startTime": "2026-08-10T04:37:40.287Z",
-                          "annotations": [],
-                          "attachments": []
-                        }
-                      ],
-                      "status": "expected"
-                    }
-                  ],
-                  "id": "0474f947f51bd449ddc2-e42481bcebe469fc66ae",
-                  "file": "web/FR-02.spec.ts",
-                  "line": 11,
-                  "column": 11
-                },
-                {
-                  "title": "TC04 - Đăng nhập thành công sau khi đã sai 2 lần",
-                  "ok": true,
-                  "tags": [],
-                  "tests": [
-                    {
-                      "timeout": 30000,
-                      "annotations": [],
-                      "expectedStatus": "passed",
-                      "projectId": "web-webkit",
-                      "projectName": "web-webkit",
-                      "results": [
-                        {
-                          "workerIndex": 1,
-                          "parallelIndex": 0,
-                          "status": "passed",
-                          "duration": 2537,
-                          "errors": [],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 0,
-                          "startTime": "2026-08-10T04:37:42.937Z",
-                          "annotations": [],
-                          "attachments": []
-                        }
-                      ],
-                      "status": "expected"
-                    }
-                  ],
-                  "id": "0474f947f51bd449ddc2-637bff8f898cb1493f65",
-                  "file": "web/FR-02.spec.ts",
-                  "line": 11,
-                  "column": 11
-                },
-                {
-                  "title": "TC05 - Đăng nhập thành công sau khi hết thời gian khóa",
-                  "ok": true,
-                  "tags": [],
-                  "tests": [
-                    {
-                      "timeout": 30000,
-                      "annotations": [],
-                      "expectedStatus": "passed",
-                      "projectId": "web-webkit",
-                      "projectName": "web-webkit",
-                      "results": [
-                        {
-                          "workerIndex": 1,
-                          "parallelIndex": 0,
-                          "status": "passed",
-                          "duration": 2545,
-                          "errors": [],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 0,
-                          "startTime": "2026-08-10T04:37:45.487Z",
-                          "annotations": [],
-                          "attachments": []
-                        }
-                      ],
-                      "status": "expected"
-                    }
-                  ],
-                  "id": "0474f947f51bd449ddc2-df4dbf6080082317fb60",
-                  "file": "web/FR-02.spec.ts",
-                  "line": 11,
-                  "column": 11
+                  "id": "86e0c931955a281b23d4-90529639841e644c8ca0",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
                 }
               ]
             },
             {
-              "title": "Negative & Boundary Cases",
-              "file": "web/FR-02.spec.ts",
-              "line": 31,
-              "column": 8,
+              "title": "Category: functional",
+              "file": "admin/FR-16.spec.ts",
+              "line": 19,
+              "column": 10,
               "specs": [
                 {
-                  "title": "TC06 - Email không tồn tại",
+                  "title": "TC04 - IV4: Đuôi file không phải `.csv`",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 8,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 4504,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:02:33.960Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-c9138bfce1ded9513848",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                },
+                {
+                  "title": "TC05 - IV4: Đuôi file `.xlsx`",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 8,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 4476,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:02:38.546Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-a3fea07d7892184a5bd0",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                },
+                {
+                  "title": "TC06 - IV9: File rỗng (0 bytes)",
                   "ok": false,
                   "tags": [],
                   "tests": [
@@ -425,68 +424,121 @@
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "web-webkit",
-                      "projectName": "web-webkit",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 8,
+                          "parallelIndex": 0,
+                          "status": "timedOut",
+                          "duration": 30060,
+                          "error": {
+                            "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                            "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                          },
+                          "errors": [
+                            {
+                              "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                            },
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/admin/FR-16.page.ts",
+                                "column": 29,
+                                "line": 24
+                              },
+                              "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /import|nhập/i })\u001b[22m\n\u001b[2m    - locator resolved to <button disabled class=\"bg-blue-600 text-white px-4 py-2 rounded disabled:opacity-50 whitespace-nowrap\">Import 0 sản phẩm</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    55 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../pages/admin/FR-16.page.ts:24\n\n\u001b[0m \u001b[90m 22 |\u001b[39m   \u001b[36masync\u001b[39m uploadFile(filePath\u001b[33m:\u001b[39m string) {\n \u001b[90m 23 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mfileInput\u001b[33m.\u001b[39msetInputFiles(filePath)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 24 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mimportButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 25 |\u001b[39m   }\n \u001b[90m 26 |\u001b[39m }\n \u001b[90m 27 |\u001b[39m\u001b[0m\n\u001b[2m    at ImportProductPage.uploadFile (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/admin/FR-16.page.ts:24:29)\u001b[22m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:120:11\u001b[22m"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:02:43.031Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-984bf-06---IV9-File-rỗng-0-bytes--admin-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-984bf-06---IV9-File-rỗng-0-bytes--admin-chromium/error-context.md"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-5dcec9e3de8bcc2e52d5",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                },
+                {
+                  "title": "TC07 - IV10: File chỉ có header, không có dòng dữ liệu",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
                       "results": [
                         {
                           "workerIndex": 1,
-                          "parallelIndex": 0,
-                          "status": "failed",
-                          "duration": 5535,
+                          "parallelIndex": 1,
+                          "status": "timedOut",
+                          "duration": 30078,
                           "error": {
-                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.text-red-700')\nExpected: \u001b[32m\"Invalid email or password\"\u001b[39m\nReceived: \u001b[31m\"Đăng nhập thất bại. Vui lòng kiểm tra lại.\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.text-red-700')\u001b[22m\n\u001b[2m    14 × locator resolved to <div class=\"bg-red-100 text-red-700 p-3 mt-4 rounded\">Đăng nhập thất bại. Vui lòng kiểm tra lại.</div>\u001b[22m\n\u001b[2m       - unexpected value \"Đăng nhập thất bại. Vui lòng kiểm tra lại.\"\u001b[22m\n",
-                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.text-red-700')\nExpected: \u001b[32m\"Invalid email or password\"\u001b[39m\nReceived: \u001b[31m\"Đăng nhập thất bại. Vui lòng kiểm tra lại.\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.text-red-700')\u001b[22m\n\u001b[2m    14 × locator resolved to <div class=\"bg-red-100 text-red-700 p-3 mt-4 rounded\">Đăng nhập thất bại. Vui lòng kiểm tra lại.</div>\u001b[22m\n\u001b[2m       - unexpected value \"Đăng nhập thất bại. Vui lòng kiểm tra lại.\"\u001b[22m\n\n    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:46:48",
-                            "location": {
-                              "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
-                              "column": 48,
-                              "line": 46
-                            },
-                            "snippet": "\u001b[0m \u001b[90m 44 |\u001b[39m         \u001b[36mif\u001b[39m (tc\u001b[33m.\u001b[39mexpected\u001b[33m?\u001b[39m\u001b[33m.\u001b[39merrorMessage) {\n \u001b[90m 45 |\u001b[39m           \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 46 |\u001b[39m           \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoHaveText(tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39merrorMessage)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 47 |\u001b[39m         }\n \u001b[90m 48 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 49 |\u001b[39m     }\u001b[0m"
+                            "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                            "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
                           },
                           "errors": [
                             {
+                              "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                            },
+                            {
                               "location": {
-                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
-                                "column": 48,
-                                "line": 46
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/admin/FR-16.page.ts",
+                                "column": 29,
+                                "line": 24
                               },
-                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.text-red-700')\nExpected: \u001b[32m\"Invalid email or password\"\u001b[39m\nReceived: \u001b[31m\"Đăng nhập thất bại. Vui lòng kiểm tra lại.\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.text-red-700')\u001b[22m\n\u001b[2m    14 × locator resolved to <div class=\"bg-red-100 text-red-700 p-3 mt-4 rounded\">Đăng nhập thất bại. Vui lòng kiểm tra lại.</div>\u001b[22m\n\u001b[2m       - unexpected value \"Đăng nhập thất bại. Vui lòng kiểm tra lại.\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 44 |\u001b[39m         \u001b[36mif\u001b[39m (tc\u001b[33m.\u001b[39mexpected\u001b[33m?\u001b[39m\u001b[33m.\u001b[39merrorMessage) {\n \u001b[90m 45 |\u001b[39m           \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 46 |\u001b[39m           \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoHaveText(tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39merrorMessage)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 47 |\u001b[39m         }\n \u001b[90m 48 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 49 |\u001b[39m     }\u001b[0m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:46:48\u001b[22m"
+                              "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /import|nhập/i })\u001b[22m\n\u001b[2m    - locator resolved to <button disabled class=\"bg-blue-600 text-white px-4 py-2 rounded disabled:opacity-50 whitespace-nowrap\">Import 0 sản phẩm</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    55 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../pages/admin/FR-16.page.ts:24\n\n\u001b[0m \u001b[90m 22 |\u001b[39m   \u001b[36masync\u001b[39m uploadFile(filePath\u001b[33m:\u001b[39m string) {\n \u001b[90m 23 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mfileInput\u001b[33m.\u001b[39msetInputFiles(filePath)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 24 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mimportButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 25 |\u001b[39m   }\n \u001b[90m 26 |\u001b[39m }\n \u001b[90m 27 |\u001b[39m\u001b[0m\n\u001b[2m    at ImportProductPage.uploadFile (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/admin/FR-16.page.ts:24:29)\u001b[22m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:120:11\u001b[22m"
                             }
                           ],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T04:37:48.041Z",
+                          "startTime": "2026-08-10T05:02:32.893Z",
                           "annotations": [],
                           "attachments": [
                             {
                               "name": "screenshot",
                               "contentType": "image/png",
-                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--4161d--TC06---Email-không-tồn-tại-web-webkit/test-failed-1.png"
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-789b1-eader-không-có-dòng-dữ-liệu-admin-chromium/test-failed-1.png"
                             },
                             {
                               "name": "error-context",
                               "contentType": "text/markdown",
-                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--4161d--TC06---Email-không-tồn-tại-web-webkit/error-context.md"
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-789b1-eader-không-có-dòng-dữ-liệu-admin-chromium/error-context.md"
                             }
-                          ],
-                          "errorLocation": {
-                            "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
-                            "column": 48,
-                            "line": 46
-                          }
+                          ]
                         }
                       ],
                       "status": "unexpected"
                     }
                   ],
-                  "id": "0474f947f51bd449ddc2-af9e06eb343578f06c1f",
-                  "file": "web/FR-02.spec.ts",
-                  "line": 35,
-                  "column": 11
+                  "id": "86e0c931955a281b23d4-004604c33615ed57add8",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
                 },
                 {
-                  "title": "TC07 - Email sai format — thiếu @",
+                  "title": "TC08 - IV5: Header sai tên cột",
                   "ok": true,
                   "tags": [],
                   "tests": [
@@ -494,933 +546,33 @@
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "web-webkit",
-                      "projectName": "web-webkit",
-                      "results": [
-                        {
-                          "workerIndex": 2,
-                          "parallelIndex": 0,
-                          "status": "passed",
-                          "duration": 584,
-                          "errors": [],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 0,
-                          "startTime": "2026-08-10T04:37:53.884Z",
-                          "annotations": [],
-                          "attachments": []
-                        }
-                      ],
-                      "status": "expected"
-                    }
-                  ],
-                  "id": "0474f947f51bd449ddc2-fb27c4711f8fbf9febbd",
-                  "file": "web/FR-02.spec.ts",
-                  "line": 35,
-                  "column": 11
-                },
-                {
-                  "title": "TC08 - Email sai format — thiếu domain",
-                  "ok": true,
-                  "tags": [],
-                  "tests": [
-                    {
-                      "timeout": 30000,
-                      "annotations": [],
-                      "expectedStatus": "passed",
-                      "projectId": "web-webkit",
-                      "projectName": "web-webkit",
-                      "results": [
-                        {
-                          "workerIndex": 2,
-                          "parallelIndex": 0,
-                          "status": "passed",
-                          "duration": 529,
-                          "errors": [],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 0,
-                          "startTime": "2026-08-10T04:37:54.561Z",
-                          "annotations": [],
-                          "attachments": []
-                        }
-                      ],
-                      "status": "expected"
-                    }
-                  ],
-                  "id": "0474f947f51bd449ddc2-0939e8777cac49104320",
-                  "file": "web/FR-02.spec.ts",
-                  "line": 35,
-                  "column": 11
-                },
-                {
-                  "title": "TC09 - Email sai format — thiếu local part",
-                  "ok": true,
-                  "tags": [],
-                  "tests": [
-                    {
-                      "timeout": 30000,
-                      "annotations": [],
-                      "expectedStatus": "passed",
-                      "projectId": "web-webkit",
-                      "projectName": "web-webkit",
-                      "results": [
-                        {
-                          "workerIndex": 2,
-                          "parallelIndex": 0,
-                          "status": "passed",
-                          "duration": 550,
-                          "errors": [],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 0,
-                          "startTime": "2026-08-10T04:37:55.105Z",
-                          "annotations": [],
-                          "attachments": []
-                        }
-                      ],
-                      "status": "expected"
-                    }
-                  ],
-                  "id": "0474f947f51bd449ddc2-1df021ab5c97d8653ee4",
-                  "file": "web/FR-02.spec.ts",
-                  "line": 35,
-                  "column": 11
-                },
-                {
-                  "title": "TC10 - Email rỗng",
-                  "ok": true,
-                  "tags": [],
-                  "tests": [
-                    {
-                      "timeout": 30000,
-                      "annotations": [],
-                      "expectedStatus": "passed",
-                      "projectId": "web-webkit",
-                      "projectName": "web-webkit",
-                      "results": [
-                        {
-                          "workerIndex": 2,
-                          "parallelIndex": 0,
-                          "status": "passed",
-                          "duration": 535,
-                          "errors": [],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 0,
-                          "startTime": "2026-08-10T04:37:55.666Z",
-                          "annotations": [],
-                          "attachments": []
-                        }
-                      ],
-                      "status": "expected"
-                    }
-                  ],
-                  "id": "0474f947f51bd449ddc2-9042f90b4ce8fb597454",
-                  "file": "web/FR-02.spec.ts",
-                  "line": 35,
-                  "column": 11
-                },
-                {
-                  "title": "TC11 - Email chỉ có khoảng trắng",
-                  "ok": true,
-                  "tags": [],
-                  "tests": [
-                    {
-                      "timeout": 30000,
-                      "annotations": [],
-                      "expectedStatus": "passed",
-                      "projectId": "web-webkit",
-                      "projectName": "web-webkit",
-                      "results": [
-                        {
-                          "workerIndex": 2,
-                          "parallelIndex": 0,
-                          "status": "passed",
-                          "duration": 545,
-                          "errors": [],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 0,
-                          "startTime": "2026-08-10T04:37:56.213Z",
-                          "annotations": [],
-                          "attachments": []
-                        }
-                      ],
-                      "status": "expected"
-                    }
-                  ],
-                  "id": "0474f947f51bd449ddc2-b34080f032c36bfac96b",
-                  "file": "web/FR-02.spec.ts",
-                  "line": 35,
-                  "column": 11
-                },
-                {
-                  "title": "TC12 - Mật khẩu sai",
-                  "ok": false,
-                  "tags": [],
-                  "tests": [
-                    {
-                      "timeout": 30000,
-                      "annotations": [],
-                      "expectedStatus": "passed",
-                      "projectId": "web-webkit",
-                      "projectName": "web-webkit",
-                      "results": [
-                        {
-                          "workerIndex": 2,
-                          "parallelIndex": 0,
-                          "status": "failed",
-                          "duration": 5559,
-                          "error": {
-                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.text-red-700')\nExpected: \u001b[32m\"Invalid email or password\"\u001b[39m\nReceived: \u001b[31m\"Đăng nhập thất bại. Vui lòng kiểm tra lại.\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.text-red-700')\u001b[22m\n\u001b[2m    14 × locator resolved to <div class=\"bg-red-100 text-red-700 p-3 mt-4 rounded\">Đăng nhập thất bại. Vui lòng kiểm tra lại.</div>\u001b[22m\n\u001b[2m       - unexpected value \"Đăng nhập thất bại. Vui lòng kiểm tra lại.\"\u001b[22m\n",
-                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.text-red-700')\nExpected: \u001b[32m\"Invalid email or password\"\u001b[39m\nReceived: \u001b[31m\"Đăng nhập thất bại. Vui lòng kiểm tra lại.\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.text-red-700')\u001b[22m\n\u001b[2m    14 × locator resolved to <div class=\"bg-red-100 text-red-700 p-3 mt-4 rounded\">Đăng nhập thất bại. Vui lòng kiểm tra lại.</div>\u001b[22m\n\u001b[2m       - unexpected value \"Đăng nhập thất bại. Vui lòng kiểm tra lại.\"\u001b[22m\n\n    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:46:48",
-                            "location": {
-                              "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
-                              "column": 48,
-                              "line": 46
-                            },
-                            "snippet": "\u001b[0m \u001b[90m 44 |\u001b[39m         \u001b[36mif\u001b[39m (tc\u001b[33m.\u001b[39mexpected\u001b[33m?\u001b[39m\u001b[33m.\u001b[39merrorMessage) {\n \u001b[90m 45 |\u001b[39m           \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 46 |\u001b[39m           \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoHaveText(tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39merrorMessage)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 47 |\u001b[39m         }\n \u001b[90m 48 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 49 |\u001b[39m     }\u001b[0m"
-                          },
-                          "errors": [
-                            {
-                              "location": {
-                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
-                                "column": 48,
-                                "line": 46
-                              },
-                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.text-red-700')\nExpected: \u001b[32m\"Invalid email or password\"\u001b[39m\nReceived: \u001b[31m\"Đăng nhập thất bại. Vui lòng kiểm tra lại.\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.text-red-700')\u001b[22m\n\u001b[2m    14 × locator resolved to <div class=\"bg-red-100 text-red-700 p-3 mt-4 rounded\">Đăng nhập thất bại. Vui lòng kiểm tra lại.</div>\u001b[22m\n\u001b[2m       - unexpected value \"Đăng nhập thất bại. Vui lòng kiểm tra lại.\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 44 |\u001b[39m         \u001b[36mif\u001b[39m (tc\u001b[33m.\u001b[39mexpected\u001b[33m?\u001b[39m\u001b[33m.\u001b[39merrorMessage) {\n \u001b[90m 45 |\u001b[39m           \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 46 |\u001b[39m           \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoHaveText(tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39merrorMessage)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 47 |\u001b[39m         }\n \u001b[90m 48 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 49 |\u001b[39m     }\u001b[0m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:46:48\u001b[22m"
-                            }
-                          ],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 0,
-                          "startTime": "2026-08-10T04:37:56.766Z",
-                          "annotations": [],
-                          "attachments": [
-                            {
-                              "name": "screenshot",
-                              "contentType": "image/png",
-                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--759c4-y-Cases-TC12---Mật-khẩu-sai-web-webkit/test-failed-1.png"
-                            },
-                            {
-                              "name": "error-context",
-                              "contentType": "text/markdown",
-                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--759c4-y-Cases-TC12---Mật-khẩu-sai-web-webkit/error-context.md"
-                            }
-                          ],
-                          "errorLocation": {
-                            "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
-                            "column": 48,
-                            "line": 46
-                          }
-                        }
-                      ],
-                      "status": "unexpected"
-                    }
-                  ],
-                  "id": "0474f947f51bd449ddc2-c2fedd3911617b6f6183",
-                  "file": "web/FR-02.spec.ts",
-                  "line": 35,
-                  "column": 11
-                },
-                {
-                  "title": "TC13 - Mật khẩu rỗng",
-                  "ok": true,
-                  "tags": [],
-                  "tests": [
-                    {
-                      "timeout": 30000,
-                      "annotations": [],
-                      "expectedStatus": "passed",
-                      "projectId": "web-webkit",
-                      "projectName": "web-webkit",
-                      "results": [
-                        {
-                          "workerIndex": 3,
-                          "parallelIndex": 0,
-                          "status": "passed",
-                          "duration": 586,
-                          "errors": [],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 0,
-                          "startTime": "2026-08-10T04:38:02.631Z",
-                          "annotations": [],
-                          "attachments": []
-                        }
-                      ],
-                      "status": "expected"
-                    }
-                  ],
-                  "id": "0474f947f51bd449ddc2-9ffc230a5de7696120b2",
-                  "file": "web/FR-02.spec.ts",
-                  "line": 35,
-                  "column": 11
-                },
-                {
-                  "title": "TC14 - Mật khẩu chỉ là khoảng trắng",
-                  "ok": false,
-                  "tags": [],
-                  "tests": [
-                    {
-                      "timeout": 30000,
-                      "annotations": [],
-                      "expectedStatus": "passed",
-                      "projectId": "web-webkit",
-                      "projectName": "web-webkit",
-                      "results": [
-                        {
-                          "workerIndex": 3,
-                          "parallelIndex": 0,
-                          "status": "failed",
-                          "duration": 5549,
-                          "error": {
-                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.text-red-700')\nExpected: \u001b[32m\"Invalid email or password\"\u001b[39m\nReceived: \u001b[31m\"Đăng nhập thất bại. Vui lòng kiểm tra lại.\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.text-red-700')\u001b[22m\n\u001b[2m    14 × locator resolved to <div class=\"bg-red-100 text-red-700 p-3 mt-4 rounded\">Đăng nhập thất bại. Vui lòng kiểm tra lại.</div>\u001b[22m\n\u001b[2m       - unexpected value \"Đăng nhập thất bại. Vui lòng kiểm tra lại.\"\u001b[22m\n",
-                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.text-red-700')\nExpected: \u001b[32m\"Invalid email or password\"\u001b[39m\nReceived: \u001b[31m\"Đăng nhập thất bại. Vui lòng kiểm tra lại.\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.text-red-700')\u001b[22m\n\u001b[2m    14 × locator resolved to <div class=\"bg-red-100 text-red-700 p-3 mt-4 rounded\">Đăng nhập thất bại. Vui lòng kiểm tra lại.</div>\u001b[22m\n\u001b[2m       - unexpected value \"Đăng nhập thất bại. Vui lòng kiểm tra lại.\"\u001b[22m\n\n    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:46:48",
-                            "location": {
-                              "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
-                              "column": 48,
-                              "line": 46
-                            },
-                            "snippet": "\u001b[0m \u001b[90m 44 |\u001b[39m         \u001b[36mif\u001b[39m (tc\u001b[33m.\u001b[39mexpected\u001b[33m?\u001b[39m\u001b[33m.\u001b[39merrorMessage) {\n \u001b[90m 45 |\u001b[39m           \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 46 |\u001b[39m           \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoHaveText(tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39merrorMessage)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 47 |\u001b[39m         }\n \u001b[90m 48 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 49 |\u001b[39m     }\u001b[0m"
-                          },
-                          "errors": [
-                            {
-                              "location": {
-                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
-                                "column": 48,
-                                "line": 46
-                              },
-                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.text-red-700')\nExpected: \u001b[32m\"Invalid email or password\"\u001b[39m\nReceived: \u001b[31m\"Đăng nhập thất bại. Vui lòng kiểm tra lại.\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.text-red-700')\u001b[22m\n\u001b[2m    14 × locator resolved to <div class=\"bg-red-100 text-red-700 p-3 mt-4 rounded\">Đăng nhập thất bại. Vui lòng kiểm tra lại.</div>\u001b[22m\n\u001b[2m       - unexpected value \"Đăng nhập thất bại. Vui lòng kiểm tra lại.\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 44 |\u001b[39m         \u001b[36mif\u001b[39m (tc\u001b[33m.\u001b[39mexpected\u001b[33m?\u001b[39m\u001b[33m.\u001b[39merrorMessage) {\n \u001b[90m 45 |\u001b[39m           \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 46 |\u001b[39m           \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoHaveText(tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39merrorMessage)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 47 |\u001b[39m         }\n \u001b[90m 48 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 49 |\u001b[39m     }\u001b[0m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:46:48\u001b[22m"
-                            }
-                          ],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 0,
-                          "startTime": "2026-08-10T04:38:03.307Z",
-                          "annotations": [],
-                          "attachments": [
-                            {
-                              "name": "screenshot",
-                              "contentType": "image/png",
-                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--44144-ật-khẩu-chỉ-là-khoảng-trắng-web-webkit/test-failed-1.png"
-                            },
-                            {
-                              "name": "error-context",
-                              "contentType": "text/markdown",
-                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--44144-ật-khẩu-chỉ-là-khoảng-trắng-web-webkit/error-context.md"
-                            }
-                          ],
-                          "errorLocation": {
-                            "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
-                            "column": 48,
-                            "line": 46
-                          }
-                        }
-                      ],
-                      "status": "unexpected"
-                    }
-                  ],
-                  "id": "0474f947f51bd449ddc2-b39bd1605727e5a95ad6",
-                  "file": "web/FR-02.spec.ts",
-                  "line": 35,
-                  "column": 11
-                },
-                {
-                  "title": "TC15 - Tài khoản đang bị khóa",
-                  "ok": false,
-                  "tags": [],
-                  "tests": [
-                    {
-                      "timeout": 30000,
-                      "annotations": [],
-                      "expectedStatus": "passed",
-                      "projectId": "web-webkit",
-                      "projectName": "web-webkit",
-                      "results": [
-                        {
-                          "workerIndex": 4,
-                          "parallelIndex": 0,
-                          "status": "failed",
-                          "duration": 5587,
-                          "error": {
-                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.text-red-700')\nExpected: \u001b[32m\"\u001b[7mTài khoản đã bị khóa. Vui lòng thử lại sau\u001b[27m.\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mĐăng nhập thất bại. Vui lòng kiểm tra lại\u001b[27m.\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.text-red-700')\u001b[22m\n\u001b[2m    14 × locator resolved to <div class=\"bg-red-100 text-red-700 p-3 mt-4 rounded\">Đăng nhập thất bại. Vui lòng kiểm tra lại.</div>\u001b[22m\n\u001b[2m       - unexpected value \"Đăng nhập thất bại. Vui lòng kiểm tra lại.\"\u001b[22m\n",
-                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.text-red-700')\nExpected: \u001b[32m\"\u001b[7mTài khoản đã bị khóa. Vui lòng thử lại sau\u001b[27m.\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mĐăng nhập thất bại. Vui lòng kiểm tra lại\u001b[27m.\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.text-red-700')\u001b[22m\n\u001b[2m    14 × locator resolved to <div class=\"bg-red-100 text-red-700 p-3 mt-4 rounded\">Đăng nhập thất bại. Vui lòng kiểm tra lại.</div>\u001b[22m\n\u001b[2m       - unexpected value \"Đăng nhập thất bại. Vui lòng kiểm tra lại.\"\u001b[22m\n\n    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:46:48",
-                            "location": {
-                              "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
-                              "column": 48,
-                              "line": 46
-                            },
-                            "snippet": "\u001b[0m \u001b[90m 44 |\u001b[39m         \u001b[36mif\u001b[39m (tc\u001b[33m.\u001b[39mexpected\u001b[33m?\u001b[39m\u001b[33m.\u001b[39merrorMessage) {\n \u001b[90m 45 |\u001b[39m           \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 46 |\u001b[39m           \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoHaveText(tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39merrorMessage)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 47 |\u001b[39m         }\n \u001b[90m 48 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 49 |\u001b[39m     }\u001b[0m"
-                          },
-                          "errors": [
-                            {
-                              "location": {
-                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
-                                "column": 48,
-                                "line": 46
-                              },
-                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.text-red-700')\nExpected: \u001b[32m\"\u001b[7mTài khoản đã bị khóa. Vui lòng thử lại sau\u001b[27m.\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mĐăng nhập thất bại. Vui lòng kiểm tra lại\u001b[27m.\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.text-red-700')\u001b[22m\n\u001b[2m    14 × locator resolved to <div class=\"bg-red-100 text-red-700 p-3 mt-4 rounded\">Đăng nhập thất bại. Vui lòng kiểm tra lại.</div>\u001b[22m\n\u001b[2m       - unexpected value \"Đăng nhập thất bại. Vui lòng kiểm tra lại.\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 44 |\u001b[39m         \u001b[36mif\u001b[39m (tc\u001b[33m.\u001b[39mexpected\u001b[33m?\u001b[39m\u001b[33m.\u001b[39merrorMessage) {\n \u001b[90m 45 |\u001b[39m           \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 46 |\u001b[39m           \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoHaveText(tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39merrorMessage)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 47 |\u001b[39m         }\n \u001b[90m 48 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 49 |\u001b[39m     }\u001b[0m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:46:48\u001b[22m"
-                            }
-                          ],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 0,
-                          "startTime": "2026-08-10T04:38:09.170Z",
-                          "annotations": [],
-                          "attachments": [
-                            {
-                              "name": "screenshot",
-                              "contentType": "image/png",
-                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--b4f93-15---Tài-khoản-đang-bị-khóa-web-webkit/test-failed-1.png"
-                            },
-                            {
-                              "name": "error-context",
-                              "contentType": "text/markdown",
-                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--b4f93-15---Tài-khoản-đang-bị-khóa-web-webkit/error-context.md"
-                            }
-                          ],
-                          "errorLocation": {
-                            "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
-                            "column": 48,
-                            "line": 46
-                          }
-                        }
-                      ],
-                      "status": "unexpected"
-                    }
-                  ],
-                  "id": "0474f947f51bd449ddc2-b5f8b9c82abe6c860cdc",
-                  "file": "web/FR-02.spec.ts",
-                  "line": 35,
-                  "column": 11
-                },
-                {
-                  "title": "TC16 - Tài khoản đang bị khóa (sai pass)",
-                  "ok": false,
-                  "tags": [],
-                  "tests": [
-                    {
-                      "timeout": 30000,
-                      "annotations": [],
-                      "expectedStatus": "passed",
-                      "projectId": "web-webkit",
-                      "projectName": "web-webkit",
-                      "results": [
-                        {
-                          "workerIndex": 5,
-                          "parallelIndex": 0,
-                          "status": "failed",
-                          "duration": 5609,
-                          "error": {
-                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.text-red-700')\nExpected: \u001b[32m\"\u001b[7mTài khoản đã bị khóa. Vui lòng thử lại sau\u001b[27m.\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mĐăng nhập thất bại. Vui lòng kiểm tra lại\u001b[27m.\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.text-red-700')\u001b[22m\n\u001b[2m    14 × locator resolved to <div class=\"bg-red-100 text-red-700 p-3 mt-4 rounded\">Đăng nhập thất bại. Vui lòng kiểm tra lại.</div>\u001b[22m\n\u001b[2m       - unexpected value \"Đăng nhập thất bại. Vui lòng kiểm tra lại.\"\u001b[22m\n",
-                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.text-red-700')\nExpected: \u001b[32m\"\u001b[7mTài khoản đã bị khóa. Vui lòng thử lại sau\u001b[27m.\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mĐăng nhập thất bại. Vui lòng kiểm tra lại\u001b[27m.\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.text-red-700')\u001b[22m\n\u001b[2m    14 × locator resolved to <div class=\"bg-red-100 text-red-700 p-3 mt-4 rounded\">Đăng nhập thất bại. Vui lòng kiểm tra lại.</div>\u001b[22m\n\u001b[2m       - unexpected value \"Đăng nhập thất bại. Vui lòng kiểm tra lại.\"\u001b[22m\n\n    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:46:48",
-                            "location": {
-                              "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
-                              "column": 48,
-                              "line": 46
-                            },
-                            "snippet": "\u001b[0m \u001b[90m 44 |\u001b[39m         \u001b[36mif\u001b[39m (tc\u001b[33m.\u001b[39mexpected\u001b[33m?\u001b[39m\u001b[33m.\u001b[39merrorMessage) {\n \u001b[90m 45 |\u001b[39m           \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 46 |\u001b[39m           \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoHaveText(tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39merrorMessage)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 47 |\u001b[39m         }\n \u001b[90m 48 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 49 |\u001b[39m     }\u001b[0m"
-                          },
-                          "errors": [
-                            {
-                              "location": {
-                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
-                                "column": 48,
-                                "line": 46
-                              },
-                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.text-red-700')\nExpected: \u001b[32m\"\u001b[7mTài khoản đã bị khóa. Vui lòng thử lại sau\u001b[27m.\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mĐăng nhập thất bại. Vui lòng kiểm tra lại\u001b[27m.\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.text-red-700')\u001b[22m\n\u001b[2m    14 × locator resolved to <div class=\"bg-red-100 text-red-700 p-3 mt-4 rounded\">Đăng nhập thất bại. Vui lòng kiểm tra lại.</div>\u001b[22m\n\u001b[2m       - unexpected value \"Đăng nhập thất bại. Vui lòng kiểm tra lại.\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 44 |\u001b[39m         \u001b[36mif\u001b[39m (tc\u001b[33m.\u001b[39mexpected\u001b[33m?\u001b[39m\u001b[33m.\u001b[39merrorMessage) {\n \u001b[90m 45 |\u001b[39m           \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 46 |\u001b[39m           \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoHaveText(tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39merrorMessage)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 47 |\u001b[39m         }\n \u001b[90m 48 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 49 |\u001b[39m     }\u001b[0m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:46:48\u001b[22m"
-                            }
-                          ],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 0,
-                          "startTime": "2026-08-10T04:38:15.140Z",
-                          "annotations": [],
-                          "attachments": [
-                            {
-                              "name": "screenshot",
-                              "contentType": "image/png",
-                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--9a488-hoản-đang-bị-khóa-sai-pass--web-webkit/test-failed-1.png"
-                            },
-                            {
-                              "name": "error-context",
-                              "contentType": "text/markdown",
-                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--9a488-hoản-đang-bị-khóa-sai-pass--web-webkit/error-context.md"
-                            }
-                          ],
-                          "errorLocation": {
-                            "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
-                            "column": 48,
-                            "line": 46
-                          }
-                        }
-                      ],
-                      "status": "unexpected"
-                    }
-                  ],
-                  "id": "0474f947f51bd449ddc2-5bfcc68a9b3cbeeca719",
-                  "file": "web/FR-02.spec.ts",
-                  "line": 35,
-                  "column": 11
-                },
-                {
-                  "title": "TC17 - Biên LB: Sai lần 1 (login_attempts: 0→1)",
-                  "ok": true,
-                  "tags": [],
-                  "tests": [
-                    {
-                      "timeout": 30000,
-                      "annotations": [],
-                      "expectedStatus": "passed",
-                      "projectId": "web-webkit",
-                      "projectName": "web-webkit",
-                      "results": [
-                        {
-                          "workerIndex": 6,
-                          "parallelIndex": 0,
-                          "status": "passed",
-                          "duration": 571,
-                          "errors": [],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 0,
-                          "startTime": "2026-08-10T04:38:21.137Z",
-                          "annotations": [],
-                          "attachments": []
-                        }
-                      ],
-                      "status": "expected"
-                    }
-                  ],
-                  "id": "0474f947f51bd449ddc2-1887f4382521e6721a88",
-                  "file": "web/FR-02.spec.ts",
-                  "line": 35,
-                  "column": 11
-                },
-                {
-                  "title": "TC18 - Biên LB+1: Sai lần 2 (login_attempts: 1→2)",
-                  "ok": true,
-                  "tags": [],
-                  "tests": [
-                    {
-                      "timeout": 30000,
-                      "annotations": [],
-                      "expectedStatus": "passed",
-                      "projectId": "web-webkit",
-                      "projectName": "web-webkit",
-                      "results": [
-                        {
-                          "workerIndex": 6,
-                          "parallelIndex": 0,
-                          "status": "passed",
-                          "duration": 521,
-                          "errors": [],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 0,
-                          "startTime": "2026-08-10T04:38:21.808Z",
-                          "annotations": [],
-                          "attachments": []
-                        }
-                      ],
-                      "status": "expected"
-                    }
-                  ],
-                  "id": "0474f947f51bd449ddc2-a2efaf7ad447a4032628",
-                  "file": "web/FR-02.spec.ts",
-                  "line": 35,
-                  "column": 11
-                },
-                {
-                  "title": "TC19 - Biên UB (ngưỡng khóa): Sai lần 3 (login_attempts: 2→3) — tài khoản bị KHÓA",
-                  "ok": true,
-                  "tags": [],
-                  "tests": [
-                    {
-                      "timeout": 30000,
-                      "annotations": [],
-                      "expectedStatus": "passed",
-                      "projectId": "web-webkit",
-                      "projectName": "web-webkit",
-                      "results": [
-                        {
-                          "workerIndex": 6,
-                          "parallelIndex": 0,
-                          "status": "passed",
-                          "duration": 544,
-                          "errors": [],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 0,
-                          "startTime": "2026-08-10T04:38:22.341Z",
-                          "annotations": [],
-                          "attachments": []
-                        }
-                      ],
-                      "status": "expected"
-                    }
-                  ],
-                  "id": "0474f947f51bd449ddc2-a3e083a9f23379ddfd82",
-                  "file": "web/FR-02.spec.ts",
-                  "line": 35,
-                  "column": 11
-                },
-                {
-                  "title": "TC20 - Biên UB+1: Sai lần 4 (login_attempts: 3→?) — tài khoản đã bị khóa từ lần 3",
-                  "ok": false,
-                  "tags": [],
-                  "tests": [
-                    {
-                      "timeout": 30000,
-                      "annotations": [],
-                      "expectedStatus": "passed",
-                      "projectId": "web-webkit",
-                      "projectName": "web-webkit",
-                      "results": [
-                        {
-                          "workerIndex": 6,
-                          "parallelIndex": 0,
-                          "status": "failed",
-                          "duration": 5577,
-                          "error": {
-                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.text-red-700')\nExpected: \u001b[32m\"\u001b[7mTài khoản đã bị khóa. Vui lòng thử lại sau\u001b[27m.\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mĐăng nhập thất bại. Vui lòng kiểm tra lại\u001b[27m.\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.text-red-700')\u001b[22m\n\u001b[2m    14 × locator resolved to <div class=\"bg-red-100 text-red-700 p-3 mt-4 rounded\">Đăng nhập thất bại. Vui lòng kiểm tra lại.</div>\u001b[22m\n\u001b[2m       - unexpected value \"Đăng nhập thất bại. Vui lòng kiểm tra lại.\"\u001b[22m\n",
-                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.text-red-700')\nExpected: \u001b[32m\"\u001b[7mTài khoản đã bị khóa. Vui lòng thử lại sau\u001b[27m.\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mĐăng nhập thất bại. Vui lòng kiểm tra lại\u001b[27m.\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.text-red-700')\u001b[22m\n\u001b[2m    14 × locator resolved to <div class=\"bg-red-100 text-red-700 p-3 mt-4 rounded\">Đăng nhập thất bại. Vui lòng kiểm tra lại.</div>\u001b[22m\n\u001b[2m       - unexpected value \"Đăng nhập thất bại. Vui lòng kiểm tra lại.\"\u001b[22m\n\n    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:46:48",
-                            "location": {
-                              "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
-                              "column": 48,
-                              "line": 46
-                            },
-                            "snippet": "\u001b[0m \u001b[90m 44 |\u001b[39m         \u001b[36mif\u001b[39m (tc\u001b[33m.\u001b[39mexpected\u001b[33m?\u001b[39m\u001b[33m.\u001b[39merrorMessage) {\n \u001b[90m 45 |\u001b[39m           \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 46 |\u001b[39m           \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoHaveText(tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39merrorMessage)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 47 |\u001b[39m         }\n \u001b[90m 48 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 49 |\u001b[39m     }\u001b[0m"
-                          },
-                          "errors": [
-                            {
-                              "location": {
-                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
-                                "column": 48,
-                                "line": 46
-                              },
-                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.text-red-700')\nExpected: \u001b[32m\"\u001b[7mTài khoản đã bị khóa. Vui lòng thử lại sau\u001b[27m.\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mĐăng nhập thất bại. Vui lòng kiểm tra lại\u001b[27m.\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.text-red-700')\u001b[22m\n\u001b[2m    14 × locator resolved to <div class=\"bg-red-100 text-red-700 p-3 mt-4 rounded\">Đăng nhập thất bại. Vui lòng kiểm tra lại.</div>\u001b[22m\n\u001b[2m       - unexpected value \"Đăng nhập thất bại. Vui lòng kiểm tra lại.\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 44 |\u001b[39m         \u001b[36mif\u001b[39m (tc\u001b[33m.\u001b[39mexpected\u001b[33m?\u001b[39m\u001b[33m.\u001b[39merrorMessage) {\n \u001b[90m 45 |\u001b[39m           \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 46 |\u001b[39m           \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoHaveText(tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39merrorMessage)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 47 |\u001b[39m         }\n \u001b[90m 48 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 49 |\u001b[39m     }\u001b[0m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:46:48\u001b[22m"
-                            }
-                          ],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 0,
-                          "startTime": "2026-08-10T04:38:22.898Z",
-                          "annotations": [],
-                          "attachments": [
-                            {
-                              "name": "screenshot",
-                              "contentType": "image/png",
-                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--97a5c-i-khoản-đã-bị-khóa-từ-lần-3-web-webkit/test-failed-1.png"
-                            },
-                            {
-                              "name": "error-context",
-                              "contentType": "text/markdown",
-                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--97a5c-i-khoản-đã-bị-khóa-từ-lần-3-web-webkit/error-context.md"
-                            }
-                          ],
-                          "errorLocation": {
-                            "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
-                            "column": 48,
-                            "line": 46
-                          }
-                        }
-                      ],
-                      "status": "unexpected"
-                    }
-                  ],
-                  "id": "0474f947f51bd449ddc2-4f83d780aa18c1f64fd4",
-                  "file": "web/FR-02.spec.ts",
-                  "line": 35,
-                  "column": 11
-                },
-                {
-                  "title": "TC21 - Biên thời gian: Đăng nhập ngay trước khi hết khóa (locked_until - 1 giây)",
-                  "ok": false,
-                  "tags": [],
-                  "tests": [
-                    {
-                      "timeout": 30000,
-                      "annotations": [],
-                      "expectedStatus": "passed",
-                      "projectId": "web-webkit",
-                      "projectName": "web-webkit",
-                      "results": [
-                        {
-                          "workerIndex": 7,
-                          "parallelIndex": 0,
-                          "status": "failed",
-                          "duration": 5566,
-                          "error": {
-                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.text-red-700')\nExpected: \u001b[32m\"\u001b[7mTài khoản đã bị khóa. Vui lòng thử lại sau\u001b[27m.\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mĐăng nhập thất bại. Vui lòng kiểm tra lại\u001b[27m.\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.text-red-700')\u001b[22m\n\u001b[2m    14 × locator resolved to <div class=\"bg-red-100 text-red-700 p-3 mt-4 rounded\">Đăng nhập thất bại. Vui lòng kiểm tra lại.</div>\u001b[22m\n\u001b[2m       - unexpected value \"Đăng nhập thất bại. Vui lòng kiểm tra lại.\"\u001b[22m\n",
-                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.text-red-700')\nExpected: \u001b[32m\"\u001b[7mTài khoản đã bị khóa. Vui lòng thử lại sau\u001b[27m.\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mĐăng nhập thất bại. Vui lòng kiểm tra lại\u001b[27m.\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.text-red-700')\u001b[22m\n\u001b[2m    14 × locator resolved to <div class=\"bg-red-100 text-red-700 p-3 mt-4 rounded\">Đăng nhập thất bại. Vui lòng kiểm tra lại.</div>\u001b[22m\n\u001b[2m       - unexpected value \"Đăng nhập thất bại. Vui lòng kiểm tra lại.\"\u001b[22m\n\n    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:46:48",
-                            "location": {
-                              "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
-                              "column": 48,
-                              "line": 46
-                            },
-                            "snippet": "\u001b[0m \u001b[90m 44 |\u001b[39m         \u001b[36mif\u001b[39m (tc\u001b[33m.\u001b[39mexpected\u001b[33m?\u001b[39m\u001b[33m.\u001b[39merrorMessage) {\n \u001b[90m 45 |\u001b[39m           \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 46 |\u001b[39m           \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoHaveText(tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39merrorMessage)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 47 |\u001b[39m         }\n \u001b[90m 48 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 49 |\u001b[39m     }\u001b[0m"
-                          },
-                          "errors": [
-                            {
-                              "location": {
-                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
-                                "column": 48,
-                                "line": 46
-                              },
-                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.text-red-700')\nExpected: \u001b[32m\"\u001b[7mTài khoản đã bị khóa. Vui lòng thử lại sau\u001b[27m.\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mĐăng nhập thất bại. Vui lòng kiểm tra lại\u001b[27m.\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.text-red-700')\u001b[22m\n\u001b[2m    14 × locator resolved to <div class=\"bg-red-100 text-red-700 p-3 mt-4 rounded\">Đăng nhập thất bại. Vui lòng kiểm tra lại.</div>\u001b[22m\n\u001b[2m       - unexpected value \"Đăng nhập thất bại. Vui lòng kiểm tra lại.\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 44 |\u001b[39m         \u001b[36mif\u001b[39m (tc\u001b[33m.\u001b[39mexpected\u001b[33m?\u001b[39m\u001b[33m.\u001b[39merrorMessage) {\n \u001b[90m 45 |\u001b[39m           \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 46 |\u001b[39m           \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoHaveText(tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39merrorMessage)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 47 |\u001b[39m         }\n \u001b[90m 48 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 49 |\u001b[39m     }\u001b[0m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:46:48\u001b[22m"
-                            }
-                          ],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 0,
-                          "startTime": "2026-08-10T04:38:28.777Z",
-                          "annotations": [],
-                          "attachments": [
-                            {
-                              "name": "screenshot",
-                              "contentType": "image/png",
-                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--5bf85-khóa-locked-until---1-giây--web-webkit/test-failed-1.png"
-                            },
-                            {
-                              "name": "error-context",
-                              "contentType": "text/markdown",
-                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--5bf85-khóa-locked-until---1-giây--web-webkit/error-context.md"
-                            }
-                          ],
-                          "errorLocation": {
-                            "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
-                            "column": 48,
-                            "line": 46
-                          }
-                        }
-                      ],
-                      "status": "unexpected"
-                    }
-                  ],
-                  "id": "0474f947f51bd449ddc2-190b0b77c91877bd23cb",
-                  "file": "web/FR-02.spec.ts",
-                  "line": 35,
-                  "column": 11
-                },
-                {
-                  "title": "TC22 - Biên thời gian: Đăng nhập ngay khi vừa hết khóa (locked_until = now)",
-                  "ok": true,
-                  "tags": [],
-                  "tests": [
-                    {
-                      "timeout": 30000,
-                      "annotations": [],
-                      "expectedStatus": "passed",
-                      "projectId": "web-webkit",
-                      "projectName": "web-webkit",
-                      "results": [
-                        {
-                          "workerIndex": 8,
-                          "parallelIndex": 0,
-                          "status": "passed",
-                          "duration": 584,
-                          "errors": [],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 0,
-                          "startTime": "2026-08-10T04:38:34.734Z",
-                          "annotations": [],
-                          "attachments": []
-                        }
-                      ],
-                      "status": "expected"
-                    }
-                  ],
-                  "id": "0474f947f51bd449ddc2-7c005c690b48b1919c57",
-                  "file": "web/FR-02.spec.ts",
-                  "line": 35,
-                  "column": 11
-                },
-                {
-                  "title": "TC23 - Biên thời gian: Đăng nhập sau khi hết khóa 1 giây (locked_until + 1 giây)",
-                  "ok": true,
-                  "tags": [],
-                  "tests": [
-                    {
-                      "timeout": 30000,
-                      "annotations": [],
-                      "expectedStatus": "passed",
-                      "projectId": "web-webkit",
-                      "projectName": "web-webkit",
-                      "results": [
-                        {
-                          "workerIndex": 8,
-                          "parallelIndex": 0,
-                          "status": "passed",
-                          "duration": 530,
-                          "errors": [],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 0,
-                          "startTime": "2026-08-10T04:38:35.420Z",
-                          "annotations": [],
-                          "attachments": []
-                        }
-                      ],
-                      "status": "expected"
-                    }
-                  ],
-                  "id": "0474f947f51bd449ddc2-d56061c4d40b0b15644a",
-                  "file": "web/FR-02.spec.ts",
-                  "line": 35,
-                  "column": 11
-                }
-              ]
-            },
-            {
-              "title": "UI/UX Cases",
-              "file": "web/FR-02.spec.ts",
-              "line": 52,
-              "column": 8,
-              "specs": [
-                {
-                  "title": "TC24 - Email input type attribute",
-                  "ok": false,
-                  "tags": [],
-                  "tests": [
-                    {
-                      "timeout": 30000,
-                      "annotations": [],
-                      "expectedStatus": "passed",
-                      "projectId": "web-webkit",
-                      "projectName": "web-webkit",
-                      "results": [
-                        {
-                          "workerIndex": 8,
-                          "parallelIndex": 0,
-                          "status": "failed",
-                          "duration": 5392,
-                          "error": {
-                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('input').first()\nExpected: \u001b[32m\"email\"\u001b[39m\nReceived: \u001b[31m\"text\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('input').first()\u001b[22m\n\u001b[2m    14 × locator resolved to <input value=\"\" required=\"\" type=\"text\" class=\"w-full border p-2 rounded\"/>\u001b[22m\n\u001b[2m       - unexpected value \"text\"\u001b[22m\n",
-                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('input').first()\nExpected: \u001b[32m\"email\"\u001b[39m\nReceived: \u001b[31m\"text\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('input').first()\u001b[22m\n\u001b[2m    14 × locator resolved to <input value=\"\" required=\"\" type=\"text\" class=\"w-full border p-2 rounded\"/>\u001b[22m\n\u001b[2m       - unexpected value \"text\"\u001b[22m\n\n    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:58:42",
-                            "location": {
-                              "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
-                              "column": 42,
-                              "line": 58
-                            },
-                            "snippet": "\u001b[0m \u001b[90m 56 |\u001b[39m       \n \u001b[90m 57 |\u001b[39m       \u001b[90m// Assertion Pattern 4: toHaveAttribute\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 58 |\u001b[39m       \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39memailInput)\u001b[33m.\u001b[39mtoHaveAttribute(\u001b[32m'type'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'email'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 59 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 60 |\u001b[39m\n \u001b[90m 61 |\u001b[39m     test(\u001b[32m'TC25 - Password input type attribute'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
-                          },
-                          "errors": [
-                            {
-                              "location": {
-                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
-                                "column": 42,
-                                "line": 58
-                              },
-                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('input').first()\nExpected: \u001b[32m\"email\"\u001b[39m\nReceived: \u001b[31m\"text\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('input').first()\u001b[22m\n\u001b[2m    14 × locator resolved to <input value=\"\" required=\"\" type=\"text\" class=\"w-full border p-2 rounded\"/>\u001b[22m\n\u001b[2m       - unexpected value \"text\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 56 |\u001b[39m       \n \u001b[90m 57 |\u001b[39m       \u001b[90m// Assertion Pattern 4: toHaveAttribute\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 58 |\u001b[39m       \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39memailInput)\u001b[33m.\u001b[39mtoHaveAttribute(\u001b[32m'type'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'email'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 59 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 60 |\u001b[39m\n \u001b[90m 61 |\u001b[39m     test(\u001b[32m'TC25 - Password input type attribute'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:58:42\u001b[22m"
-                            }
-                          ],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 0,
-                          "startTime": "2026-08-10T04:38:35.965Z",
-                          "annotations": [],
-                          "attachments": [
-                            {
-                              "name": "screenshot",
-                              "contentType": "image/png",
-                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--ba10d--Email-input-type-attribute-web-webkit/test-failed-1.png"
-                            },
-                            {
-                              "name": "error-context",
-                              "contentType": "text/markdown",
-                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--ba10d--Email-input-type-attribute-web-webkit/error-context.md"
-                            }
-                          ],
-                          "errorLocation": {
-                            "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
-                            "column": 42,
-                            "line": 58
-                          }
-                        }
-                      ],
-                      "status": "unexpected"
-                    }
-                  ],
-                  "id": "0474f947f51bd449ddc2-5c61ccebfed3ff85a1f0",
-                  "file": "web/FR-02.spec.ts",
-                  "line": 53,
-                  "column": 9
-                },
-                {
-                  "title": "TC25 - Password input type attribute",
-                  "ok": false,
-                  "tags": [],
-                  "tests": [
-                    {
-                      "timeout": 30000,
-                      "annotations": [],
-                      "expectedStatus": "passed",
-                      "projectId": "web-webkit",
-                      "projectName": "web-webkit",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
                       "results": [
                         {
                           "workerIndex": 9,
-                          "parallelIndex": 0,
-                          "status": "failed",
-                          "duration": 5414,
-                          "error": {
-                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('input').nth(1)\nExpected: \u001b[32m\"password\"\u001b[39m\nReceived: \u001b[31m\"text\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('input').nth(1)\u001b[22m\n\u001b[2m    14 × locator resolved to <input value=\"\" required=\"\" type=\"text\" class=\"w-full border p-2 rounded\"/>\u001b[22m\n\u001b[2m       - unexpected value \"text\"\u001b[22m\n",
-                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('input').nth(1)\nExpected: \u001b[32m\"password\"\u001b[39m\nReceived: \u001b[31m\"text\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('input').nth(1)\u001b[22m\n\u001b[2m    14 × locator resolved to <input value=\"\" required=\"\" type=\"text\" class=\"w-full border p-2 rounded\"/>\u001b[22m\n\u001b[2m       - unexpected value \"text\"\u001b[22m\n\n    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:65:45",
-                            "location": {
-                              "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
-                              "column": 45,
-                              "line": 65
-                            },
-                            "snippet": "\u001b[0m \u001b[90m 63 |\u001b[39m       \u001b[36mawait\u001b[39m loginPage\u001b[33m.\u001b[39mgoto()\u001b[33m;\u001b[39m\n \u001b[90m 64 |\u001b[39m       \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 65 |\u001b[39m       \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39mpasswordInput)\u001b[33m.\u001b[39mtoHaveAttribute(\u001b[32m'type'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'password'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 66 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 67 |\u001b[39m\n \u001b[90m 68 |\u001b[39m     test(\u001b[32m'TC28 - Login page title'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
-                          },
-                          "errors": [
-                            {
-                              "location": {
-                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
-                                "column": 45,
-                                "line": 65
-                              },
-                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('input').nth(1)\nExpected: \u001b[32m\"password\"\u001b[39m\nReceived: \u001b[31m\"text\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('input').nth(1)\u001b[22m\n\u001b[2m    14 × locator resolved to <input value=\"\" required=\"\" type=\"text\" class=\"w-full border p-2 rounded\"/>\u001b[22m\n\u001b[2m       - unexpected value \"text\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 63 |\u001b[39m       \u001b[36mawait\u001b[39m loginPage\u001b[33m.\u001b[39mgoto()\u001b[33m;\u001b[39m\n \u001b[90m 64 |\u001b[39m       \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 65 |\u001b[39m       \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39mpasswordInput)\u001b[33m.\u001b[39mtoHaveAttribute(\u001b[32m'type'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'password'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 66 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 67 |\u001b[39m\n \u001b[90m 68 |\u001b[39m     test(\u001b[32m'TC28 - Login page title'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:65:45\u001b[22m"
-                            }
-                          ],
+                          "parallelIndex": 1,
+                          "status": "passed",
+                          "duration": 4569,
+                          "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T04:38:41.655Z",
+                          "startTime": "2026-08-10T05:03:03.472Z",
                           "annotations": [],
-                          "attachments": [
-                            {
-                              "name": "screenshot",
-                              "contentType": "image/png",
-                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--6bbab-ssword-input-type-attribute-web-webkit/test-failed-1.png"
-                            },
-                            {
-                              "name": "error-context",
-                              "contentType": "text/markdown",
-                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--6bbab-ssword-input-type-attribute-web-webkit/error-context.md"
-                            }
-                          ],
-                          "errorLocation": {
-                            "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
-                            "column": 45,
-                            "line": 65
-                          }
+                          "attachments": []
                         }
                       ],
-                      "status": "unexpected"
+                      "status": "expected"
                     }
                   ],
-                  "id": "0474f947f51bd449ddc2-cff20dcc7987981096a7",
-                  "file": "web/FR-02.spec.ts",
-                  "line": 61,
-                  "column": 9
+                  "id": "86e0c931955a281b23d4-c713318e2280bd329fc3",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
                 },
                 {
-                  "title": "TC28 - Login page title",
+                  "title": "TC09 - IV8: Không có dòng header",
                   "ok": false,
                   "tags": [],
                   "tests": [
@@ -1428,65 +580,1245 @@
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "web-webkit",
-                      "projectName": "web-webkit",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 9,
+                          "parallelIndex": 1,
+                          "status": "timedOut",
+                          "duration": 30062,
+                          "error": {
+                            "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                            "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                          },
+                          "errors": [
+                            {
+                              "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                            },
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/admin/FR-16.page.ts",
+                                "column": 29,
+                                "line": 24
+                              },
+                              "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /import|nhập/i })\u001b[22m\n\u001b[2m    - locator resolved to <button disabled class=\"bg-blue-600 text-white px-4 py-2 rounded disabled:opacity-50 whitespace-nowrap\">Import 0 sản phẩm</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    55 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../pages/admin/FR-16.page.ts:24\n\n\u001b[0m \u001b[90m 22 |\u001b[39m   \u001b[36masync\u001b[39m uploadFile(filePath\u001b[33m:\u001b[39m string) {\n \u001b[90m 23 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mfileInput\u001b[33m.\u001b[39msetInputFiles(filePath)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 24 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mimportButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 25 |\u001b[39m   }\n \u001b[90m 26 |\u001b[39m }\n \u001b[90m 27 |\u001b[39m\u001b[0m\n\u001b[2m    at ImportProductPage.uploadFile (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/admin/FR-16.page.ts:24:29)\u001b[22m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:120:11\u001b[22m"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:03:08.119Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-d0edb----IV8-Không-có-dòng-header-admin-chromium/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-d0edb----IV8-Không-có-dòng-header-admin-chromium/error-context.md"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-b1e9274a66a0971d8a92",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                },
+                {
+                  "title": "TC33 - Báo cáo đầy đủ khi thành công",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
                       "results": [
                         {
                           "workerIndex": 10,
                           "parallelIndex": 0,
-                          "status": "failed",
-                          "duration": 5482,
-                          "error": {
-                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('heading', { level: 2 })\nExpected pattern: \u001b[32m/Đăng Nhập/i\u001b[39m\nReceived string:  \u001b[31m\"Đăng Ký\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('heading', { level: 2 })\u001b[22m\n\u001b[2m    14 × locator resolved to <h2 class=\"text-2xl font-bold mb-6 text-center\">Đăng Ký</h2>\u001b[22m\n\u001b[2m       - unexpected value \"Đăng Ký\"\u001b[22m\n",
-                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('heading', { level: 2 })\nExpected pattern: \u001b[32m/Đăng Nhập/i\u001b[39m\nReceived string:  \u001b[31m\"Đăng Ký\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('heading', { level: 2 })\u001b[22m\n\u001b[2m    14 × locator resolved to <h2 class=\"text-2xl font-bold mb-6 text-center\">Đăng Ký</h2>\u001b[22m\n\u001b[2m       - unexpected value \"Đăng Ký\"\u001b[22m\n\n    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:73:41",
-                            "location": {
-                              "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
-                              "column": 41,
-                              "line": 73
-                            },
-                            "snippet": "\u001b[0m \u001b[90m 71 |\u001b[39m       \n \u001b[90m 72 |\u001b[39m       \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39mpageTitle)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 73 |\u001b[39m       \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39mpageTitle)\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/Đăng Nhập/i\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 74 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 75 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 76 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
-                          },
-                          "errors": [
-                            {
-                              "location": {
-                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
-                                "column": 41,
-                                "line": 73
-                              },
-                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('heading', { level: 2 })\nExpected pattern: \u001b[32m/Đăng Nhập/i\u001b[39m\nReceived string:  \u001b[31m\"Đăng Ký\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('heading', { level: 2 })\u001b[22m\n\u001b[2m    14 × locator resolved to <h2 class=\"text-2xl font-bold mb-6 text-center\">Đăng Ký</h2>\u001b[22m\n\u001b[2m       - unexpected value \"Đăng Ký\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 71 |\u001b[39m       \n \u001b[90m 72 |\u001b[39m       \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39mpageTitle)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 73 |\u001b[39m       \u001b[36mawait\u001b[39m expect(loginPage\u001b[33m.\u001b[39mpageTitle)\u001b[33m.\u001b[39mtoHaveText(\u001b[35m/Đăng Nhập/i\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 74 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 75 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 76 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts:73:41\u001b[22m"
-                            }
-                          ],
+                          "status": "passed",
+                          "duration": 4582,
+                          "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T04:38:47.451Z",
+                          "startTime": "2026-08-10T05:03:38.466Z",
                           "annotations": [],
-                          "attachments": [
-                            {
-                              "name": "screenshot",
-                              "contentType": "image/png",
-                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--d0384-ses-TC28---Login-page-title-web-webkit/test-failed-1.png"
-                            },
-                            {
-                              "name": "error-context",
-                              "contentType": "text/markdown",
-                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/web-FR-02-FR-02-Đăng-nhập--d0384-ses-TC28---Login-page-title-web-webkit/error-context.md"
-                            }
-                          ],
-                          "errorLocation": {
-                            "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/web/FR-02.spec.ts",
-                            "column": 41,
-                            "line": 73
-                          }
+                          "attachments": []
                         }
                       ],
-                      "status": "unexpected"
+                      "status": "expected"
                     }
                   ],
-                  "id": "0474f947f51bd449ddc2-42e6781d0bcc6e658b4d",
-                  "file": "web/FR-02.spec.ts",
-                  "line": 68,
-                  "column": 9
+                  "id": "86e0c931955a281b23d4-d7317a5216f71584f124",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                },
+                {
+                  "title": "TC34 - Báo cáo đầy đủ khi có lỗi hỗn hợp (kiểm tra nội dung lý do)",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 10,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 4550,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:03:43.135Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-cc9e38eb50111109e61b",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                }
+              ]
+            },
+            {
+              "title": "Category: boundary",
+              "file": "admin/FR-16.spec.ts",
+              "line": 19,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "TC10 - V6 + Biên LB: `name` = 1 ký tự",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 10,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 4542,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:03:47.697Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-e261f96bfd0101120f34",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                },
+                {
+                  "title": "TC11 - V6 + Biên UB: `name` = 255 ký tự",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "parallelIndex": 2,
+                          "status": "passed",
+                          "duration": 4854,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:02:32.921Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-80399457eed64ab1196c",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                },
+                {
+                  "title": "TC14 - IV13 + Biên UB+1: `name` = 256 ký tự",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "parallelIndex": 2,
+                          "status": "passed",
+                          "duration": 4574,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:02:38.039Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-718f0607d91497432181",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                },
+                {
+                  "title": "TC15 - V7 + Biên LB: `price` = giá trị dương nhỏ nhất (0.01)",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "parallelIndex": 2,
+                          "status": "passed",
+                          "duration": 4619,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:02:42.631Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-9b0532bf2fe4eb0eff42",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                },
+                {
+                  "title": "TC17 - V7 + Biên LB: `price` = 1",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "parallelIndex": 2,
+                          "status": "passed",
+                          "duration": 4667,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:02:47.268Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-75c52859d970aa67fdd8",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                },
+                {
+                  "title": "TC18 - IV14 + Biên LB-1: `price` = 0",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "parallelIndex": 2,
+                          "status": "passed",
+                          "duration": 4657,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:02:51.949Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-4a52e7717f5f34c92840",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                },
+                {
+                  "title": "TC35 - V5 + Biên LB: File chỉ có 1 dòng dữ liệu hợp lệ",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "parallelIndex": 2,
+                          "status": "passed",
+                          "duration": 4542,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:02:56.621Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-36ff833aab4a366df3af",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                },
+                {
+                  "title": "TC43 - `price` là số dương rất lớn",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 3,
+                          "parallelIndex": 3,
+                          "status": "passed",
+                          "duration": 4928,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:02:32.816Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-fd13be3aeb3a4b284e74",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                }
+              ]
+            },
+            {
+              "title": "Category: negative",
+              "file": "admin/FR-16.spec.ts",
+              "line": 19,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "TC12 - IV11: `name` rỗng (chuỗi trống)",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 3,
+                          "parallelIndex": 3,
+                          "status": "passed",
+                          "duration": 4597,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:02:37.916Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-ad1201c8bacb8c274b0d",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                },
+                {
+                  "title": "TC13 - IV12: `name` chỉ chứa khoảng trắng",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 3,
+                          "parallelIndex": 3,
+                          "status": "passed",
+                          "duration": 4598,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:02:42.539Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-014535c73b51cc242ad7",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                },
+                {
+                  "title": "TC19 - IV15: `price` = số âm",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 3,
+                          "parallelIndex": 3,
+                          "status": "passed",
+                          "duration": 4626,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:02:47.148Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-2aa4f76e3239d1b7ca9f",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                },
+                {
+                  "title": "TC20 - IV16: `price` rỗng",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 3,
+                          "parallelIndex": 3,
+                          "status": "passed",
+                          "duration": 4571,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:02:51.785Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-fde030a8a84b08cf91b7",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                },
+                {
+                  "title": "TC21 - IV17: `price` là chuỗi ký tự",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 3,
+                          "parallelIndex": 3,
+                          "status": "passed",
+                          "duration": 4516,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:02:56.364Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-661ea51a36bc5bb589a2",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                },
+                {
+                  "title": "TC23 - IV18: `category_id` không tồn tại",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 4,
+                          "parallelIndex": 4,
+                          "status": "passed",
+                          "duration": 4929,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:02:32.815Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-57ff8c19dea3bc884ec2",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                },
+                {
+                  "title": "TC24 - IV19: `category_id` rỗng",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 4,
+                          "parallelIndex": 4,
+                          "status": "passed",
+                          "duration": 4617,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:02:37.940Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-4efc309b0fb28c145ea5",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                },
+                {
+                  "title": "TC25 - IV20: `category_id` không phải số",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 4,
+                          "parallelIndex": 4,
+                          "status": "passed",
+                          "duration": 4613,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:02:42.578Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-608a50300b2760fed2b0",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                },
+                {
+                  "title": "TC28 - IV21: Trường description chứa dấu phẩy, KHÔNG bọc nháy kép",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 4,
+                          "parallelIndex": 4,
+                          "status": "passed",
+                          "duration": 4673,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:02:47.206Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-c62e4f4bb55f3769bedf",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                },
+                {
+                  "title": "TC40 - IV24: Gửi API trực tiếp với `products = []` (mảng rỗng)",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 4,
+                          "parallelIndex": 4,
+                          "status": "passed",
+                          "duration": 93,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:02:51.894Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-03c47dd3e8abde834361",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                },
+                {
+                  "title": "TC41 - IV23: Gửi API trực tiếp với `products = null`",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 4,
+                          "parallelIndex": 4,
+                          "status": "passed",
+                          "duration": 103,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:02:51.997Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-1926f6d2951a5677a19b",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                },
+                {
+                  "title": "TC42 - IV25: Gửi API trực tiếp với `products` không phải mảng",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 5,
+                          "parallelIndex": 5,
+                          "status": "passed",
+                          "duration": 156,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:02:33.021Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-cd062591feece0dc4070",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                }
+              ]
+            },
+            {
+              "title": "Category: positive",
+              "file": "admin/FR-16.spec.ts",
+              "line": 19,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "TC16 - V7: `price` = số dương bình thường",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 5,
+                          "parallelIndex": 5,
+                          "status": "passed",
+                          "duration": 4695,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:02:33.388Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-b8a755acb6c94c9bb8ad",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                },
+                {
+                  "title": "TC22 - V8: `category_id` tồn tại trong hệ thống",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 5,
+                          "parallelIndex": 5,
+                          "status": "passed",
+                          "duration": 4583,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:02:38.102Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-300ac31531efd6c8d6f9",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                },
+                {
+                  "title": "TC26 - V9: Trường description chứa dấu phẩy, bọc nháy kép",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 5,
+                          "parallelIndex": 5,
+                          "status": "passed",
+                          "duration": 4619,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:02:42.699Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-32f0fbc589655c336fe8",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                },
+                {
+                  "title": "TC27 - V9: Trường name chứa dấu phẩy, bọc nháy kép",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 5,
+                          "parallelIndex": 5,
+                          "status": "passed",
+                          "duration": 4626,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:02:47.331Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-1164fdd36c94498a95da",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                },
+                {
+                  "title": "TC36 - Trường `description` và `imageUrl` rỗng (tùy chọn)",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 5,
+                          "parallelIndex": 5,
+                          "status": "passed",
+                          "duration": 4624,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:02:51.990Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-3f95d622471166c73ea5",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                },
+                {
+                  "title": "TC37 - Nhiều dòng hợp lệ (10 dòng)",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 6,
+                          "parallelIndex": 6,
+                          "status": "passed",
+                          "duration": 4906,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:02:32.933Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-6fd686fdc8de865d1700",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                },
+                {
+                  "title": "TC38 - Tên sản phẩm chứa ký tự Unicode/Tiếng Việt",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 6,
+                          "parallelIndex": 6,
+                          "status": "passed",
+                          "duration": 4558,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:02:38.062Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-0dfb4cbda112b08eb378",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                },
+                {
+                  "title": "TC39 - `price` là số thập phân hợp lệ",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 6,
+                          "parallelIndex": 6,
+                          "status": "passed",
+                          "duration": 4571,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:02:42.638Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-f4de883b84c1ecc09960",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                }
+              ]
+            },
+            {
+              "title": "Category: transaction",
+              "file": "admin/FR-16.spec.ts",
+              "line": 19,
+              "column": 10,
+              "specs": [
+                {
+                  "title": "TC29 - V10: Tất cả dòng hợp lệ — import thành công",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 6,
+                          "parallelIndex": 6,
+                          "status": "passed",
+                          "duration": 4666,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:02:47.240Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-f761644e429788fb4ae1",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                },
+                {
+                  "title": "TC30 - IV22: Dòng đầu hợp lệ, dòng giữa lỗi (name rỗng) — rollback",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 6,
+                          "parallelIndex": 6,
+                          "status": "passed",
+                          "duration": 4610,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:02:51.919Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-eee69f1999725df80538",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                },
+                {
+                  "title": "TC31 - IV22: Dòng đầu hợp lệ, dòng cuối lỗi (price âm) — rollback",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 6,
+                          "parallelIndex": 6,
+                          "status": "passed",
+                          "duration": 4618,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:02:56.541Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-1e0f46aa365c5c26535f",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                },
+                {
+                  "title": "TC32 - IV22: Tất cả dòng đều lỗi",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-chromium",
+                      "projectName": "admin-chromium",
+                      "results": [
+                        {
+                          "workerIndex": 7,
+                          "parallelIndex": 7,
+                          "status": "passed",
+                          "duration": 4936,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T05:02:32.821Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-0874d6bc32ba9d8a6e7d",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
                 }
               ]
             }
@@ -1497,11 +1829,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-08-10T04:37:31.476Z",
-    "duration": 81578.665,
-    "expected": 15,
+    "startTime": "2026-08-10T05:02:32.228Z",
+    "duration": 80058.059,
+    "expected": 39,
     "skipped": 0,
-    "unexpected": 11,
+    "unexpected": 4,
     "flaky": 0
   }
 }

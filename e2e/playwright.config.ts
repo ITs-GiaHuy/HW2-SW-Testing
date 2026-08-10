@@ -7,7 +7,11 @@ dotenv.config({ path: path.resolve(__dirname, '.env') });
 
 export default defineConfig({
   testDir: './tests',
+  // Bật chế độ chạy song song
   fullyParallel: true,
+
+  // Reset database trước khi test chạy
+  globalSetup: require.resolve('./global-setup'),
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
   workers: process.env.CI ? 1 : undefined,

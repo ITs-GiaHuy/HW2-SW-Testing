@@ -115,6 +115,7 @@ test.describe('FR-11: Xem lịch sử đơn hàng', () => {
 
         if (tc.id === 'TC11') {
           await expect(orderPage.emptyStateMessage).toBeVisible();
+          await expect(orderPage.emptyStateIcon).toBeVisible();
         }
       });
     }

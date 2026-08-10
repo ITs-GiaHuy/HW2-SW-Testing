@@ -6,6 +6,7 @@ export class OrderHistoryPage {
   readonly orderTable: Locator;
   readonly orderRows: Locator;
   readonly emptyStateMessage: Locator;
+  readonly emptyStateIcon: Locator;
 
   constructor(page: Page) {
     this.page = page;
@@ -13,6 +14,7 @@ export class OrderHistoryPage {
     this.orderTable = page.getByRole('table');
     this.orderRows = page.getByRole('row');
     this.emptyStateMessage = page.getByText(/chưa có đơn hàng/i);
+    this.emptyStateIcon = page.locator('svg, img').first();
   }
 
   async goto() {
