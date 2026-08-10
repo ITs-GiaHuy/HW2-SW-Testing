@@ -1,0 +1,136 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: web/FR-02.spec.ts >> FR-02: Đăng nhập & Khóa tài khoản >> Positive Cases >> TC02 - Đăng nhập thành công với tài khoản User thường
+- Location: tests/web/FR-02.spec.ts:11:11
+
+# Error details
+
+```
+Error: expect(page).toHaveURL(expected) failed
+
+Expected: "http://127.0.0.1:5173/"
+Received: "http://127.0.0.1:5173/login"
+Timeout:  5000ms
+
+Call log:
+  - Expect "toHaveURL" with timeout 5000ms
+    12 × locator resolved to <html lang="en">…</html>
+       - unexpected value "http://127.0.0.1:5173/login"
+
+```
+
+```yaml
+- banner:
+  - link "EShop":
+    - /url: /
+  - navigation:
+    - link "Giỏ hàng":
+      - /url: /cart
+    - link "Đăng nhập":
+      - /url: /login
+    - link "Đăng ký":
+      - /url: /register
+- main:
+  - heading "Đăng Ký" [level=2]
+  - text: Username
+  - textbox: test@eshop.com
+  - text: Mật khẩu
+  - textbox: Test1234!
+  - link "Quên mật khẩu?":
+    - /url: /forgot-password
+  - button "Sign In"
+  - text: Chưa có tài khoản?
+  - link "Đăng ký ngay":
+    - /url: /register
+  - text: Đăng nhập thất bại. Vui lòng kiểm tra lại.
+- contentinfo: © 2026 EShop SUT. Dành cho mục đích kiểm thử.
+```
+
+# Test source
+
+```ts
+  1  | import { test, expect } from '@playwright/test';
+  2  | import testData from '../../test-data/FR_02.data.json';
+  3  | import { LoginPage } from '../../pages/web/FR-02.page';
+  4  | 
+  5  | test.describe('FR-02: Đăng nhập & Khóa tài khoản', () => {
+  6  | 
+  7  |   test.describe('Positive Cases', () => {
+  8  |     const positiveCases = testData.testCases.filter(tc => tc.category === 'positive');
+  9  | 
+  10 |     for (const tc of positiveCases) {
+  11 |       test(`${tc.id} - ${tc.title}`, async ({ page }) => {
+  12 |         const loginPage = new LoginPage(page);
+  13 |         await loginPage.goto();
+  14 |         
+  15 |         await loginPage.login(tc.input.email, tc.input.password);
+  16 | 
+  17 |         // Assertion Pattern 1: toHaveURL
+  18 |         if (tc.expected?.redirect) {
+> 19 |           await expect(page).toHaveURL(tc.expected.redirect);
+     |                              ^ Error: expect(page).toHaveURL(expected) failed
+  20 |         }
+  21 |         
+  22 |         // Assertion Pattern 2: toBeVisible
+  23 |         if (tc.expected?.tokenStored) {
+  24 |           // Token is stored means logged in successfully, logout button might be visible
+  25 |           await expect(page.getByRole('button', { name: /logout|đăng xuất/i })).toBeVisible({ timeout: 2000 }).catch(() => {}); 
+  26 |         }
+  27 |       });
+  28 |     }
+  29 |   });
+  30 | 
+  31 |   test.describe('Negative & Boundary Cases', () => {
+  32 |     const negativeCases = testData.testCases.filter(tc => tc.category === 'negative' || tc.category === 'boundary');
+  33 | 
+  34 |     for (const tc of negativeCases) {
+  35 |       test(`${tc.id} - ${tc.title}`, async ({ page }) => {
+  36 |         const loginPage = new LoginPage(page);
+  37 |         await loginPage.goto();
+  38 |         
+  39 |         if (tc.input?.email !== undefined || tc.input?.password !== undefined) {
+  40 |             await loginPage.login(tc.input.email, tc.input.password);
+  41 |         }
+  42 | 
+  43 |         // Assertion Pattern 3: toHaveText
+  44 |         if (tc.expected?.errorMessage) {
+  45 |           await expect(loginPage.errorMessage).toBeVisible();
+  46 |           await expect(loginPage.errorMessage).toHaveText(tc.expected.errorMessage);
+  47 |         }
+  48 |       });
+  49 |     }
+  50 |   });
+  51 | 
+  52 |   test.describe('UI/UX Cases', () => {
+  53 |     test('TC24 - Email input type attribute', async ({ page }) => {
+  54 |       const loginPage = new LoginPage(page);
+  55 |       await loginPage.goto();
+  56 |       
+  57 |       // Assertion Pattern 4: toHaveAttribute
+  58 |       await expect(loginPage.emailInput).toHaveAttribute('type', 'email');
+  59 |     });
+  60 | 
+  61 |     test('TC25 - Password input type attribute', async ({ page }) => {
+  62 |       const loginPage = new LoginPage(page);
+  63 |       await loginPage.goto();
+  64 |       
+  65 |       await expect(loginPage.passwordInput).toHaveAttribute('type', 'password');
+  66 |     });
+  67 | 
+  68 |     test('TC28 - Login page title', async ({ page }) => {
+  69 |       const loginPage = new LoginPage(page);
+  70 |       await loginPage.goto();
+  71 |       
+  72 |       await expect(loginPage.pageTitle).toBeVisible();
+  73 |       await expect(loginPage.pageTitle).toHaveText(/Đăng Nhập/i);
+  74 |     });
+  75 |   });
+  76 | });
+  77 | 
+```
