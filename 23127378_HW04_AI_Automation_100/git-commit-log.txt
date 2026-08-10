@@ -1,0 +1,77 @@
+commit 15ff540c5cf67e6d1e303236cbb37f3c5b9e41ac
+Author: Its-GiaHuy <giahuytechie@gmail.com>
+Date:   Sun Aug 9 20:59:08 2026 +0700
+
+    fix: by pass ui test
+
+commit e9b3f2899611c87147ce2b27213605141801c72a
+Author: Its-GiaHuy <giahuytechie@gmail.com>
+Date:   Sun Aug 9 20:35:26 2026 +0700
+
+    fix: tsconfig
+
+commit 0e88c085e70b76b1d84e880a8c0a8bd843577bb6
+Author: Its-GiaHuy <giahuytechie@gmail.com>
+Date:   Sun Aug 9 19:51:52 2026 +0700
+
+    fix: env and data setup
+
+commit 50ae4428c35e49a659cc1147446c84fc05ea3fe0
+Author: Its-GiaHuy <giahuytechie@gmail.com>
+Date:   Sun Aug 9 19:45:37 2026 +0700
+
+    fix FR-16 spect
+
+commit 0f0172db264eef219efbde5227bed66f0c207bf1
+Author: Its-GiaHuy <giahuytechie@gmail.com>
+Date:   Sat Aug 8 16:14:22 2026 +0700
+
+    fix: FR-16.spect ivalid import
+
+commit 1ac09ac5ff3685459232b8bb91ccb96bb8abada6
+Author: Its-GiaHuy <giahuytechie@gmail.com>
+Date:   Sat Aug 8 15:55:09 2026 +0700
+
+    test(e2e): update FR-02 login locators to match frontend DOM
+
+commit 089cffb1338ffcde860ba345ab9f5c065c989d2e
+Author: Its-GiaHuy <giahuytechie@gmail.com>
+Date:   Thu Aug 6 23:00:34 2026 +0700
+
+    test: add login step to FR11 test script
+
+commit 85dec2bf41c7389c5e88e6e192ad1f950b811f97
+Author: Its-GiaHuy <giahuytechie@gmail.com>
+Date:   Tue Aug 4 15:38:21 2026 +0700
+
+    test(e2e): fix FR-16 script execution and playwright local connection
+
+commit 5b1143be1d97a996f70a1e1676bd7e87179ae7af
+Author: Its-GiaHuy <giahuytechie@gmail.com>
+Date:   Tue Aug 4 15:17:40 2026 +0700
+
+    fix invalid path in test script
+
+commit b68391124faf38012dd1a19955962b0f1241a604
+Author: Its-GiaHuy <giahuytechie@gmail.com>
+Date:   Tue Aug 4 14:45:23 2026 +0700
+
+    fix: wrong relative path
+
+commit e660f5e9e046e4af726a6863ac9081e4eef26364
+Author: Its-GiaHuy <giahuytechie@gmail.com>
+Date:   Tue Aug 4 14:42:03 2026 +0700
+
+    feat: test script
+
+commit 3263baee3e407588cd81f06b7a4172a2774f6c2a
+Author: Its-GiaHuy <giahuytechie@gmail.com>
+Date:   Tue Aug 4 14:40:34 2026 +0700
+
+    agent: skill for homework
+
+commit c8addb06dfd891d3863630b1d656cf271a7d1f3e
+Author: Its-GiaHuy <giahuytechie@gmail.com>
+Date:   Tue Aug 4 12:13:08 2026 +0700
+
+    init: start homeword 04

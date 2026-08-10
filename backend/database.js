@@ -139,6 +139,14 @@ function initDatabase() {
     insertProduct.finalize();
 
     // Seed Coupons
+    const insertOrder = db.prepare("INSERT INTO orders (user_id, total_amount, status, shipping_address, created_at) VALUES (?, ?, ?, ?, ?)");
+    insertOrder.run(2, 10000, "pending", "123 Test St", "2026-08-01 10:00:00"); // for TC05
+    insertOrder.run(2, 100000000, "confirmed", "123 Test St", "2026-08-02 10:00:00"); // for TC06, TC07
+    insertOrder.run(2, 500000, "shipping", "123 Test St", "2026-08-03 10:00:00"); // for TC08, TC15
+    insertOrder.run(2, 1234567, "delivered", "123 Test St", "2026-08-04 10:00:00"); // for TC09, TC16
+    insertOrder.run(2, 50000, "canceled", "123 Test St", "2026-08-05 10:00:00"); // for TC10
+    insertOrder.finalize();
+
     const insertCoupon = db.prepare(
       "INSERT INTO coupons (code, type, discount_value, min_order_amount, expired_at, is_active, max_uses_per_user) VALUES (?, ?, ?, ?, ?, ?, ?)",
     );
