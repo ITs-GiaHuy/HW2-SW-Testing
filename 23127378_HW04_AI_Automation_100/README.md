@@ -2,9 +2,9 @@
 
 **Author:** [giahuy] (23127378)
 **Exercise:** HW04-AI_Automation_100
-**Repository:** (Insert your GitHub repository link here)
-**Demo Video:** (Insert your YouTube demo video link here)
-**Agent Skill Demo Video:** (Insert your YouTube Agent Skill demo video link here)
+**Repository:** [https://github.com/ITs-GiaHuy/HW2-SW-Testing](https://github.com/ITs-GiaHuy/HW2-SW-Testing)
+**Demo Video:** <!-- TODO: Insert your unlisted YouTube demo video link here -->
+**Agent Skill Demo Video:** <!-- TODO: Insert your YouTube Agent Skill demo video link here -->
 
 ## Self-Assessment Table
 
@@ -27,4 +27,4 @@
 - **Total Browser Runs:** 9 (Chromium, Firefox, WebKit for each feature)
 - **Total Test Cases Executed (Total tests run in Playwright):** 306 (102 * 3 browsers)
 - **Total Failures:** ~175 (including retries and environment issues like NS_ERROR_NET_EMPTY_RESPONSE)
-- **Total True Bugs Found:** 14 (See `bug-report.md`)
+- **Total True Bugs Found:** 19 (See `bug-report.md`)
