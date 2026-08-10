@@ -1,0 +1,42 @@
+
+85x: Error: page.goto: NS_ERROR_NET_EMPTY_RESPONSE
+  - web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC22 - Biên thời gian: Đăng nhập ngay khi vừa hết khóa (locked_until = now)
+  - web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC13 - Mật khẩu rỗng
+  - web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Positive Cases > TC02 - Đăng nhập thành công với tài khoản User thường
+  - web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC17 - Biên LB: Sai lần 1 (login_attempts: 0→1)
+  - admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: boundary > TC15 - V7 + Biên LB: `price` = giá trị dương nhỏ nhất (0.01)
+
+63x: [31mTest timeout of 30000ms exceeded.[39m
+  - admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: negative > TC28 - IV21: Trường description chứa dấu phẩy, KHÔNG bọc nháy kép
+  - web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC19 - Biên UB (ngưỡng khóa): Sai lần 3 (login_attempts: 2→3) — tài khoản bị KHÓA
+  - web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC07 - Email sai format — thiếu @
+  - web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC22 - Biên thời gian: Đăng nhập ngay khi vừa hết khóa (locked_until = now)
+  - admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: boundary > TC35 - V5 + Biên LB: File chỉ có 1 dòng dữ liệu hợp lệ
+
+10x: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+  - web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > Positive Cases > TC06 - V5 (LB+1 = nhiều đơn), trạng thái đa dạng (V6-V10), tổng tiền lớn (V12)
+  - web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC12 - Mật khẩu sai
+  - web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC16 - Tài khoản đang bị khóa (sai pass)
+  - web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC15 - Tài khoản đang bị khóa
+  - web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > Negative & Boundary Cases > TC21 - Biên thời gian: Đăng nhập ngay trước khi hết khóa (locked_until - 1 giây)
+
+4x: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveAttribute[2m([22m[32mexpected[39m[2m)[22m failed
+  - web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > UI/UX Cases > TC25 - Password input type attribute
+  - web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > UI/UX Cases > TC24 - Email input type attribute
+
+6x: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+  - web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > Security Cases > TC12 - V17 — User chỉ thấy đơn của mình
+  - web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > Functional Cases > TC26 - Kiểm tra thứ tự sắp xếp đơn hàng
+  - web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > Security Cases > TC13 - INV6 — Đơn hàng thuộc user khác không hiển thị (kiểm tra API)
+  - web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > Boundary Cases > TC11 - INV5 (LB-1 = 0 đơn) — Empty State
+  - web/FR-02.spec.ts > FR-02: Đăng nhập & Khóa tài khoản > UI/UX Cases > TC28 - Login page title
+
+4x: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveCount[2m([22m[32mexpected[39m[2m)[22m failed
+  - web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > Positive Cases > TC05 - V1, V2, V4 (LB = 1 đơn) — User có đúng 1 đơn hàng, trạng thái pending (V6), tổng tiền nhỏ (V11)
+  - web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > UI/UX Cases > TC18 - Kiểm tra thẻ <h1> duy nhất (FR-21)
+
+2x: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveCSS[2m([22m[32mexpected[39m[2m)[22m failed
+  - web/FR-11.spec.ts > FR-11: Xem lịch sử đơn hàng > UI/UX Cases > TC07 - V7 — Trạng thái confirmed + màu sắc
+
+3x: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+  - admin/FR-16.spec.ts > FR-16: Import Sản phẩm từ CSV > Category: security > TC03 - IV3: Token hợp lệ nhưng role = 'user'
