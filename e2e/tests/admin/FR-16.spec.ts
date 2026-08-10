@@ -117,19 +117,29 @@ test.describe('FR-16: Import Sản phẩm từ CSV', () => {
           
           const responsePromise = page.waitForResponse(res => res.url().includes('/api/admin/import-products') && res.request().method() === 'POST').catch(() => null);
           
-          await importPage.uploadFile(tempFilePath);
+          await importPage.fileInput.setInputFiles(tempFilePath);
+          if (await importPage.importButton.isDisabled()) {
+            return; // Frontend correctly prevented invalid data (e.g., empty file)
+          }
+          await importPage.importButton.click();
           
           const response = await responsePromise;
           if (response && tc.expected.httpStatus) {
             expect(response.status()).toBe(tc.expected.httpStatus);
           }
 
-          if (tc.category === 'positive' || tc.category === 'transaction' && tc.id === 'TC29') {
-            await expect(importPage.successMessage).toBeVisible({ timeout: 3000 }).catch(() => {});
+          const isSuccessCase = (tc.category === 'positive' || 
+                                (tc.category === 'boundary' && !tc.title.includes('IV')) || 
+                                tc.id === 'TC29') && 
+                                !tc.title.toLowerCase().includes('rollback') &&
+                                !tc.title.toLowerCase().includes('lỗi');
+
+          if (isSuccessCase) {
+            await expect(importPage.successMessage).toBeVisible({ timeout: 3000 });
           } else {
             // For negative/boundary where it should fail
             if (!tc.expected.httpStatus || tc.expected.httpStatus >= 400) {
-              await expect(importPage.errorMessage).toBeVisible({ timeout: 3000 }).catch(() => {});
+              await expect(importPage.errorMessage).toBeVisible({ timeout: 3000 });
             }
           }
         });

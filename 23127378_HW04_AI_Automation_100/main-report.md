@@ -29,12 +29,12 @@ The automation scripts were entirely generated using a data-driven approach orch
 **What the AI missed during script generation:**
 1. **Complex UI Flows:** For FR-11, the AI struggled initially to construct complex XPath locators needed to locate a specific row in the order table based on multiple dynamic criteria (Order ID + Status). Human intervention was required to enforce simpler `.getByRole('row').filter(...)` logic.
 2. **Asynchronous Race Conditions:** In FR-16 (CSV Import), the AI generated a script that triggered file upload *before* setting up the `page.waitForResponse()` listener, causing the script to occasionally miss the API response and timeout. The script was refined manually to attach the listener first.
-3. **Flaky Error Capturing:** The AI initially did not use `.catch()` blocks for visibility assertions on negative test cases. Since the system contains 14 intentional bugs, many error elements simply never appeared. Without `.catch()`, these tests crashed abruptly instead of elegantly logging the failure, hiding the true nature of the bugs.
+3. **Flaky Error Capturing:** The AI initially did not use `.catch()` blocks for visibility assertions on negative test cases. Since the system contains intentional bugs, many error elements simply never appeared. Without `.catch()`, these tests crashed abruptly instead of elegantly logging the failure, hiding the true nature of the bugs.
 
 ## 5. Summary of Bug Findings
-The automation successfully exposed 14 intentional bugs in the SUT, which were previously overlooked or manually tedious to verify in HW02:
-- **FR-02:** 6 grouped bugs (Login attempts incremented by 2, Lockout time 180s, Missing semantic types, etc.)
-- **FR-11:** 3 grouped bugs (Missing H1, Missing Empty State icon, Wrong color for confirmed status)
-- **FR-16:** 5 grouped bugs (No Role Admin check, No Transaction Rollback, Naive CSV Parser splitting on quotes, Missing validations for price and category).
+The automation successfully exposed 19 intentional bugs in the SUT, which were previously overlooked or manually tedious to verify in HW02:
+- **FR-02:** 8 grouped bugs (Login attempts incremented by 2, Lockout time 180s, Missing semantic types, Invalid UI Error placement, Wrong labels, etc.)
+- **FR-11:** 2 grouped bugs (Missing H1, Missing Empty State icon)
+- **FR-16:** 9 grouped bugs (No Role Admin check, No Transaction Rollback, Naive CSV Parser splitting on quotes, Missing validations for price, name and category ID, Header failures).
 
 *Refer to `bug-report.md` for full defect details.*

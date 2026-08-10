@@ -5,7 +5,7 @@
       "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/node_modules/.bin/playwright",
       "test",
       "FR-16.spec.ts",
-      "--project=admin-chromium"
+      "--project=admin-webkit"
     ],
     "configFile": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/playwright.config.ts",
     "rootDir": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests",
@@ -21,7 +21,7 @@
     "metadata": {
       "Run by": "23127378 - Nguyễn Gia Huy",
       "Project": "EShop Web Automation Testing — HW04",
-      "Timestamp": "2026-08-10T05:02:32.226Z",
+      "Timestamp": "2026-08-10T06:50:12.693Z",
       "Environment": "Local",
       "actualWorkers": 8
     },
@@ -34,7 +34,7 @@
         "metadata": {
           "Run by": "23127378 - Nguyễn Gia Huy",
           "Project": "EShop Web Automation Testing — HW04",
-          "Timestamp": "2026-08-10T05:02:32.226Z",
+          "Timestamp": "2026-08-10T06:50:12.693Z",
           "Environment": "Local",
           "actualWorkers": 8
         },
@@ -54,7 +54,7 @@
         "metadata": {
           "Run by": "23127378 - Nguyễn Gia Huy",
           "Project": "EShop Web Automation Testing — HW04",
-          "Timestamp": "2026-08-10T05:02:32.226Z",
+          "Timestamp": "2026-08-10T06:50:12.693Z",
           "Environment": "Local",
           "actualWorkers": 8
         },
@@ -74,7 +74,7 @@
         "metadata": {
           "Run by": "23127378 - Nguyễn Gia Huy",
           "Project": "EShop Web Automation Testing — HW04",
-          "Timestamp": "2026-08-10T05:02:32.226Z",
+          "Timestamp": "2026-08-10T06:50:12.693Z",
           "Environment": "Local",
           "actualWorkers": 8
         },
@@ -94,7 +94,7 @@
         "metadata": {
           "Run by": "23127378 - Nguyễn Gia Huy",
           "Project": "EShop Web Automation Testing — HW04",
-          "Timestamp": "2026-08-10T05:02:32.226Z",
+          "Timestamp": "2026-08-10T06:50:12.693Z",
           "Environment": "Local",
           "actualWorkers": 8
         },
@@ -114,7 +114,7 @@
         "metadata": {
           "Run by": "23127378 - Nguyễn Gia Huy",
           "Project": "EShop Web Automation Testing — HW04",
-          "Timestamp": "2026-08-10T05:02:32.226Z",
+          "Timestamp": "2026-08-10T06:50:12.693Z",
           "Environment": "Local",
           "actualWorkers": 8
         },
@@ -134,7 +134,7 @@
         "metadata": {
           "Run by": "23127378 - Nguyễn Gia Huy",
           "Project": "EShop Web Automation Testing — HW04",
-          "Timestamp": "2026-08-10T05:02:32.226Z",
+          "Timestamp": "2026-08-10T06:50:12.693Z",
           "Environment": "Local",
           "actualWorkers": 8
         },
@@ -211,19 +211,19 @@
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
                           "workerIndex": 0,
                           "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 156,
+                          "duration": 591,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:32.917Z",
+                          "startTime": "2026-08-10T06:50:13.263Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -231,7 +231,7 @@
                       "status": "expected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-7cb0b6cce40b0e9446da",
+                  "id": "86e0c931955a281b23d4-42c1d84a838fa445ca62",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
@@ -245,19 +245,19 @@
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
                           "workerIndex": 0,
                           "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 116,
+                          "duration": 632,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:33.309Z",
+                          "startTime": "2026-08-10T06:50:14.098Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -265,7 +265,7 @@
                       "status": "expected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-1dc2fdadce8e39bec154",
+                  "id": "86e0c931955a281b23d4-b2901be3f5c859bca04b",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
@@ -279,14 +279,14 @@
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
                           "workerIndex": 0,
                           "parallelIndex": 0,
                           "status": "failed",
-                          "duration": 153,
+                          "duration": 465,
                           "error": {
                             "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m403\u001b[39m\nReceived: \u001b[31m200\u001b[39m",
                             "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m403\u001b[39m\nReceived: \u001b[31m200\u001b[39m\n    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:59:41",
@@ -310,18 +310,18 @@
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:33.439Z",
+                          "startTime": "2026-08-10T06:50:14.754Z",
                           "annotations": [],
                           "attachments": [
                             {
                               "name": "screenshot",
                               "contentType": "image/png",
-                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-d5d7d-ken-hợp-lệ-nhưng-role-user--admin-chromium/test-failed-1.png"
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-d5d7d-ken-hợp-lệ-nhưng-role-user--admin-webkit/test-failed-1.png"
                             },
                             {
                               "name": "error-context",
                               "contentType": "text/markdown",
-                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-d5d7d-ken-hợp-lệ-nhưng-role-user--admin-chromium/error-context.md"
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-d5d7d-ken-hợp-lệ-nhưng-role-user--admin-webkit/error-context.md"
                             }
                           ],
                           "errorLocation": {
@@ -334,7 +334,7 @@
                       "status": "unexpected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-90529639841e644c8ca0",
+                  "id": "86e0c931955a281b23d4-34f72b33b7e0484195d8",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
@@ -349,230 +349,212 @@
               "specs": [
                 {
                   "title": "TC04 - IV4: Đuôi file không phải `.csv`",
-                  "ok": true,
+                  "ok": false,
                   "tags": [],
                   "tests": [
                     {
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
                           "workerIndex": 8,
                           "parallelIndex": 0,
-                          "status": "passed",
-                          "duration": 4504,
-                          "errors": [],
+                          "status": "failed",
+                          "duration": 6604,
+                          "error": {
+                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n",
+                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n\n    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:142:53",
+                            "location": {
+                              "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                              "column": 53,
+                              "line": 142
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 140 |\u001b[39m             \u001b[90m// For negative/boundary where it should fail\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mtc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m||\u001b[39m tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m>=\u001b[39m \u001b[35m400\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m               \u001b[36mawait\u001b[39m expect(importPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m3000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m             }\n \u001b[90m 144 |\u001b[39m           }\n \u001b[90m 145 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                                "column": 53,
+                                "line": 142
+                              },
+                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n\n\n\u001b[0m \u001b[90m 140 |\u001b[39m             \u001b[90m// For negative/boundary where it should fail\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mtc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m||\u001b[39m tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m>=\u001b[39m \u001b[35m400\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m               \u001b[36mawait\u001b[39m expect(importPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m3000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m             }\n \u001b[90m 144 |\u001b[39m           }\n \u001b[90m 145 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:142:53\u001b[22m"
+                            }
+                          ],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:33.960Z",
+                          "startTime": "2026-08-10T06:50:15.600Z",
                           "annotations": [],
-                          "attachments": []
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-b7f89-4-Đuôi-file-không-phải-csv--admin-webkit/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-b7f89-4-Đuôi-file-không-phải-csv--admin-webkit/error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                            "column": 53,
+                            "line": 142
+                          }
                         }
                       ],
-                      "status": "expected"
+                      "status": "unexpected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-c9138bfce1ded9513848",
+                  "id": "86e0c931955a281b23d4-728fe4cda6aa26032010",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
                 },
                 {
                   "title": "TC05 - IV4: Đuôi file `.xlsx`",
-                  "ok": true,
+                  "ok": false,
                   "tags": [],
                   "tests": [
                     {
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
-                          "workerIndex": 8,
+                          "workerIndex": 10,
                           "parallelIndex": 0,
-                          "status": "passed",
-                          "duration": 4476,
-                          "errors": [],
+                          "status": "failed",
+                          "duration": 9651,
+                          "error": {
+                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n",
+                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n\n    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:142:53",
+                            "location": {
+                              "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                              "column": 53,
+                              "line": 142
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 140 |\u001b[39m             \u001b[90m// For negative/boundary where it should fail\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mtc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m||\u001b[39m tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m>=\u001b[39m \u001b[35m400\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m               \u001b[36mawait\u001b[39m expect(importPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m3000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m             }\n \u001b[90m 144 |\u001b[39m           }\n \u001b[90m 145 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                                "column": 53,
+                                "line": 142
+                              },
+                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n\n\n\u001b[0m \u001b[90m 140 |\u001b[39m             \u001b[90m// For negative/boundary where it should fail\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mtc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m||\u001b[39m tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m>=\u001b[39m \u001b[35m400\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m               \u001b[36mawait\u001b[39m expect(importPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m3000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m             }\n \u001b[90m 144 |\u001b[39m           }\n \u001b[90m 145 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:142:53\u001b[22m"
+                            }
+                          ],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:38.546Z",
+                          "startTime": "2026-08-10T06:50:23.563Z",
                           "annotations": [],
-                          "attachments": []
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-f105a--TC05---IV4-Đuôi-file-xlsx--admin-webkit/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-f105a--TC05---IV4-Đuôi-file-xlsx--admin-webkit/error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                            "column": 53,
+                            "line": 142
+                          }
                         }
                       ],
-                      "status": "expected"
+                      "status": "unexpected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-a3fea07d7892184a5bd0",
+                  "id": "86e0c931955a281b23d4-ca7ed012605af25ca2b4",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
                 },
                 {
                   "title": "TC06 - IV9: File rỗng (0 bytes)",
-                  "ok": false,
+                  "ok": true,
                   "tags": [],
                   "tests": [
                     {
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
-                          "workerIndex": 8,
+                          "workerIndex": 15,
                           "parallelIndex": 0,
-                          "status": "timedOut",
-                          "duration": 30060,
-                          "error": {
-                            "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
-                            "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
-                          },
-                          "errors": [
-                            {
-                              "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
-                            },
-                            {
-                              "location": {
-                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/admin/FR-16.page.ts",
-                                "column": 29,
-                                "line": 24
-                              },
-                              "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /import|nhập/i })\u001b[22m\n\u001b[2m    - locator resolved to <button disabled class=\"bg-blue-600 text-white px-4 py-2 rounded disabled:opacity-50 whitespace-nowrap\">Import 0 sản phẩm</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    55 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../pages/admin/FR-16.page.ts:24\n\n\u001b[0m \u001b[90m 22 |\u001b[39m   \u001b[36masync\u001b[39m uploadFile(filePath\u001b[33m:\u001b[39m string) {\n \u001b[90m 23 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mfileInput\u001b[33m.\u001b[39msetInputFiles(filePath)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 24 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mimportButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 25 |\u001b[39m   }\n \u001b[90m 26 |\u001b[39m }\n \u001b[90m 27 |\u001b[39m\u001b[0m\n\u001b[2m    at ImportProductPage.uploadFile (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/admin/FR-16.page.ts:24:29)\u001b[22m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:120:11\u001b[22m"
-                            }
-                          ],
+                          "status": "passed",
+                          "duration": 5577,
+                          "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:43.031Z",
+                          "startTime": "2026-08-10T06:50:35.336Z",
                           "annotations": [],
-                          "attachments": [
-                            {
-                              "name": "screenshot",
-                              "contentType": "image/png",
-                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-984bf-06---IV9-File-rỗng-0-bytes--admin-chromium/test-failed-1.png"
-                            },
-                            {
-                              "name": "error-context",
-                              "contentType": "text/markdown",
-                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-984bf-06---IV9-File-rỗng-0-bytes--admin-chromium/error-context.md"
-                            }
-                          ]
+                          "attachments": []
                         }
                       ],
-                      "status": "unexpected"
+                      "status": "expected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-5dcec9e3de8bcc2e52d5",
+                  "id": "86e0c931955a281b23d4-f268bf1232a18a9d75c9",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
                 },
                 {
                   "title": "TC07 - IV10: File chỉ có header, không có dòng dữ liệu",
-                  "ok": false,
+                  "ok": true,
                   "tags": [],
                   "tests": [
                     {
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
                           "workerIndex": 1,
                           "parallelIndex": 1,
-                          "status": "timedOut",
-                          "duration": 30078,
-                          "error": {
-                            "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
-                            "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
-                          },
-                          "errors": [
-                            {
-                              "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
-                            },
-                            {
-                              "location": {
-                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/admin/FR-16.page.ts",
-                                "column": 29,
-                                "line": 24
-                              },
-                              "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /import|nhập/i })\u001b[22m\n\u001b[2m    - locator resolved to <button disabled class=\"bg-blue-600 text-white px-4 py-2 rounded disabled:opacity-50 whitespace-nowrap\">Import 0 sản phẩm</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    55 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../pages/admin/FR-16.page.ts:24\n\n\u001b[0m \u001b[90m 22 |\u001b[39m   \u001b[36masync\u001b[39m uploadFile(filePath\u001b[33m:\u001b[39m string) {\n \u001b[90m 23 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mfileInput\u001b[33m.\u001b[39msetInputFiles(filePath)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 24 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mimportButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 25 |\u001b[39m   }\n \u001b[90m 26 |\u001b[39m }\n \u001b[90m 27 |\u001b[39m\u001b[0m\n\u001b[2m    at ImportProductPage.uploadFile (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/admin/FR-16.page.ts:24:29)\u001b[22m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:120:11\u001b[22m"
-                            }
-                          ],
+                          "status": "passed",
+                          "duration": 3139,
+                          "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:32.893Z",
+                          "startTime": "2026-08-10T06:50:13.410Z",
                           "annotations": [],
-                          "attachments": [
-                            {
-                              "name": "screenshot",
-                              "contentType": "image/png",
-                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-789b1-eader-không-có-dòng-dữ-liệu-admin-chromium/test-failed-1.png"
-                            },
-                            {
-                              "name": "error-context",
-                              "contentType": "text/markdown",
-                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-789b1-eader-không-có-dòng-dữ-liệu-admin-chromium/error-context.md"
-                            }
-                          ]
+                          "attachments": []
                         }
                       ],
-                      "status": "unexpected"
+                      "status": "expected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-004604c33615ed57add8",
+                  "id": "86e0c931955a281b23d4-bd96b7813e78d86b9950",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
                 },
                 {
                   "title": "TC08 - IV5: Header sai tên cột",
-                  "ok": true,
-                  "tags": [],
-                  "tests": [
-                    {
-                      "timeout": 30000,
-                      "annotations": [],
-                      "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
-                      "results": [
-                        {
-                          "workerIndex": 9,
-                          "parallelIndex": 1,
-                          "status": "passed",
-                          "duration": 4569,
-                          "errors": [],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 0,
-                          "startTime": "2026-08-10T05:03:03.472Z",
-                          "annotations": [],
-                          "attachments": []
-                        }
-                      ],
-                      "status": "expected"
-                    }
-                  ],
-                  "id": "86e0c931955a281b23d4-c713318e2280bd329fc3",
-                  "file": "admin/FR-16.spec.ts",
-                  "line": 23,
-                  "column": 13
-                },
-                {
-                  "title": "TC09 - IV8: Không có dòng header",
                   "ok": false,
                   "tags": [],
                   "tests": [
@@ -580,122 +562,234 @@
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
-                          "workerIndex": 9,
+                          "workerIndex": 1,
                           "parallelIndex": 1,
-                          "status": "timedOut",
-                          "duration": 30062,
+                          "status": "failed",
+                          "duration": 6639,
                           "error": {
-                            "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
-                            "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n",
+                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n\n    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:142:53",
+                            "location": {
+                              "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                              "column": 53,
+                              "line": 142
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 140 |\u001b[39m             \u001b[90m// For negative/boundary where it should fail\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mtc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m||\u001b[39m tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m>=\u001b[39m \u001b[35m400\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m               \u001b[36mawait\u001b[39m expect(importPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m3000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m             }\n \u001b[90m 144 |\u001b[39m           }\n \u001b[90m 145 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m"
                           },
                           "errors": [
                             {
-                              "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
-                            },
-                            {
                               "location": {
-                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/admin/FR-16.page.ts",
-                                "column": 29,
-                                "line": 24
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                                "column": 53,
+                                "line": 142
                               },
-                              "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /import|nhập/i })\u001b[22m\n\u001b[2m    - locator resolved to <button disabled class=\"bg-blue-600 text-white px-4 py-2 rounded disabled:opacity-50 whitespace-nowrap\">Import 0 sản phẩm</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    55 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n\n\u001b[90m   at \u001b[39m../pages/admin/FR-16.page.ts:24\n\n\u001b[0m \u001b[90m 22 |\u001b[39m   \u001b[36masync\u001b[39m uploadFile(filePath\u001b[33m:\u001b[39m string) {\n \u001b[90m 23 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mfileInput\u001b[33m.\u001b[39msetInputFiles(filePath)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 24 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mimportButton\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 25 |\u001b[39m   }\n \u001b[90m 26 |\u001b[39m }\n \u001b[90m 27 |\u001b[39m\u001b[0m\n\u001b[2m    at ImportProductPage.uploadFile (/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/pages/admin/FR-16.page.ts:24:29)\u001b[22m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:120:11\u001b[22m"
+                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n\n\n\u001b[0m \u001b[90m 140 |\u001b[39m             \u001b[90m// For negative/boundary where it should fail\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mtc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m||\u001b[39m tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m>=\u001b[39m \u001b[35m400\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m               \u001b[36mawait\u001b[39m expect(importPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m3000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m             }\n \u001b[90m 144 |\u001b[39m           }\n \u001b[90m 145 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:142:53\u001b[22m"
                             }
                           ],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:03:08.119Z",
+                          "startTime": "2026-08-10T06:50:16.733Z",
                           "annotations": [],
                           "attachments": [
                             {
                               "name": "screenshot",
                               "contentType": "image/png",
-                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-d0edb----IV8-Không-có-dòng-header-admin-chromium/test-failed-1.png"
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-6707a-08---IV5-Header-sai-tên-cột-admin-webkit/test-failed-1.png"
                             },
                             {
                               "name": "error-context",
                               "contentType": "text/markdown",
-                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-d0edb----IV8-Không-có-dòng-header-admin-chromium/error-context.md"
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-6707a-08---IV5-Header-sai-tên-cột-admin-webkit/error-context.md"
                             }
-                          ]
+                          ],
+                          "errorLocation": {
+                            "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                            "column": 53,
+                            "line": 142
+                          }
                         }
                       ],
                       "status": "unexpected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-b1e9274a66a0971d8a92",
+                  "id": "86e0c931955a281b23d4-8d5cae28f483c1d8feec",
+                  "file": "admin/FR-16.spec.ts",
+                  "line": 23,
+                  "column": 13
+                },
+                {
+                  "title": "TC09 - IV8: Không có dòng header",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
+                      "results": [
+                        {
+                          "workerIndex": 11,
+                          "parallelIndex": 1,
+                          "status": "passed",
+                          "duration": 5649,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-08-10T06:50:25.189Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "86e0c931955a281b23d4-5c52a783636c98147339",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
                 },
                 {
                   "title": "TC33 - Báo cáo đầy đủ khi thành công",
-                  "ok": true,
+                  "ok": false,
                   "tags": [],
                   "tests": [
                     {
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
-                          "workerIndex": 10,
-                          "parallelIndex": 0,
-                          "status": "passed",
-                          "duration": 4582,
-                          "errors": [],
+                          "workerIndex": 11,
+                          "parallelIndex": 1,
+                          "status": "failed",
+                          "duration": 8790,
+                          "error": {
+                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n",
+                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n\n    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:142:53",
+                            "location": {
+                              "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                              "column": 53,
+                              "line": 142
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 140 |\u001b[39m             \u001b[90m// For negative/boundary where it should fail\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mtc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m||\u001b[39m tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m>=\u001b[39m \u001b[35m400\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m               \u001b[36mawait\u001b[39m expect(importPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m3000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m             }\n \u001b[90m 144 |\u001b[39m           }\n \u001b[90m 145 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                                "column": 53,
+                                "line": 142
+                              },
+                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n\n\n\u001b[0m \u001b[90m 140 |\u001b[39m             \u001b[90m// For negative/boundary where it should fail\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mtc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m||\u001b[39m tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m>=\u001b[39m \u001b[35m400\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m               \u001b[36mawait\u001b[39m expect(importPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m3000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m             }\n \u001b[90m 144 |\u001b[39m           }\n \u001b[90m 145 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:142:53\u001b[22m"
+                            }
+                          ],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:03:38.466Z",
+                          "startTime": "2026-08-10T06:50:31.247Z",
                           "annotations": [],
-                          "attachments": []
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-70fac-o-cáo-đầy-đủ-khi-thành-công-admin-webkit/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-70fac-o-cáo-đầy-đủ-khi-thành-công-admin-webkit/error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                            "column": 53,
+                            "line": 142
+                          }
                         }
                       ],
-                      "status": "expected"
+                      "status": "unexpected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-d7317a5216f71584f124",
+                  "id": "86e0c931955a281b23d4-106e51d9ff25c29338a7",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
                 },
                 {
                   "title": "TC34 - Báo cáo đầy đủ khi có lỗi hỗn hợp (kiểm tra nội dung lý do)",
-                  "ok": true,
+                  "ok": false,
                   "tags": [],
                   "tests": [
                     {
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
-                          "workerIndex": 10,
-                          "parallelIndex": 0,
-                          "status": "passed",
-                          "duration": 4550,
-                          "errors": [],
+                          "workerIndex": 17,
+                          "parallelIndex": 1,
+                          "status": "failed",
+                          "duration": 7213,
+                          "error": {
+                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n",
+                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n\n    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:142:53",
+                            "location": {
+                              "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                              "column": 53,
+                              "line": 142
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 140 |\u001b[39m             \u001b[90m// For negative/boundary where it should fail\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mtc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m||\u001b[39m tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m>=\u001b[39m \u001b[35m400\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m               \u001b[36mawait\u001b[39m expect(importPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m3000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m             }\n \u001b[90m 144 |\u001b[39m           }\n \u001b[90m 145 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                                "column": 53,
+                                "line": 142
+                              },
+                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n\n\n\u001b[0m \u001b[90m 140 |\u001b[39m             \u001b[90m// For negative/boundary where it should fail\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mtc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m||\u001b[39m tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m>=\u001b[39m \u001b[35m400\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m               \u001b[36mawait\u001b[39m expect(importPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m3000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m             }\n \u001b[90m 144 |\u001b[39m           }\n \u001b[90m 145 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:142:53\u001b[22m"
+                            }
+                          ],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:03:43.135Z",
+                          "startTime": "2026-08-10T06:50:41.565Z",
                           "annotations": [],
-                          "attachments": []
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-2e472-ợp-kiểm-tra-nội-dung-lý-do--admin-webkit/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-2e472-ợp-kiểm-tra-nội-dung-lý-do--admin-webkit/error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                            "column": 53,
+                            "line": 142
+                          }
                         }
                       ],
-                      "status": "expected"
+                      "status": "unexpected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-cc9e38eb50111109e61b",
+                  "id": "86e0c931955a281b23d4-a8c59a62c5e0d7febf9d",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
@@ -717,19 +811,19 @@
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
-                          "workerIndex": 10,
-                          "parallelIndex": 0,
+                          "workerIndex": 21,
+                          "parallelIndex": 1,
                           "status": "passed",
-                          "duration": 4542,
+                          "duration": 3247,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:03:47.697Z",
+                          "startTime": "2026-08-10T06:50:49.686Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -737,7 +831,7 @@
                       "status": "expected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-e261f96bfd0101120f34",
+                  "id": "86e0c931955a281b23d4-6964ffb82b80da9f45a0",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
@@ -751,19 +845,19 @@
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
                           "workerIndex": 2,
                           "parallelIndex": 2,
                           "status": "passed",
-                          "duration": 4854,
+                          "duration": 4289,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:32.921Z",
+                          "startTime": "2026-08-10T06:50:13.383Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -771,41 +865,76 @@
                       "status": "expected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-80399457eed64ab1196c",
+                  "id": "86e0c931955a281b23d4-7652ebac46462b2ba732",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
                 },
                 {
                   "title": "TC14 - IV13 + Biên UB+1: `name` = 256 ký tự",
-                  "ok": true,
+                  "ok": false,
                   "tags": [],
                   "tests": [
                     {
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
                           "workerIndex": 2,
                           "parallelIndex": 2,
-                          "status": "passed",
-                          "duration": 4574,
-                          "errors": [],
+                          "status": "failed",
+                          "duration": 6747,
+                          "error": {
+                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n",
+                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n\n    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:142:53",
+                            "location": {
+                              "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                              "column": 53,
+                              "line": 142
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 140 |\u001b[39m             \u001b[90m// For negative/boundary where it should fail\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mtc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m||\u001b[39m tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m>=\u001b[39m \u001b[35m400\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m               \u001b[36mawait\u001b[39m expect(importPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m3000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m             }\n \u001b[90m 144 |\u001b[39m           }\n \u001b[90m 145 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                                "column": 53,
+                                "line": 142
+                              },
+                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n\n\n\u001b[0m \u001b[90m 140 |\u001b[39m             \u001b[90m// For negative/boundary where it should fail\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mtc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m||\u001b[39m tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m>=\u001b[39m \u001b[35m400\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m               \u001b[36mawait\u001b[39m expect(importPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m3000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m             }\n \u001b[90m 144 |\u001b[39m           }\n \u001b[90m 145 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:142:53\u001b[22m"
+                            }
+                          ],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:38.039Z",
+                          "startTime": "2026-08-10T06:50:17.877Z",
                           "annotations": [],
-                          "attachments": []
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-eb2fc-13-Biên-UB-1-name-256-ký-tự-admin-webkit/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-eb2fc-13-Biên-UB-1-name-256-ký-tự-admin-webkit/error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                            "column": 53,
+                            "line": 142
+                          }
                         }
                       ],
-                      "status": "expected"
+                      "status": "unexpected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-718f0607d91497432181",
+                  "id": "86e0c931955a281b23d4-53cebc44b3da47674836",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
@@ -819,19 +948,19 @@
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
-                          "workerIndex": 2,
+                          "workerIndex": 13,
                           "parallelIndex": 2,
                           "status": "passed",
-                          "duration": 4619,
+                          "duration": 7474,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:42.631Z",
+                          "startTime": "2026-08-10T06:50:26.473Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -839,7 +968,7 @@
                       "status": "expected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-9b0532bf2fe4eb0eff42",
+                  "id": "86e0c931955a281b23d4-37763fe59fbecaa77b59",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
@@ -853,19 +982,19 @@
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
-                          "workerIndex": 2,
+                          "workerIndex": 13,
                           "parallelIndex": 2,
                           "status": "passed",
-                          "duration": 4667,
+                          "duration": 6090,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:47.268Z",
+                          "startTime": "2026-08-10T06:50:34.496Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -873,7 +1002,7 @@
                       "status": "expected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-75c52859d970aa67fdd8",
+                  "id": "86e0c931955a281b23d4-d008c05aedfc99b720a2",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
@@ -887,19 +1016,19 @@
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
-                          "workerIndex": 2,
+                          "workerIndex": 13,
                           "parallelIndex": 2,
                           "status": "passed",
-                          "duration": 4657,
+                          "duration": 4166,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:51.949Z",
+                          "startTime": "2026-08-10T06:50:40.633Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -907,7 +1036,7 @@
                       "status": "expected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-4a52e7717f5f34c92840",
+                  "id": "86e0c931955a281b23d4-0c1517396494ff1d405d",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
@@ -921,19 +1050,19 @@
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
-                          "workerIndex": 2,
+                          "workerIndex": 13,
                           "parallelIndex": 2,
                           "status": "passed",
-                          "duration": 4542,
+                          "duration": 4031,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:56.621Z",
+                          "startTime": "2026-08-10T06:50:44.857Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -941,7 +1070,7 @@
                       "status": "expected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-36ff833aab4a366df3af",
+                  "id": "86e0c931955a281b23d4-ef5018e6e510db40b570",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
@@ -955,19 +1084,19 @@
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
                           "workerIndex": 3,
                           "parallelIndex": 3,
                           "status": "passed",
-                          "duration": 4928,
+                          "duration": 4208,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:32.816Z",
+                          "startTime": "2026-08-10T06:50:13.417Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -975,7 +1104,7 @@
                       "status": "expected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-fd13be3aeb3a4b284e74",
+                  "id": "86e0c931955a281b23d4-f2510de782cd984c5a0f",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
@@ -990,306 +1119,621 @@
               "specs": [
                 {
                   "title": "TC12 - IV11: `name` rỗng (chuỗi trống)",
-                  "ok": true,
+                  "ok": false,
                   "tags": [],
                   "tests": [
                     {
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
                           "workerIndex": 3,
                           "parallelIndex": 3,
-                          "status": "passed",
-                          "duration": 4597,
-                          "errors": [],
+                          "status": "failed",
+                          "duration": 6779,
+                          "error": {
+                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n",
+                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n\n    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:142:53",
+                            "location": {
+                              "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                              "column": 53,
+                              "line": 142
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 140 |\u001b[39m             \u001b[90m// For negative/boundary where it should fail\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mtc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m||\u001b[39m tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m>=\u001b[39m \u001b[35m400\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m               \u001b[36mawait\u001b[39m expect(importPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m3000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m             }\n \u001b[90m 144 |\u001b[39m           }\n \u001b[90m 145 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                                "column": 53,
+                                "line": 142
+                              },
+                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n\n\n\u001b[0m \u001b[90m 140 |\u001b[39m             \u001b[90m// For negative/boundary where it should fail\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mtc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m||\u001b[39m tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m>=\u001b[39m \u001b[35m400\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m               \u001b[36mawait\u001b[39m expect(importPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m3000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m             }\n \u001b[90m 144 |\u001b[39m           }\n \u001b[90m 145 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:142:53\u001b[22m"
+                            }
+                          ],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:37.916Z",
+                          "startTime": "2026-08-10T06:50:17.837Z",
                           "annotations": [],
-                          "attachments": []
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-e6ff5-IV11-name-rỗng-chuỗi-trống--admin-webkit/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-e6ff5-IV11-name-rỗng-chuỗi-trống--admin-webkit/error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                            "column": 53,
+                            "line": 142
+                          }
                         }
                       ],
-                      "status": "expected"
+                      "status": "unexpected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-ad1201c8bacb8c274b0d",
+                  "id": "86e0c931955a281b23d4-7168b0194acc79ba4573",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
                 },
                 {
                   "title": "TC13 - IV12: `name` chỉ chứa khoảng trắng",
-                  "ok": true,
+                  "ok": false,
                   "tags": [],
                   "tests": [
                     {
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
-                          "workerIndex": 3,
+                          "workerIndex": 12,
                           "parallelIndex": 3,
-                          "status": "passed",
-                          "duration": 4598,
-                          "errors": [],
+                          "status": "failed",
+                          "duration": 9831,
+                          "error": {
+                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n",
+                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n\n    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:142:53",
+                            "location": {
+                              "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                              "column": 53,
+                              "line": 142
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 140 |\u001b[39m             \u001b[90m// For negative/boundary where it should fail\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mtc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m||\u001b[39m tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m>=\u001b[39m \u001b[35m400\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m               \u001b[36mawait\u001b[39m expect(importPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m3000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m             }\n \u001b[90m 144 |\u001b[39m           }\n \u001b[90m 145 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                                "column": 53,
+                                "line": 142
+                              },
+                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n\n\n\u001b[0m \u001b[90m 140 |\u001b[39m             \u001b[90m// For negative/boundary where it should fail\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mtc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m||\u001b[39m tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m>=\u001b[39m \u001b[35m400\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m               \u001b[36mawait\u001b[39m expect(importPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m3000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m             }\n \u001b[90m 144 |\u001b[39m           }\n \u001b[90m 145 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:142:53\u001b[22m"
+                            }
+                          ],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:42.539Z",
+                          "startTime": "2026-08-10T06:50:26.441Z",
                           "annotations": [],
-                          "attachments": []
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-4fedf--name-chỉ-chứa-khoảng-trắng-admin-webkit/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-4fedf--name-chỉ-chứa-khoảng-trắng-admin-webkit/error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                            "column": 53,
+                            "line": 142
+                          }
                         }
                       ],
-                      "status": "expected"
+                      "status": "unexpected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-014535c73b51cc242ad7",
+                  "id": "86e0c931955a281b23d4-ab26876d351c7f66b39f",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
                 },
                 {
                   "title": "TC19 - IV15: `price` = số âm",
-                  "ok": true,
+                  "ok": false,
                   "tags": [],
                   "tests": [
                     {
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
-                          "workerIndex": 3,
+                          "workerIndex": 16,
                           "parallelIndex": 3,
-                          "status": "passed",
-                          "duration": 4626,
-                          "errors": [],
+                          "status": "failed",
+                          "duration": 8384,
+                          "error": {
+                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n",
+                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n\n    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:142:53",
+                            "location": {
+                              "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                              "column": 53,
+                              "line": 142
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 140 |\u001b[39m             \u001b[90m// For negative/boundary where it should fail\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mtc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m||\u001b[39m tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m>=\u001b[39m \u001b[35m400\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m               \u001b[36mawait\u001b[39m expect(importPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m3000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m             }\n \u001b[90m 144 |\u001b[39m           }\n \u001b[90m 145 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                                "column": 53,
+                                "line": 142
+                              },
+                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n\n\n\u001b[0m \u001b[90m 140 |\u001b[39m             \u001b[90m// For negative/boundary where it should fail\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mtc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m||\u001b[39m tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m>=\u001b[39m \u001b[35m400\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m               \u001b[36mawait\u001b[39m expect(importPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m3000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m             }\n \u001b[90m 144 |\u001b[39m           }\n \u001b[90m 145 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:142:53\u001b[22m"
+                            }
+                          ],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:47.148Z",
+                          "startTime": "2026-08-10T06:50:38.369Z",
                           "annotations": [],
-                          "attachments": []
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-2bad5-ive-TC19---IV15-price-số-âm-admin-webkit/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-2bad5-ive-TC19---IV15-price-số-âm-admin-webkit/error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                            "column": 53,
+                            "line": 142
+                          }
                         }
                       ],
-                      "status": "expected"
+                      "status": "unexpected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-2aa4f76e3239d1b7ca9f",
+                  "id": "86e0c931955a281b23d4-8d994c1f9da05aaddf21",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
                 },
                 {
                   "title": "TC20 - IV16: `price` rỗng",
-                  "ok": true,
+                  "ok": false,
                   "tags": [],
                   "tests": [
                     {
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
-                          "workerIndex": 3,
+                          "workerIndex": 20,
                           "parallelIndex": 3,
-                          "status": "passed",
-                          "duration": 4571,
-                          "errors": [],
+                          "status": "failed",
+                          "duration": 5994,
+                          "error": {
+                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n",
+                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n\n    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:142:53",
+                            "location": {
+                              "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                              "column": 53,
+                              "line": 142
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 140 |\u001b[39m             \u001b[90m// For negative/boundary where it should fail\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mtc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m||\u001b[39m tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m>=\u001b[39m \u001b[35m400\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m               \u001b[36mawait\u001b[39m expect(importPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m3000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m             }\n \u001b[90m 144 |\u001b[39m           }\n \u001b[90m 145 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                                "column": 53,
+                                "line": 142
+                              },
+                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n\n\n\u001b[0m \u001b[90m 140 |\u001b[39m             \u001b[90m// For negative/boundary where it should fail\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mtc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m||\u001b[39m tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m>=\u001b[39m \u001b[35m400\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m               \u001b[36mawait\u001b[39m expect(importPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m3000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m             }\n \u001b[90m 144 |\u001b[39m           }\n \u001b[90m 145 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:142:53\u001b[22m"
+                            }
+                          ],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:51.785Z",
+                          "startTime": "2026-08-10T06:50:48.397Z",
                           "annotations": [],
-                          "attachments": []
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-5230b-tive-TC20---IV16-price-rỗng-admin-webkit/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-5230b-tive-TC20---IV16-price-rỗng-admin-webkit/error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                            "column": 53,
+                            "line": 142
+                          }
                         }
                       ],
-                      "status": "expected"
+                      "status": "unexpected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-fde030a8a84b08cf91b7",
+                  "id": "86e0c931955a281b23d4-7e0f0430c00de88e608f",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
                 },
                 {
                   "title": "TC21 - IV17: `price` là chuỗi ký tự",
-                  "ok": true,
+                  "ok": false,
                   "tags": [],
                   "tests": [
                     {
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
-                          "workerIndex": 3,
-                          "parallelIndex": 3,
-                          "status": "passed",
-                          "duration": 4516,
-                          "errors": [],
+                          "workerIndex": 23,
+                          "parallelIndex": 0,
+                          "status": "failed",
+                          "duration": 6221,
+                          "error": {
+                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n",
+                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n\n    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:142:53",
+                            "location": {
+                              "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                              "column": 53,
+                              "line": 142
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 140 |\u001b[39m             \u001b[90m// For negative/boundary where it should fail\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mtc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m||\u001b[39m tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m>=\u001b[39m \u001b[35m400\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m               \u001b[36mawait\u001b[39m expect(importPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m3000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m             }\n \u001b[90m 144 |\u001b[39m           }\n \u001b[90m 145 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                                "column": 53,
+                                "line": 142
+                              },
+                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n\n\n\u001b[0m \u001b[90m 140 |\u001b[39m             \u001b[90m// For negative/boundary where it should fail\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mtc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m||\u001b[39m tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m>=\u001b[39m \u001b[35m400\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m               \u001b[36mawait\u001b[39m expect(importPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m3000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m             }\n \u001b[90m 144 |\u001b[39m           }\n \u001b[90m 145 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:142:53\u001b[22m"
+                            }
+                          ],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:56.364Z",
+                          "startTime": "2026-08-10T06:50:55.305Z",
                           "annotations": [],
-                          "attachments": []
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-0e824---IV17-price-là-chuỗi-ký-tự-admin-webkit/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-0e824---IV17-price-là-chuỗi-ký-tự-admin-webkit/error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                            "column": 53,
+                            "line": 142
+                          }
                         }
                       ],
-                      "status": "expected"
+                      "status": "unexpected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-661ea51a36bc5bb589a2",
+                  "id": "86e0c931955a281b23d4-d3be6db076daa677e2d9",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
                 },
                 {
                   "title": "TC23 - IV18: `category_id` không tồn tại",
-                  "ok": true,
+                  "ok": false,
                   "tags": [],
                   "tests": [
                     {
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
                           "workerIndex": 4,
                           "parallelIndex": 4,
-                          "status": "passed",
-                          "duration": 4929,
-                          "errors": [],
+                          "status": "failed",
+                          "duration": 7198,
+                          "error": {
+                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n",
+                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n\n    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:142:53",
+                            "location": {
+                              "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                              "column": 53,
+                              "line": 142
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 140 |\u001b[39m             \u001b[90m// For negative/boundary where it should fail\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mtc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m||\u001b[39m tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m>=\u001b[39m \u001b[35m400\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m               \u001b[36mawait\u001b[39m expect(importPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m3000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m             }\n \u001b[90m 144 |\u001b[39m           }\n \u001b[90m 145 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                                "column": 53,
+                                "line": 142
+                              },
+                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n\n\n\u001b[0m \u001b[90m 140 |\u001b[39m             \u001b[90m// For negative/boundary where it should fail\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mtc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m||\u001b[39m tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m>=\u001b[39m \u001b[35m400\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m               \u001b[36mawait\u001b[39m expect(importPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m3000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m             }\n \u001b[90m 144 |\u001b[39m           }\n \u001b[90m 145 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:142:53\u001b[22m"
+                            }
+                          ],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:32.815Z",
+                          "startTime": "2026-08-10T06:50:13.434Z",
                           "annotations": [],
-                          "attachments": []
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-a74c6-8-category-id-không-tồn-tại-admin-webkit/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-a74c6-8-category-id-không-tồn-tại-admin-webkit/error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                            "column": 53,
+                            "line": 142
+                          }
                         }
                       ],
-                      "status": "expected"
+                      "status": "unexpected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-57ff8c19dea3bc884ec2",
+                  "id": "86e0c931955a281b23d4-84f658f854ffc76d7aec",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
                 },
                 {
                   "title": "TC24 - IV19: `category_id` rỗng",
-                  "ok": true,
+                  "ok": false,
                   "tags": [],
                   "tests": [
                     {
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
-                          "workerIndex": 4,
+                          "workerIndex": 9,
                           "parallelIndex": 4,
-                          "status": "passed",
-                          "duration": 4617,
-                          "errors": [],
+                          "status": "failed",
+                          "duration": 8831,
+                          "error": {
+                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n",
+                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n\n    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:142:53",
+                            "location": {
+                              "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                              "column": 53,
+                              "line": 142
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 140 |\u001b[39m             \u001b[90m// For negative/boundary where it should fail\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mtc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m||\u001b[39m tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m>=\u001b[39m \u001b[35m400\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m               \u001b[36mawait\u001b[39m expect(importPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m3000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m             }\n \u001b[90m 144 |\u001b[39m           }\n \u001b[90m 145 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                                "column": 53,
+                                "line": 142
+                              },
+                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n\n\n\u001b[0m \u001b[90m 140 |\u001b[39m             \u001b[90m// For negative/boundary where it should fail\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mtc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m||\u001b[39m tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m>=\u001b[39m \u001b[35m400\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m               \u001b[36mawait\u001b[39m expect(importPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m3000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m             }\n \u001b[90m 144 |\u001b[39m           }\n \u001b[90m 145 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:142:53\u001b[22m"
+                            }
+                          ],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:37.940Z",
+                          "startTime": "2026-08-10T06:50:22.144Z",
                           "annotations": [],
-                          "attachments": []
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-1f45e-C24---IV19-category-id-rỗng-admin-webkit/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-1f45e-C24---IV19-category-id-rỗng-admin-webkit/error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                            "column": 53,
+                            "line": 142
+                          }
                         }
                       ],
-                      "status": "expected"
+                      "status": "unexpected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-4efc309b0fb28c145ea5",
+                  "id": "86e0c931955a281b23d4-50cff3b40493c0ab60b4",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
                 },
                 {
                   "title": "TC25 - IV20: `category_id` không phải số",
-                  "ok": true,
+                  "ok": false,
                   "tags": [],
                   "tests": [
                     {
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
-                          "workerIndex": 4,
+                          "workerIndex": 14,
                           "parallelIndex": 4,
-                          "status": "passed",
-                          "duration": 4613,
-                          "errors": [],
+                          "status": "failed",
+                          "duration": 9325,
+                          "error": {
+                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n",
+                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n\n    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:142:53",
+                            "location": {
+                              "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                              "column": 53,
+                              "line": 142
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 140 |\u001b[39m             \u001b[90m// For negative/boundary where it should fail\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mtc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m||\u001b[39m tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m>=\u001b[39m \u001b[35m400\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m               \u001b[36mawait\u001b[39m expect(importPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m3000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m             }\n \u001b[90m 144 |\u001b[39m           }\n \u001b[90m 145 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                                "column": 53,
+                                "line": 142
+                              },
+                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n\n\n\u001b[0m \u001b[90m 140 |\u001b[39m             \u001b[90m// For negative/boundary where it should fail\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mtc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m||\u001b[39m tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m>=\u001b[39m \u001b[35m400\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m               \u001b[36mawait\u001b[39m expect(importPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m3000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m             }\n \u001b[90m 144 |\u001b[39m           }\n \u001b[90m 145 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:142:53\u001b[22m"
+                            }
+                          ],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:42.578Z",
+                          "startTime": "2026-08-10T06:50:32.840Z",
                           "annotations": [],
-                          "attachments": []
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-58d86-0-category-id-không-phải-số-admin-webkit/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-58d86-0-category-id-không-phải-số-admin-webkit/error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                            "column": 53,
+                            "line": 142
+                          }
                         }
                       ],
-                      "status": "expected"
+                      "status": "unexpected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-608a50300b2760fed2b0",
+                  "id": "86e0c931955a281b23d4-dffee9114fcdce56178f",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
                 },
                 {
                   "title": "TC28 - IV21: Trường description chứa dấu phẩy, KHÔNG bọc nháy kép",
-                  "ok": true,
+                  "ok": false,
                   "tags": [],
                   "tests": [
                     {
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
-                          "workerIndex": 4,
-                          "parallelIndex": 4,
-                          "status": "passed",
-                          "duration": 4673,
-                          "errors": [],
+                          "workerIndex": 19,
+                          "parallelIndex": 0,
+                          "status": "failed",
+                          "duration": 7192,
+                          "error": {
+                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n",
+                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n\n    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:142:53",
+                            "location": {
+                              "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                              "column": 53,
+                              "line": 142
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 140 |\u001b[39m             \u001b[90m// For negative/boundary where it should fail\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mtc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m||\u001b[39m tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m>=\u001b[39m \u001b[35m400\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m               \u001b[36mawait\u001b[39m expect(importPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m3000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m             }\n \u001b[90m 144 |\u001b[39m           }\n \u001b[90m 145 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                                "column": 53,
+                                "line": 142
+                              },
+                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n\n\n\u001b[0m \u001b[90m 140 |\u001b[39m             \u001b[90m// For negative/boundary where it should fail\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mtc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m||\u001b[39m tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m>=\u001b[39m \u001b[35m400\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m               \u001b[36mawait\u001b[39m expect(importPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m3000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m             }\n \u001b[90m 144 |\u001b[39m           }\n \u001b[90m 145 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:142:53\u001b[22m"
+                            }
+                          ],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:47.206Z",
+                          "startTime": "2026-08-10T06:50:43.703Z",
                           "annotations": [],
-                          "attachments": []
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-691ea-dấu-phẩy-KHÔNG-bọc-nháy-kép-admin-webkit/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-691ea-dấu-phẩy-KHÔNG-bọc-nháy-kép-admin-webkit/error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                            "column": 53,
+                            "line": 142
+                          }
                         }
                       ],
-                      "status": "expected"
+                      "status": "unexpected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-c62e4f4bb55f3769bedf",
+                  "id": "86e0c931955a281b23d4-ce7a5d6ba9c0da0980a7",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
@@ -1303,19 +1747,19 @@
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
-                          "workerIndex": 4,
-                          "parallelIndex": 4,
+                          "workerIndex": 22,
+                          "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 93,
+                          "duration": 796,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:51.894Z",
+                          "startTime": "2026-08-10T06:50:52.117Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -1323,7 +1767,7 @@
                       "status": "expected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-03c47dd3e8abde834361",
+                  "id": "86e0c931955a281b23d4-3ad4354498dc1d482147",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
@@ -1337,19 +1781,19 @@
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
-                          "workerIndex": 4,
-                          "parallelIndex": 4,
+                          "workerIndex": 22,
+                          "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 103,
+                          "duration": 555,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:51.997Z",
+                          "startTime": "2026-08-10T06:50:53.126Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -1357,7 +1801,7 @@
                       "status": "expected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-1926f6d2951a5677a19b",
+                  "id": "86e0c931955a281b23d4-f37489b9c78062cee623",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
@@ -1371,19 +1815,19 @@
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
                           "workerIndex": 5,
                           "parallelIndex": 5,
                           "status": "passed",
-                          "duration": 156,
+                          "duration": 646,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:33.021Z",
+                          "startTime": "2026-08-10T06:50:13.265Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -1391,7 +1835,7 @@
                       "status": "expected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-cd062591feece0dc4070",
+                  "id": "86e0c931955a281b23d4-dcd3e63064eba9218aa0",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
@@ -1413,19 +1857,19 @@
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
                           "workerIndex": 5,
                           "parallelIndex": 5,
                           "status": "passed",
-                          "duration": 4695,
+                          "duration": 4217,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:33.388Z",
+                          "startTime": "2026-08-10T06:50:14.127Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -1433,7 +1877,7 @@
                       "status": "expected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-b8a755acb6c94c9bb8ad",
+                  "id": "86e0c931955a281b23d4-4e1df428bf20ae720dbe",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
@@ -1447,19 +1891,19 @@
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
                           "workerIndex": 5,
                           "parallelIndex": 5,
                           "status": "passed",
-                          "duration": 4583,
+                          "duration": 3546,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:38.102Z",
+                          "startTime": "2026-08-10T06:50:18.377Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -1467,7 +1911,7 @@
                       "status": "expected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-300ac31531efd6c8d6f9",
+                  "id": "86e0c931955a281b23d4-9c362de6a1dcf7b4c691",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
@@ -1481,19 +1925,19 @@
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
                           "workerIndex": 5,
                           "parallelIndex": 5,
                           "status": "passed",
-                          "duration": 4619,
+                          "duration": 5728,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:42.699Z",
+                          "startTime": "2026-08-10T06:50:21.948Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -1501,7 +1945,7 @@
                       "status": "expected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-32f0fbc589655c336fe8",
+                  "id": "86e0c931955a281b23d4-7288c42279bcd992cfb5",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
@@ -1515,19 +1959,19 @@
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
                           "workerIndex": 5,
                           "parallelIndex": 5,
                           "status": "passed",
-                          "duration": 4626,
+                          "duration": 6372,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:47.331Z",
+                          "startTime": "2026-08-10T06:50:27.738Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -1535,7 +1979,7 @@
                       "status": "expected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-1164fdd36c94498a95da",
+                  "id": "86e0c931955a281b23d4-e19f9de0c0ad3d19a091",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
@@ -1549,19 +1993,19 @@
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
                           "workerIndex": 5,
                           "parallelIndex": 5,
                           "status": "passed",
-                          "duration": 4624,
+                          "duration": 6343,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:51.990Z",
+                          "startTime": "2026-08-10T06:50:34.168Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -1569,7 +2013,7 @@
                       "status": "expected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-3f95d622471166c73ea5",
+                  "id": "86e0c931955a281b23d4-35cff2d29cb29b354aa8",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
@@ -1583,19 +2027,19 @@
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
                           "workerIndex": 6,
                           "parallelIndex": 6,
                           "status": "passed",
-                          "duration": 4906,
+                          "duration": 3347,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:32.933Z",
+                          "startTime": "2026-08-10T06:50:13.434Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -1603,7 +2047,7 @@
                       "status": "expected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-6fd686fdc8de865d1700",
+                  "id": "86e0c931955a281b23d4-d42734a5941f95144e89",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
@@ -1617,19 +2061,19 @@
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
                           "workerIndex": 6,
                           "parallelIndex": 6,
                           "status": "passed",
-                          "duration": 4558,
+                          "duration": 3281,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:38.062Z",
+                          "startTime": "2026-08-10T06:50:16.979Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -1637,7 +2081,7 @@
                       "status": "expected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-0dfb4cbda112b08eb378",
+                  "id": "86e0c931955a281b23d4-4602d986d58eac89532b",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
@@ -1651,19 +2095,19 @@
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
                           "workerIndex": 6,
                           "parallelIndex": 6,
                           "status": "passed",
-                          "duration": 4571,
+                          "duration": 5148,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:42.638Z",
+                          "startTime": "2026-08-10T06:50:20.300Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -1671,7 +2115,7 @@
                       "status": "expected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-f4de883b84c1ecc09960",
+                  "id": "86e0c931955a281b23d4-1d5af6d2e011db55d28f",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
@@ -1693,19 +2137,19 @@
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
                           "workerIndex": 6,
                           "parallelIndex": 6,
                           "status": "passed",
-                          "duration": 4666,
+                          "duration": 6158,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:47.240Z",
+                          "startTime": "2026-08-10T06:50:25.474Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -1713,109 +2157,214 @@
                       "status": "expected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-f761644e429788fb4ae1",
+                  "id": "86e0c931955a281b23d4-8a34103f9685ac06c827",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
                 },
                 {
                   "title": "TC30 - IV22: Dòng đầu hợp lệ, dòng giữa lỗi (name rỗng) — rollback",
-                  "ok": true,
+                  "ok": false,
                   "tags": [],
                   "tests": [
                     {
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
                           "workerIndex": 6,
                           "parallelIndex": 6,
-                          "status": "passed",
-                          "duration": 4610,
-                          "errors": [],
+                          "status": "failed",
+                          "duration": 9592,
+                          "error": {
+                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n",
+                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n\n    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:142:53",
+                            "location": {
+                              "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                              "column": 53,
+                              "line": 142
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 140 |\u001b[39m             \u001b[90m// For negative/boundary where it should fail\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mtc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m||\u001b[39m tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m>=\u001b[39m \u001b[35m400\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m               \u001b[36mawait\u001b[39m expect(importPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m3000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m             }\n \u001b[90m 144 |\u001b[39m           }\n \u001b[90m 145 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                                "column": 53,
+                                "line": 142
+                              },
+                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n\n\n\u001b[0m \u001b[90m 140 |\u001b[39m             \u001b[90m// For negative/boundary where it should fail\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mtc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m||\u001b[39m tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m>=\u001b[39m \u001b[35m400\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m               \u001b[36mawait\u001b[39m expect(importPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m3000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m             }\n \u001b[90m 144 |\u001b[39m           }\n \u001b[90m 145 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:142:53\u001b[22m"
+                            }
+                          ],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:51.919Z",
+                          "startTime": "2026-08-10T06:50:31.675Z",
                           "annotations": [],
-                          "attachments": []
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-34f3a-ữa-lỗi-name-rỗng-—-rollback-admin-webkit/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-34f3a-ữa-lỗi-name-rỗng-—-rollback-admin-webkit/error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                            "column": 53,
+                            "line": 142
+                          }
                         }
                       ],
-                      "status": "expected"
+                      "status": "unexpected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-eee69f1999725df80538",
+                  "id": "86e0c931955a281b23d4-efe98360d4ca54cc813e",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
                 },
                 {
                   "title": "TC31 - IV22: Dòng đầu hợp lệ, dòng cuối lỗi (price âm) — rollback",
-                  "ok": true,
+                  "ok": false,
                   "tags": [],
                   "tests": [
                     {
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
-                          "workerIndex": 6,
-                          "parallelIndex": 6,
-                          "status": "passed",
-                          "duration": 4618,
-                          "errors": [],
+                          "workerIndex": 18,
+                          "parallelIndex": 5,
+                          "status": "failed",
+                          "duration": 7429,
+                          "error": {
+                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n",
+                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n\n    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:142:53",
+                            "location": {
+                              "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                              "column": 53,
+                              "line": 142
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 140 |\u001b[39m             \u001b[90m// For negative/boundary where it should fail\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mtc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m||\u001b[39m tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m>=\u001b[39m \u001b[35m400\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m               \u001b[36mawait\u001b[39m expect(importPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m3000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m             }\n \u001b[90m 144 |\u001b[39m           }\n \u001b[90m 145 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                                "column": 53,
+                                "line": 142
+                              },
+                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n\n\n\u001b[0m \u001b[90m 140 |\u001b[39m             \u001b[90m// For negative/boundary where it should fail\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mtc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m||\u001b[39m tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m>=\u001b[39m \u001b[35m400\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m               \u001b[36mawait\u001b[39m expect(importPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m3000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m             }\n \u001b[90m 144 |\u001b[39m           }\n \u001b[90m 145 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:142:53\u001b[22m"
+                            }
+                          ],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:56.541Z",
+                          "startTime": "2026-08-10T06:50:42.480Z",
                           "annotations": [],
-                          "attachments": []
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-48741-uối-lỗi-price-âm-—-rollback-admin-webkit/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-48741-uối-lỗi-price-âm-—-rollback-admin-webkit/error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                            "column": 53,
+                            "line": 142
+                          }
                         }
                       ],
-                      "status": "expected"
+                      "status": "unexpected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-1e0f46aa365c5c26535f",
+                  "id": "86e0c931955a281b23d4-e93f81c7f67cab9d991b",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
                 },
                 {
                   "title": "TC32 - IV22: Tất cả dòng đều lỗi",
-                  "ok": true,
+                  "ok": false,
                   "tags": [],
                   "tests": [
                     {
                       "timeout": 30000,
                       "annotations": [],
                       "expectedStatus": "passed",
-                      "projectId": "admin-chromium",
-                      "projectName": "admin-chromium",
+                      "projectId": "admin-webkit",
+                      "projectName": "admin-webkit",
                       "results": [
                         {
                           "workerIndex": 7,
                           "parallelIndex": 7,
-                          "status": "passed",
-                          "duration": 4936,
-                          "errors": [],
+                          "status": "failed",
+                          "duration": 6164,
+                          "error": {
+                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n",
+                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n\n    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:142:53",
+                            "location": {
+                              "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                              "column": 53,
+                              "line": 142
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 140 |\u001b[39m             \u001b[90m// For negative/boundary where it should fail\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mtc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m||\u001b[39m tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m>=\u001b[39m \u001b[35m400\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m               \u001b[36mawait\u001b[39m expect(importPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m3000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m             }\n \u001b[90m 144 |\u001b[39m           }\n \u001b[90m 145 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                                "column": 53,
+                                "line": 142
+                              },
+                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\nExpected: visible\nTimeout: 3000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 3000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bg-red-100, .error-message, [role=\"alert\"], .Toastify__toast--error')\u001b[22m\n\n\n\u001b[0m \u001b[90m 140 |\u001b[39m             \u001b[90m// For negative/boundary where it should fail\u001b[39m\n \u001b[90m 141 |\u001b[39m             \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mtc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m||\u001b[39m tc\u001b[33m.\u001b[39mexpected\u001b[33m.\u001b[39mhttpStatus \u001b[33m>=\u001b[39m \u001b[35m400\u001b[39m) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 142 |\u001b[39m               \u001b[36mawait\u001b[39m expect(importPage\u001b[33m.\u001b[39merrorMessage)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m3000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 143 |\u001b[39m             }\n \u001b[90m 144 |\u001b[39m           }\n \u001b[90m 145 |\u001b[39m         })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts:142:53\u001b[22m"
+                            }
+                          ],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2026-08-10T05:02:32.821Z",
+                          "startTime": "2026-08-10T06:50:13.270Z",
                           "annotations": [],
-                          "attachments": []
+                          "attachments": [
+                            {
+                              "name": "screenshot",
+                              "contentType": "image/png",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-7fb9a----IV22-Tất-cả-dòng-đều-lỗi-admin-webkit/test-failed-1.png"
+                            },
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/test-results/admin-FR-16-FR-16-Import-S-7fb9a----IV22-Tất-cả-dòng-đều-lỗi-admin-webkit/error-context.md"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "/home/giahuy/HCMUS/US-3rd/SoftwareTesting/Homeworks/HW04/e2e/tests/admin/FR-16.spec.ts",
+                            "column": 53,
+                            "line": 142
+                          }
                         }
                       ],
-                      "status": "expected"
+                      "status": "unexpected"
                     }
                   ],
-                  "id": "86e0c931955a281b23d4-0874d6bc32ba9d8a6e7d",
+                  "id": "86e0c931955a281b23d4-2175f4808911810428bf",
                   "file": "admin/FR-16.spec.ts",
                   "line": 23,
                   "column": 13
@@ -1829,11 +2378,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-08-10T05:02:32.228Z",
-    "duration": 80058.059,
-    "expected": 39,
+    "startTime": "2026-08-10T06:50:12.696Z",
+    "duration": 49099.294,
+    "expected": 24,
     "skipped": 0,
-    "unexpected": 4,
+    "unexpected": 19,
     "flaky": 0
   }
 }

@@ -11,8 +11,8 @@ export class ImportProductPage {
     this.page = page;
     this.fileInput = page.locator('input[type="file"]');
     this.importButton = page.getByRole('button', { name: /import|nhập/i });
-    this.successMessage = page.locator('.success-message, [role="status"], .Toastify__toast--success');
-    this.errorMessage = page.locator('.error-message, [role="alert"], .Toastify__toast--error');
+    this.successMessage = page.locator('.bg-green-100, .success-message, [role="status"], .Toastify__toast--success');
+    this.errorMessage = page.locator('.bg-red-100, .error-message, [role="alert"], .Toastify__toast--error');
   }
 
   async goto() {
